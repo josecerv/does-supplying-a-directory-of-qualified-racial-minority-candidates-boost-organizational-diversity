@@ -32,11 +32,11 @@ plt.rcParams["font.family"] = "sans-serif"
 plt.rcParams["font.sans-serif"] = ["Arial", "Helvetica", "DejaVu Sans", "sans-serif"]
 plt.rcParams["font.size"] = 14
 
-# Wharton palette
-WHARTON_BLUE = "#011F5B"
-WHARTON_RED = "#990000"
-WHARTON_DARK_GRAY = "#57606C"
-WHARTON_LIGHT_GRAY = "#E5E5E5"
+# brand palette
+PALETTE_BLUE = "#011F5B"
+PALETTE_RED = "#990000"
+PALETTE_DARK_GRAY = "#57606C"
+PALETTE_LIGHT_GRAY = "#E5E5E5"
 
 # Paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -213,19 +213,19 @@ for ax_idx, (panel_key, panel_spec) in enumerate(panels.items()):
         # Gray header band with group name
         ax.axhspan(
             base - header_band_half, base + header_band_half,
-            color=WHARTON_LIGHT_GRAY, alpha=0.5, zorder=0, linewidth=0,
+            color=PALETTE_LIGHT_GRAY, alpha=0.5, zorder=0, linewidth=0,
         )
 
         # Control bar
         ax.barh(
             ctrl_y, row["c_val"], bar_height, xerr=row["c_se"],
-            color=WHARTON_BLUE, edgecolor="darkblue", linewidth=1.5,
+            color=PALETTE_BLUE, edgecolor="darkblue", linewidth=1.5,
             capsize=4, error_kw={"linewidth": 1.5, "ecolor": "black"}, zorder=2,
         )
         # Treatment bar
         ax.barh(
             treat_y, row["t_val"], bar_height, xerr=row["t_se"],
-            color=WHARTON_RED, edgecolor="darkred", linewidth=1.5,
+            color=PALETTE_RED, edgecolor="darkred", linewidth=1.5,
             capsize=4, error_kw={"linewidth": 1.5, "ecolor": "black"}, zorder=2,
         )
 
@@ -246,7 +246,7 @@ for ax_idx, (panel_key, panel_spec) in enumerate(panels.items()):
             0.38, base, row["group"],
             transform=ax.get_yaxis_transform(),
             ha="center", va="center",
-            fontsize=10, fontweight="bold", color=WHARTON_DARK_GRAY, zorder=1,
+            fontsize=10, fontweight="bold", color=PALETTE_DARK_GRAY, zorder=1,
         )
 
         # Value labels inside bars
@@ -308,8 +308,8 @@ for ax_idx, (panel_key, panel_spec) in enumerate(panels.items()):
     # Spines
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
-    ax.spines["left"].set_color(WHARTON_DARK_GRAY)
-    ax.spines["bottom"].set_color(WHARTON_DARK_GRAY)
+    ax.spines["left"].set_color(PALETTE_DARK_GRAY)
+    ax.spines["bottom"].set_color(PALETTE_DARK_GRAY)
     ax.spines["left"].set_linewidth(1.4)
     ax.spines["bottom"].set_linewidth(1.4)
 
