@@ -8,7 +8,8 @@ academic seminars. The study randomized 1,881 seminars across five departments (
 Physics, Mathematics, Computer Science, and Mechanical Engineering) during the 2024-25 academic
 year at the department level, and analyzed outcomes at the seminar level.
 
-Full data and code are also archived on OSF: https://osf.io/adg4p/
+This repository is the permanent, self-contained archive of the study's replication package:
+all data, code, figures, the Online Appendix, and the pre-registration.
 
 ## Repository structure
 
@@ -26,6 +27,8 @@ Full data and code are also archived on OSF: https://osf.io/adg4p/
   to build them (`data/raw/`).
 - `codebook.md`: full variable documentation for `final_data.csv` and `supplemental_data.csv`.
 - `Online Appendix.docx` / `Online Appendix.pdf`: the paper's Online Appendix.
+- `Preregistration.pdf`: the study's pre-registration (AsPredicted template, registered
+  June 23, 2024, before any data collection).
 
 ## How to run the replication
 
