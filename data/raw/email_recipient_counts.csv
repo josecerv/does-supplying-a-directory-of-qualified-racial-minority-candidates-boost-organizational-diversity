@@ -1,0 +1,569 @@
+department,num_recipients
+Arizona State University-Chemistry,3
+Arizona State University-Computer Science,2
+Arizona State University-Mathematics,4
+Arizona State University-Mechanical Engineering,1
+Arizona State University-Physics,5
+Auburn University-Chemistry,2
+Auburn University-Computer Science,2
+Auburn University-Mathematics,5
+Auburn University-Mechanical Engineering,2
+Baylor University-Chemistry,2
+Baylor University-Mathematics,4
+Baylor University-Physics,2
+Binghamton University-Computer Science,2
+Binghamton University-Mathematics,9
+Binghamton University-Mechanical Engineering,2
+Boston College-Mathematics,4
+Boston College-Physics,2
+Boston University-Chemistry,3
+Boston University-Computer Science,8
+Boston University-Mathematics,6
+Boston University-Mechanical Engineering,2
+Boston University-Physics,3
+Brandeis University-Computer Science,2
+Brandeis University-Mathematics,5
+Brandeis University-Physics,3
+Brown University-Chemistry,2
+Brown University-Computer Science,3
+Brown University-Mathematics,10
+Brown University-Mechanical Engineering,3
+Brown University-Physics,2
+California Institute of Technology-Chemistry,4
+California Institute of Technology-Computer Science,2
+California Institute of Technology-Mathematics,5
+California Institute of Technology-Mechanical Engineering,2
+California Institute of Technology-Physics,4
+Carnegie Mellon University-Chemistry,2
+Carnegie Mellon University-Computer Science,8
+Carnegie Mellon University-Mathematics,5
+Carnegie Mellon University-Mechanical Engineering,2
+Case Western Reserve University-Chemistry,2
+Case Western Reserve University-Computer Science,2
+Case Western Reserve University-Mathematics,2
+Case Western Reserve University-Physics,2
+Clemson University-Chemistry,2
+Clemson University-Computer Science,2
+Clemson University-Mathematics,2
+Clemson University-Mechanical Engineering,3
+Clemson University-Physics,2
+Colorado School of Mines-Chemistry,2
+Colorado School of Mines-Computer Science,2
+Colorado School of Mines-Mathematics,2
+Colorado School of Mines-Mechanical Engineering,2
+Colorado School of Mines-Physics,2
+Colorado State University-Chemistry,2
+Colorado State University-Computer Science,2
+Colorado State University-Mathematics,8
+Colorado State University-Physics,2
+Columbia University-Chemistry,2
+Columbia University-Computer Science,3
+Columbia University-Mathematics,17
+Columbia University-Mechanical Engineering,2
+Columbia University-Physics,5
+Cornell University-Chemistry,2
+Cornell University-Computer Science,8
+Cornell University-Mathematics,10
+Cornell University-Mechanical Engineering,2
+Cornell University-Physics,5
+Dartmouth College-Chemistry,2
+Dartmouth College-Mathematics,8
+Dartmouth College-Physics,2
+Drexel University-Mathematics,2
+Drexel University-Mechanical Engineering,2
+Duke University-Chemistry,3
+Duke University-Computer Science,4
+Duke University-Mathematics,2
+Duke University-Mechanical Engineering,2
+Emory University-Chemistry,2
+Emory University-Mathematics,6
+Emory University-Physics,2
+Florida International University-Chemistry,2
+Florida International University-Mathematics,4
+Florida International University-Physics,2
+Florida State University-Chemistry,3
+Florida State University-Computer Science,2
+Florida State University-Mathematics,6
+Florida State University-Mechanical Engineering,2
+Florida State University-Physics,2
+George Mason University-Chemistry,2
+George Mason University-Computer Science,2
+George Mason University-Mathematics,5
+George Mason University-Mechanical Engineering,2
+George Mason University-Physics,2
+George Washington University-Chemistry,2
+George Washington University-Mathematics,2
+George Washington University-Physics,2
+Georgetown University-Chemistry,2
+Georgetown University-Mathematics,2
+Georgetown University-Physics,2
+Georgia Institute of Technology-Chemistry,2
+Georgia Institute of Technology-Computer Science,2
+Georgia Institute of Technology-Mechanical Engineering,2
+Georgia Institute of Technology-Physics,2
+Georgia State University-Chemistry,2
+Georgia State University-Physics,2
+"Graduate Center, CUNY-Mathematics",22
+"Graduate Center, CUNY-Mechanical Engineering",2
+Harvard University-Chemistry,2
+Harvard University-Computer Science,4
+Harvard University-Mechanical Engineering,2
+Harvard University-Physics,5
+Indiana University Bloomington-Chemistry,2
+Indiana University Bloomington-Mathematics,4
+Indiana University Bloomington-Physics,3
+Iowa State University-Chemistry,2
+Iowa State University-Computer Science,2
+Iowa State University-Mathematics,8
+Iowa State University-Mechanical Engineering,2
+Iowa State University-Physics,2
+Johns Hopkins University-Chemistry,2
+Johns Hopkins University-Computer Science,2
+Johns Hopkins University-Mathematics,6
+Johns Hopkins University-Mechanical Engineering,3
+Johns Hopkins University-Physics,3
+Kansas State University-Chemistry,2
+Kansas State University-Mathematics,5
+Kansas State University-Physics,3
+Kent State University-Chemistry,2
+Kent State University-Mathematics,4
+Kent State University-Physics,3
+Louisiana State University-Chemistry,2
+Louisiana State University-Computer Science,2
+Louisiana State University-Mathematics,2
+Louisiana State University-Physics,2
+Massachusetts Institute of Technology-Chemistry,5
+Massachusetts Institute of Technology-Computer Science,5
+Massachusetts Institute of Technology-Mathematics,16
+Massachusetts Institute of Technology-Mechanical Engineering,3
+Massachusetts Institute of Technology-Physics,7
+Michigan State University-Chemistry,3
+Michigan State University-Computer Science,2
+Michigan State University-Mathematics,2
+Michigan State University-Physics,4
+Mississippi State University-Chemistry,2
+Mississippi State University-Computer Science,2
+Mississippi State University-Mathematics,2
+Mississippi State University-Physics,2
+Montana State University-Chemistry,2
+Montana State University-Computer Science,2
+Montana State University-Mathematics,2
+Montana State University-Physics,2
+New Jersey Institute of Technology-Computer Science,2
+New Jersey Institute of Technology-Mathematics,3
+New Jersey Institute of Technology-Physics,3
+New York University-Chemistry,3
+New York University-Computer Science,4
+New York University-Mathematics,10
+New York University-Physics,2
+North Carolina State University-Chemistry,6
+North Carolina State University-Computer Science,2
+North Carolina State University-Mathematics,3
+North Carolina State University-Mechanical Engineering,2
+North Carolina State University-Physics,2
+North Dakota State University-Computer Science,2
+North Dakota State University-Mathematics,5
+North Dakota State University-Physics,2
+Northeastern University-Chemistry,2
+Northeastern University-Computer Science,3
+Northeastern University-Mathematics,4
+Northeastern University-Physics,2
+Northwestern University-Computer Science,2
+Northwestern University-Mathematics,2
+Ohio State University-Chemistry,2
+Ohio State University-Mathematics,16
+Ohio State University-Physics,6
+Ohio University-Chemistry,2
+Ohio University-Mathematics,2
+Ohio University-Physics,3
+Oklahoma State University-Stillwater-Chemistry,1
+Oklahoma State University-Stillwater-Mathematics,1
+Oklahoma State University-Stillwater-Physics,2
+Old Dominion University-Chemistry,1
+Old Dominion University-Computer Science,2
+Old Dominion University-Mathematics,2
+Old Dominion University-Physics,2
+Oregon State University-Chemistry,2
+Oregon State University-Computer Science,1
+Oregon State University-Mathematics,1
+Oregon State University-Mechanical Engineering,1
+Oregon State University-Physics,1
+Pennsylvania State University-Chemistry,1
+Pennsylvania State University-Mathematics,1
+Pennsylvania State University-Mechanical Engineering,1
+Pennsylvania State University-Physics,1
+Princeton University-Chemistry,1
+Princeton University-Computer Science,2
+Princeton University-Mathematics,2
+Princeton University-Mechanical Engineering,1
+Princeton University-Physics,1
+Purdue University-Chemistry,1
+Purdue University-Computer Science,2
+Purdue University-Mathematics,5
+Purdue University-Mechanical Engineering,1
+Purdue University-Physics,1
+Rensselaer Polytechnic Institute-Chemistry,1
+Rensselaer Polytechnic Institute-Computer Science,1
+Rensselaer Polytechnic Institute-Mathematics,1
+Rensselaer Polytechnic Institute-Mechanical Engineering,1
+Rensselaer Polytechnic Institute-Physics,1
+Rice University-Chemistry,2
+Rice University-Computer Science,2
+Rice University-Mathematics,2
+Rice University-Mechanical Engineering,2
+Rice University-Physics,2
+Rutgers University-New Brunswick-Chemistry,2
+Rutgers University-New Brunswick-Computer Science,2
+Rutgers University-New Brunswick-Mathematics,14
+Rutgers University-New Brunswick-Mechanical Engineering,2
+Rutgers University-New Brunswick-Physics,12
+Stanford University-Chemistry,2
+Stanford University-Mathematics,13
+Stanford University-Physics,2
+Stony Brook University-Chemistry,2
+Stony Brook University-Computer Science,2
+Stony Brook University-Mathematics,2
+Stony Brook University-Physics,10
+Syracuse University-Chemistry,2
+Syracuse University-Physics,2
+Temple University-Chemistry,2
+Temple University-Mathematics,7
+Temple University-Physics,2
+Texas A&M University-Chemistry,2
+Texas A&M University-Computer Science,2
+Texas A&M University-Mathematics,10
+Texas A&M University-Mechanical Engineering,2
+Texas A&M University-Physics,2
+Texas Tech University-Chemistry,2
+Texas Tech University-Computer Science,2
+Texas Tech University-Mathematics,2
+Texas Tech University-Mechanical Engineering,2
+Texas Tech University-Physics,2
+Tufts University-Chemistry,2
+Tufts University-Computer Science,2
+Tufts University-Mathematics,6
+Tufts University-Mechanical Engineering,2
+Tufts University-Physics,4
+Tulane University-Chemistry,2
+Tulane University-Computer Science,2
+Tulane University-Mathematics,7
+Tulane University-Physics,2
+"University at Albany, SUNY-Chemistry",2
+"University at Albany, SUNY-Mathematics",5
+"University at Albany, SUNY-Physics",2
+University at Buffalo-Chemistry,2
+University at Buffalo-Computer Science,2
+University at Buffalo-Mathematics,2
+University at Buffalo-Mechanical Engineering,2
+University at Buffalo-Physics,3
+University of Alabama at Birmingham-Chemistry,2
+University of Alabama at Birmingham-Mathematics,2
+University of Alabama in Huntsville-Mathematics,2
+University of Alabama in Huntsville-Physics,2
+University of Alabama-Chemistry,2
+University of Alabama-Computer Science,2
+University of Alabama-Mathematics,2
+University of Alabama-Mechanical Engineering,2
+University of Alabama-Physics,2
+University of Arizona-Chemistry,2
+University of Arizona-Computer Science,2
+University of Arizona-Mathematics,2
+University of Arizona-Mechanical Engineering,2
+University of Arizona-Physics,2
+University of Arkansas-Chemistry,2
+University of Arkansas-Mathematics,4
+University of Arkansas-Physics,2
+"University of California, Berkeley-Chemistry",2
+"University of California, Berkeley-Computer Science",2
+"University of California, Berkeley-Mathematics",6
+"University of California, Berkeley-Mechanical Engineering",2
+"University of California, Berkeley-Physics",2
+"University of California, Davis-Chemistry",2
+"University of California, Davis-Mathematics",11
+"University of California, Davis-Physics",2
+"University of California, Irvine-Chemistry",2
+"University of California, Irvine-Computer Science",3
+"University of California, Irvine-Mathematics",2
+"University of California, Irvine-Mechanical Engineering",2
+"University of California, Irvine-Physics",2
+"University of California, Los Angeles-Chemistry",2
+"University of California, Los Angeles-Computer Science",2
+"University of California, Los Angeles-Mathematics",2
+"University of California, Los Angeles-Mechanical Engineering",2
+"University of California, Los Angeles-Physics",8
+"University of California, Riverside-Chemistry",2
+"University of California, Riverside-Computer Science",2
+"University of California, Riverside-Mechanical Engineering",2
+"University of California, Riverside-Physics",2
+"University of California, San Diego-Chemistry",2
+"University of California, San Diego-Mathematics",13
+"University of California, San Diego-Mechanical Engineering",2
+"University of California, San Diego-Physics",2
+"University of California, Santa Barbara-Chemistry",2
+"University of California, Santa Barbara-Computer Science",2
+"University of California, Santa Barbara-Mathematics",5
+"University of California, Santa Barbara-Mechanical Engineering",2
+"University of California, Santa Barbara-Physics",2
+"University of California, Santa Cruz-Chemistry",2
+"University of California, Santa Cruz-Mathematics",4
+"University of California, Santa Cruz-Physics",4
+University of Central Florida-Chemistry,2
+University of Central Florida-Mathematics,4
+University of Central Florida-Physics,2
+University of Chicago-Chemistry,3
+University of Chicago-Computer Science,2
+University of Chicago-Mathematics,14
+University of Chicago-Physics,2
+University of Cincinnati-Chemistry,2
+University of Cincinnati-Mathematics,2
+University of Cincinnati-Mechanical Engineering,2
+University of Colorado Boulder-Chemistry,2
+University of Colorado Boulder-Mathematics,11
+University of Colorado Boulder-Mechanical Engineering,2
+University of Colorado Boulder-Physics,4
+University of Colorado Denver-Chemistry,2
+University of Colorado Denver-Mathematics,2
+University of Connecticut-Chemistry,2
+University of Connecticut-Mathematics,6
+University of Connecticut-Mechanical Engineering,2
+University of Connecticut-Physics,2
+University of Delaware-Computer Science,2
+University of Delaware-Mathematics,9
+University of Delaware-Mechanical Engineering,2
+University of Delaware-Physics,2
+University of Denver-Chemistry,2
+University of Denver-Mathematics,4
+University of Denver-Physics,2
+University of Florida-Chemistry,2
+University of Florida-Computer Science,1
+University of Florida-Mathematics,6
+University of Florida-Mechanical Engineering,2
+University of Florida-Physics,5
+University of Georgia-Chemistry,2
+University of Georgia-Computer Science,1
+University of Georgia-Mathematics,2
+University of Georgia-Physics,1
+University of Hawaii at Manoa-Chemistry,2
+University of Hawaii at Manoa-Mathematics,1
+University of Hawaii at Manoa-Mechanical Engineering,1
+University of Hawaii at Manoa-Physics,2
+University of Houston-Chemistry,2
+University of Houston-Computer Science,1
+University of Houston-Mathematics,7
+University of Houston-Mechanical Engineering,1
+University of Houston-Physics,1
+University of Illinois Chicago-Chemistry,1
+University of Illinois Chicago-Computer Science,2
+University of Illinois Chicago-Mathematics,1
+University of Illinois Chicago-Mechanical Engineering,2
+University of Illinois Chicago-Physics,2
+University of Illinois Urbana-Champaign-Chemistry,1
+University of Illinois Urbana-Champaign-Computer Science,2
+University of Illinois Urbana-Champaign-Mathematics,1
+University of Illinois Urbana-Champaign-Mechanical Engineering,1
+University of Illinois Urbana-Champaign-Physics,2
+University of Iowa-Chemistry,1
+University of Iowa-Computer Science,2
+University of Iowa-Mathematics,1
+University of Iowa-Physics,2
+University of Kansas-Chemistry,2
+University of Kansas-Mathematics,2
+University of Kansas-Physics,2
+University of Kentucky-Chemistry,1
+University of Kentucky-Computer Science,1
+University of Kentucky-Mathematics,3
+University of Kentucky-Mechanical Engineering,1
+University of Kentucky-Physics,1
+University of Louisiana at Lafayette-Chemistry,1
+University of Louisiana at Lafayette-Computer Science,1
+University of Louisiana at Lafayette-Mathematics,6
+University of Louisiana at Lafayette-Mechanical Engineering,1
+University of Louisiana at Lafayette-Physics,2
+University of Louisville-Chemistry,1
+University of Louisville-Computer Science,2
+University of Louisville-Mathematics,7
+University of Louisville-Mechanical Engineering,2
+University of Louisville-Physics,2
+University of Maine-Mathematics,2
+University of Maine-Mechanical Engineering,2
+University of Maine-Physics,2
+"University of Maryland, Baltimore County-Mathematics",1
+"University of Maryland, Baltimore County-Physics",2
+"University of Maryland, College Park-Computer Science",5
+"University of Maryland, College Park-Mathematics",16
+"University of Maryland, College Park-Mechanical Engineering",1
+"University of Maryland, College Park-Physics",2
+University of Massachusetts Amherst-Chemistry,1
+University of Massachusetts Amherst-Computer Science,2
+University of Massachusetts Amherst-Mathematics,4
+University of Memphis-Chemistry,2
+University of Memphis-Computer Science,1
+University of Memphis-Mathematics,1
+University of Memphis-Physics,2
+University of Miami-Chemistry,1
+University of Miami-Computer Science,2
+University of Miami-Mathematics,1
+University of Miami-Physics,1
+University of Michigan-Chemistry,1
+University of Michigan-Computer Science,10
+University of Michigan-Mathematics,10
+University of Michigan-Mechanical Engineering,2
+University of Michigan-Physics,3
+University of Minnesota-Chemistry,1
+University of Minnesota-Computer Science,1
+University of Minnesota-Mathematics,8
+University of Minnesota-Mechanical Engineering,1
+University of Minnesota-Physics,1
+University of Mississippi-Chemistry,2
+University of Mississippi-Mathematics,1
+University of Mississippi-Physics,2
+University of Missouri-Chemistry,3
+University of Missouri-Mathematics,6
+University of Missouri-Mechanical Engineering,1
+University of Missouri-Physics,2
+University of Montana-Chemistry,2
+University of Montana-Mathematics,1
+University of Nebraska-Lincoln-Chemistry,1
+University of Nebraska-Lincoln-Computer Science,1
+University of Nebraska-Lincoln-Mathematics,2
+University of Nebraska-Lincoln-Physics,1
+"University of Nevada, Las Vegas-Physics",1
+"University of Nevada, Reno-Computer Science",1
+"University of Nevada, Reno-Mathematics",1
+University of New Hampshire-Chemistry,1
+University of New Hampshire-Mathematics,1
+University of New Hampshire-Physics,2
+University of New Mexico-Chemistry,1
+University of New Mexico-Computer Science,1
+University of New Mexico-Mathematics,5
+University of New Mexico-Physics,2
+University of North Carolina at Chapel Hill-Chemistry,2
+University of North Carolina at Chapel Hill-Computer Science,2
+University of North Carolina at Chapel Hill-Mathematics,7
+University of North Carolina at Chapel Hill-Physics,2
+University of North Texas-Chemistry,2
+University of North Texas-Computer Science,1
+University of North Texas-Mathematics,2
+University of North Texas-Mechanical Engineering,1
+University of North Texas-Physics,1
+University of Notre Dame-Chemistry,2
+University of Notre Dame-Mathematics,4
+University of Notre Dame-Physics,2
+University of Oklahoma-Chemistry,2
+University of Oklahoma-Mathematics,8
+University of Oklahoma-Physics,2
+University of Oregon-Computer Science,2
+University of Oregon-Mathematics,2
+University of Oregon-Physics,2
+University of Pennsylvania-Chemistry,4
+University of Pennsylvania-Computer Science,3
+University of Pennsylvania-Mathematics,3
+University of Pennsylvania-Mechanical Engineering,2
+University of Pittsburgh-Chemistry,2
+University of Pittsburgh-Computer Science,2
+University of Pittsburgh-Physics,2
+University of Rochester-Chemistry,2
+University of Rochester-Computer Science,1
+University of Rochester-Mechanical Engineering,2
+University of Rochester-Physics,4
+University of South Carolina-Chemistry,2
+University of South Carolina-Mathematics,6
+University of South Carolina-Physics,2
+University of South Florida-Chemistry,3
+University of South Florida-Computer Science,2
+University of South Florida-Mathematics,5
+University of South Florida-Mechanical Engineering,2
+University of Southern California-Chemistry,2
+University of Southern California-Computer Science,1
+University of Southern California-Mathematics,2
+University of Southern California-Mechanical Engineering,1
+University of Southern California-Physics,2
+University of Southern Mississippi-Chemistry,2
+University of Southern Mississippi-Mechanical Engineering,2
+University of Southern Mississippi-Physics,1
+University of Tennessee-Chemistry,2
+University of Tennessee-Computer Science,2
+University of Tennessee-Mathematics,7
+University of Tennessee-Mechanical Engineering,2
+University of Tennessee-Physics,2
+University of Texas at Arlington-Chemistry,2
+University of Texas at Arlington-Computer Science,1
+University of Texas at Arlington-Mathematics,2
+University of Texas at Arlington-Mechanical Engineering,2
+University of Texas at Arlington-Physics,2
+University of Texas at Austin-Computer Science,3
+University of Texas at Austin-Mathematics,2
+University of Texas at Austin-Physics,2
+University of Texas at Dallas-Chemistry,2
+University of Texas at Dallas-Mathematics,5
+University of Texas at Dallas-Mechanical Engineering,2
+University of Texas at Dallas-Physics,2
+University of Texas at El Paso-Chemistry,1
+University of Texas at El Paso-Computer Science,1
+University of Texas at El Paso-Mathematics,2
+University of Texas at San Antonio-Chemistry,2
+University of Texas at San Antonio-Mathematics,2
+University of Texas at San Antonio-Physics,2
+University of Utah-Chemistry,1
+University of Utah-Computer Science,1
+University of Utah-Mathematics,7
+University of Utah-Mechanical Engineering,1
+University of Utah-Physics,1
+University of Virginia-Chemistry,2
+University of Virginia-Mathematics,10
+University of Virginia-Physics,6
+University of Washington-Chemistry,2
+University of Washington-Computer Science,1
+University of Washington-Mathematics,5
+University of Washington-Mechanical Engineering,1
+University of Washington-Physics,2
+University of Wisconsin-Madison-Chemistry,2
+University of Wisconsin-Madison-Mathematics,15
+University of Wisconsin-Madison-Mechanical Engineering,2
+University of Wisconsin-Madison-Physics,3
+University of Wisconsin-Milwaukee-Computer Science,1
+University of Wisconsin-Milwaukee-Mathematics,1
+University of Wisconsin-Milwaukee-Mechanical Engineering,1
+University of Wisconsin-Milwaukee-Physics,1
+Utah State University-Chemistry,2
+Utah State University-Mathematics,1
+Utah State University-Mechanical Engineering,2
+Utah State University-Physics,1
+Vanderbilt University-Chemistry,1
+Vanderbilt University-Mathematics,6
+Vanderbilt University-Mechanical Engineering,2
+Vanderbilt University-Physics,1
+Virginia Commonwealth University-Chemistry,2
+Virginia Commonwealth University-Computer Science,1
+Virginia Commonwealth University-Mathematics,6
+Virginia Commonwealth University-Mechanical Engineering,1
+Virginia Commonwealth University-Physics,1
+Virginia Tech-Chemistry,1
+Virginia Tech-Computer Science,1
+Virginia Tech-Mathematics,2
+Virginia Tech-Mechanical Engineering,1
+Virginia Tech-Physics,6
+Washington State University-Chemistry,2
+Washington State University-Computer Science,1
+Washington State University-Mathematics,4
+Washington State University-Mechanical Engineering,1
+Washington State University-Physics,1
+Washington University in St. Louis-Chemistry,2
+Washington University in St. Louis-Computer Science,2
+Washington University in St. Louis-Mathematics,1
+Washington University in St. Louis-Mechanical Engineering,1
+Washington University in St. Louis-Physics,2
+Wayne State University-Chemistry,4
+Wayne State University-Computer Science,1
+Wayne State University-Mathematics,9
+Wayne State University-Mechanical Engineering,2
+Wayne State University-Physics,2
+West Virginia University-Chemistry,2
+West Virginia University-Computer Science,1
+West Virginia University-Mathematics,2
+West Virginia University-Mechanical Engineering,1
+West Virginia University-Physics,2
+Yale University-Chemistry,2
+Yale University-Computer Science,1
+Yale University-Mathematics,1
+Yale University-Physics,1

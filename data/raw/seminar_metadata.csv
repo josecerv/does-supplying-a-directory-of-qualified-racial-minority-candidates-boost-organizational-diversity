@@ -1,0 +1,1882 @@
+seminar_id,university,discipline,department,condition
+039b0a-0cb93e-f6,Arizona State University,Mathematics,Arizona State University-Mathematics,control
+1cde7d-db239d-c7,Arizona State University,Physics,Arizona State University-Physics,treatment
+21b611-c02b39-a4,Arizona State University,Physics,Arizona State University-Physics,treatment
+282006-c4871c-c8,Arizona State University,Chemistry,Arizona State University-Chemistry,control
+28db97-87a6e9-21,Arizona State University,Physics,Arizona State University-Physics,treatment
+2e9e13-38c7a5-46,Arizona State University,Physics,Arizona State University-Physics,treatment
+3efd7d-7da279-ff,Arizona State University,Mathematics,Arizona State University-Mathematics,control
+499b04-4182d3-42,Arizona State University,Physics,Arizona State University-Physics,treatment
+85ccba-102d13-61,Arizona State University,Mathematics,Arizona State University-Mathematics,control
+8de565-6743ec-e5,Arizona State University,Chemistry,Arizona State University-Chemistry,control
+94de49-8f870a-93,Arizona State University,Chemistry,Arizona State University-Chemistry,control
+95f835-0ffd71-af,Arizona State University,Computer Science,Arizona State University-Computer Science,treatment
+e27a25-a9c3be-3c,Arizona State University,Mathematics,Arizona State University-Mathematics,control
+e8dbfd-aef077-af,Arizona State University,Mechanical Engineering,Arizona State University-Mechanical Engineering,treatment
+0d5de8-0d34b8-22,Auburn University,Mathematics,Auburn University-Mathematics,control
+1a6095-3dd388-72,Auburn University,Mathematics,Auburn University-Mathematics,control
+31fb32-d7d59c-ce,Auburn University,Mechanical Engineering,Auburn University-Mechanical Engineering,control
+853d83-9318ce-32,Auburn University,Mathematics,Auburn University-Mathematics,control
+976118-42ee8a-f6,Auburn University,Chemistry,Auburn University-Chemistry,treatment
+9b11b5-fd84b9-6b,Auburn University,Mathematics,Auburn University-Mathematics,control
+a1a896-494645-f2,Auburn University,Mathematics,Auburn University-Mathematics,control
+a3e1f0-566b71-c5,Auburn University,Mathematics,Auburn University-Mathematics,control
+d44290-8f3cdc-01,Auburn University,Mathematics,Auburn University-Mathematics,control
+efe576-5978b3-3a,Auburn University,Computer Science,Auburn University-Computer Science,control
+ee1ed1-233cf5-0a,Baylor University,Mathematics,Baylor University-Mathematics,control
+7d6cf6-ebb81d-32,Baylor University,Mathematics,Baylor University-Mathematics,control
+7fae72-1872da-c0,Baylor University,Mathematics,Baylor University-Mathematics,control
+9ab20d-3feb9d-82,Baylor University,Mathematics,Baylor University-Mathematics,control
+9f0f10-9218b6-47,Baylor University,Physics,Baylor University-Physics,control
+cfc138-53abf1-fe,Baylor University,Chemistry,Baylor University-Chemistry,control
+003ac8-0efc4e-2f,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+05feb1-c7c890-af,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+0b2346-47908a-b7,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+1b210a-2435c7-a9,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+58a66e-bc58ce-ec,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+791ba8-5aa274-3a,Binghamton University,Computer Science,Binghamton University-Computer Science,control
+92a5cc-aef83f-8d,Binghamton University,Computer Science,Binghamton University-Computer Science,control
+ba278d-97f08d-79,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+bc3874-ed15a0-38,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+cf7b37-0d72c8-22,Binghamton University,Mathematics,Binghamton University-Mathematics,control
+ff3b80-0307f2-be,Binghamton University,Mechanical Engineering,Binghamton University-Mechanical Engineering,control
+09b6b2-b03245-76,Boston College,Mathematics,Boston College-Mathematics,control
+141fdc-305d40-35,Boston College,Mathematics,Boston College-Mathematics,control
+818b6a-a9ac5e-7c,Boston College,Mathematics,Boston College-Mathematics,control
+e824d9-79a062-5b,Boston College,Mathematics,Boston College-Mathematics,control
+fd5b5c-f7e9b5-fd,Boston College,Physics,Boston College-Physics,treatment
+058e33-5258a5-fd,Boston University,Physics,Boston University-Physics,control
+14998a-814110-84,Boston University,Mathematics,Boston University-Mathematics,treatment
+1632fe-2b7e08-47,Boston University,Physics,Boston University-Physics,control
+2570c3-528877-76,Boston University,Physics,Boston University-Physics,control
+287587-a536b6-92,Boston University,Computer Science,Boston University-Computer Science,treatment
+3adcc6-7966ad-91,Boston University,Mathematics,Boston University-Mathematics,treatment
+3f68f9-1cf0e6-72,Boston University,Computer Science,Boston University-Computer Science,treatment
+4bd403-684855-d3,Boston University,Physics,Boston University-Physics,control
+55000d-78d84a-0b,Boston University,Mechanical Engineering,Boston University-Mechanical Engineering,control
+65b373-55daea-a6,Boston University,Computer Science,Boston University-Computer Science,treatment
+69b989-7f60ca-38,Boston University,Computer Science,Boston University-Computer Science,treatment
+7f4fae-787035-8a,Boston University,Computer Science,Boston University-Computer Science,treatment
+9103cc-1faafd-4e,Boston University,Mathematics,Boston University-Mathematics,treatment
+921f13-145e69-56,Boston University,Mathematics,Boston University-Mathematics,treatment
+92acb2-1f25a2-6a,Boston University,Mathematics,Boston University-Mathematics,treatment
+934799-018a2f-93,Boston University,Mechanical Engineering,Boston University-Mechanical Engineering,control
+94968b-af2b90-21,Boston University,Physics,Boston University-Physics,control
+97048e-ee239f-fb,Boston University,Computer Science,Boston University-Computer Science,treatment
+b3bd89-7da04f-e8,Boston University,Chemistry,Boston University-Chemistry,treatment
+c8c193-25a082-69,Boston University,Physics,Boston University-Physics,control
+d35870-ebf129-76,Boston University,Computer Science,Boston University-Computer Science,treatment
+91ca8b-20baec-a2,Boston University,Chemistry,Boston University-Chemistry,treatment
+0b50a1-c7cfd7-82,Brandeis University,Physics,Brandeis University-Physics,treatment
+10858b-fc8543-e6,Brandeis University,Computer Science,Brandeis University-Computer Science,control
+1f2dd8-b41656-3d,Brandeis University,Mathematics,Brandeis University-Mathematics,treatment
+3b7b7f-22a6ef-88,Brandeis University,Computer Science,Brandeis University-Computer Science,control
+3c491a-3bbe4b-59,Brandeis University,Mathematics,Brandeis University-Mathematics,treatment
+c6f562-e42c40-14,Brandeis University,Mathematics,Brandeis University-Mathematics,treatment
+cd87f8-111d69-d5,Brandeis University,Physics,Brandeis University-Physics,treatment
+cff747-174604-2a,Brandeis University,Mathematics,Brandeis University-Mathematics,treatment
+d2d99e-83031d-a3,Brandeis University,Mathematics,Brandeis University-Mathematics,treatment
+d304e8-3ba4d7-c5,Brandeis University,Physics,Brandeis University-Physics,treatment
+07a019-01ca44-a1,Brown University,Physics,Brown University-Physics,treatment
+2cd9d5-da6688-08,Brown University,Mechanical Engineering,Brown University-Mechanical Engineering,treatment
+3bfaae-2e65a5-93,Brown University,Mathematics,Brown University-Mathematics,control
+46101a-86f51e-d0,Brown University,Mathematics,Brown University-Mathematics,control
+4853c6-e8941c-0a,Brown University,Mathematics,Brown University-Mathematics,control
+62526a-38e9b6-93,Brown University,Chemistry,Brown University-Chemistry,control
+631734-c6dd1b-bd,Brown University,Mathematics,Brown University-Mathematics,control
+8d473b-520b24-3d,Brown University,Chemistry,Brown University-Chemistry,control
+a4a3a6-a63ecd-6a,Brown University,Mathematics,Brown University-Mathematics,control
+b313ae-e81dfc-f9,Brown University,Mathematics,Brown University-Mathematics,control
+ca60e1-bf143f-51,Brown University,Computer Science,Brown University-Computer Science,control
+cb2b2d-912256-62,Brown University,Physics,Brown University-Physics,treatment
+ce32f4-dbf1c4-a0,Brown University,Mathematics,Brown University-Mathematics,control
+d223a1-140f28-e8,Brown University,Mechanical Engineering,Brown University-Mechanical Engineering,treatment
+d603cd-305eaf-69,Brown University,Physics,Brown University-Physics,treatment
+dbbef8-3ed7e6-b5,Brown University,Mathematics,Brown University-Mathematics,control
+e1bd81-ade74f-e6,Brown University,Computer Science,Brown University-Computer Science,control
+ef3c8f-538ead-31,Brown University,Mathematics,Brown University-Mathematics,control
+f3094b-4b72ac-3c,Brown University,Chemistry,Brown University-Chemistry,control
+f79ac8-7c6233-9f,Brown University,Mathematics,Brown University-Mathematics,control
+fbe2ba-5f8eab-21,Brown University,Mathematics,Brown University-Mathematics,control
+0ec491-20fe6b-d0,California Institute of Technology,Physics,California Institute of Technology-Physics,control
+0f2f5e-c8e178-db,California Institute of Technology,Chemistry,California Institute of Technology-Chemistry,control
+123a1a-2a31c8-a1,California Institute of Technology,Mechanical Engineering,California Institute of Technology-Mechanical Engineering,treatment
+3372e0-993a9f-54,California Institute of Technology,Mathematics,California Institute of Technology-Mathematics,control
+6facb1-748461-01,California Institute of Technology,Physics,California Institute of Technology-Physics,control
+6e2d3d-f65eaa-4f,California Institute of Technology,Physics,California Institute of Technology-Physics,control
+7595a3-c4503a-47,California Institute of Technology,Chemistry,California Institute of Technology-Chemistry,control
+792b57-4e43c0-cd,California Institute of Technology,Chemistry,California Institute of Technology-Chemistry,control
+7f950f-ab10df-57,California Institute of Technology,Chemistry,California Institute of Technology-Chemistry,control
+89a788-3b9677-f3,California Institute of Technology,Mathematics,California Institute of Technology-Mathematics,control
+a5987b-0dc13f-94,California Institute of Technology,Chemistry,California Institute of Technology-Chemistry,control
+b0da10-512276-fb,California Institute of Technology,Computer Science,California Institute of Technology-Computer Science,control
+b3ea91-dae8b5-33,California Institute of Technology,Mathematics,California Institute of Technology-Mathematics,control
+e4ff6a-8095ac-3a,California Institute of Technology,Mathematics,California Institute of Technology-Mathematics,control
+02bc35-6c731d-77,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+12586a-a1faa7-b5,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+127ee4-f4f08b-b5,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+230c42-18b349-86,Carnegie Mellon University,Mathematics,Carnegie Mellon University-Mathematics,treatment
+3351f6-ea5f02-59,Carnegie Mellon University,Mathematics,Carnegie Mellon University-Mathematics,treatment
+4227be-399cee-da,Carnegie Mellon University,Mechanical Engineering,Carnegie Mellon University-Mechanical Engineering,control
+46b9e2-a21be8-e7,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+93c229-58ef11-36,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+a1ac90-07c9ce-ff,Carnegie Mellon University,Mathematics,Carnegie Mellon University-Mathematics,treatment
+a3e911-55a010-dd,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+b805ea-26b29f-15,Carnegie Mellon University,Mathematics,Carnegie Mellon University-Mathematics,treatment
+9646c4-ad5395-b2,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+cb9dd1-f33421-ce,Carnegie Mellon University,Mathematics,Carnegie Mellon University-Mathematics,treatment
+f3aae2-5a4990-f0,Carnegie Mellon University,Chemistry,Carnegie Mellon University-Chemistry,control
+f4354b-15ffa3-1f,Carnegie Mellon University,Mathematics,Carnegie Mellon University-Mathematics,treatment
+ff8852-51bc58-f1,Carnegie Mellon University,Computer Science,Carnegie Mellon University-Computer Science,control
+814810-e7af12-e1,Case Western Reserve University,Physics,Case Western Reserve University-Physics,control
+493e5d-41dfc0-da,Case Western Reserve University,Mathematics,Case Western Reserve University-Mathematics,treatment
+5f30ba-40b69c-e6,Case Western Reserve University,Computer Science,Case Western Reserve University-Computer Science,treatment
+7b0e63-d58ad7-8c,Case Western Reserve University,Computer Science,Case Western Reserve University-Computer Science,treatment
+a1e3a6-90a657-61,Case Western Reserve University,Physics,Case Western Reserve University-Physics,control
+b15f4a-3e1ccd-c0,Case Western Reserve University,Mathematics,Case Western Reserve University-Mathematics,treatment
+bde811-f374b8-12,Case Western Reserve University,Physics,Case Western Reserve University-Physics,control
+c63769-903cf4-18,Case Western Reserve University,Mathematics,Case Western Reserve University-Mathematics,treatment
+ccbbf2-72454c-a0,Case Western Reserve University,Mathematics,Case Western Reserve University-Mathematics,treatment
+e3a231-ba07c9-68,Case Western Reserve University,Physics,Case Western Reserve University-Physics,control
+f13d32-1814f2-77,Case Western Reserve University,Chemistry,Case Western Reserve University-Chemistry,control
+0246a9-3c736f-77,Clemson University,Mathematics,Clemson University-Mathematics,treatment
+088e2b-7801ee-c0,Clemson University,Mechanical Engineering,Clemson University-Mechanical Engineering,treatment
+5812ca-2c5bdd-ba,Clemson University,Physics,Clemson University-Physics,control
+88e4bb-42a696-21,Clemson University,Mathematics,Clemson University-Mathematics,treatment
+936047-ffa5fb-ed,Clemson University,Computer Science,Clemson University-Computer Science,control
+982bbb-b3e980-34,Clemson University,Physics,Clemson University-Physics,control
+cde125-0ac782-b3,Clemson University,Chemistry,Clemson University-Chemistry,control
+de3943-43921d-23,Clemson University,Mathematics,Clemson University-Mathematics,treatment
+e01218-7c4ea7-78,Clemson University,Mechanical Engineering,Clemson University-Mechanical Engineering,treatment
+fe9207-8ed4e9-98,Clemson University,Physics,Clemson University-Physics,control
+08de03-74568d-14,Colorado School of Mines,Physics,Colorado School of Mines-Physics,control
+82eb17-d32640-fb,Colorado School of Mines,Mathematics,Colorado School of Mines-Mathematics,control
+62702d-0f2cb4-f6,Colorado School of Mines,Mechanical Engineering,Colorado School of Mines-Mechanical Engineering,control
+7118c8-f02fe5-4c,Colorado School of Mines,Computer Science,Colorado School of Mines-Computer Science,control
+72e350-3a8b30-83,Colorado School of Mines,Chemistry,Colorado School of Mines-Chemistry,control
+024587-53f55d-3d,Colorado State University,Mathematics,Colorado State University-Mathematics,treatment
+1951a2-70cac7-f3,Colorado State University,Chemistry,Colorado State University-Chemistry,treatment
+39321f-ede49a-c5,Colorado State University,Mathematics,Colorado State University-Mathematics,treatment
+678695-6f6bc6-44,Colorado State University,Mathematics,Colorado State University-Mathematics,treatment
+76d736-14063c-1c,Colorado State University,Chemistry,Colorado State University-Chemistry,treatment
+86ab2d-9ce3af-c3,Colorado State University,Mathematics,Colorado State University-Mathematics,treatment
+8d3837-0ee3fa-79,Colorado State University,Mathematics,Colorado State University-Mathematics,treatment
+a7a2be-4366d4-82,Colorado State University,Mathematics,Colorado State University-Mathematics,treatment
+bd62e2-82a86e-49,Colorado State University,Chemistry,Colorado State University-Chemistry,treatment
+e1ccc1-c89710-b2,Colorado State University,Computer Science,Colorado State University-Computer Science,control
+e6aaca-3268a1-97,Colorado State University,Mathematics,Colorado State University-Mathematics,treatment
+efa2dc-c9810a-dc,Colorado State University,Chemistry,Colorado State University-Chemistry,treatment
+f6ef70-b41e96-40,Colorado State University,Chemistry,Colorado State University-Chemistry,treatment
+fa95cc-1c00f2-7e,Colorado State University,Physics,Colorado State University-Physics,control
+0ab2fa-d49365-83,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+1451db-5f5159-60,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+150266-c746ca-a9,Columbia University,Computer Science,Columbia University-Computer Science,treatment
+283111-027304-9a,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+34256f-a76b94-21,Columbia University,Physics,Columbia University-Physics,treatment
+3afcd3-ba2836-d5,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+3d4360-0d1bf4-60,Columbia University,Physics,Columbia University-Physics,treatment
+e06e18-dde140-34,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+4a4862-279a18-72,Columbia University,Computer Science,Columbia University-Computer Science,treatment
+52b1de-84554d-13,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+583487-0c6216-98,Columbia University,Mechanical Engineering,Columbia University-Mechanical Engineering,treatment
+63bce2-e67af3-39,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+695f8e-f93a92-ce,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+6c431e-f4ccca-a5,Columbia University,Chemistry,Columbia University-Chemistry,treatment
+791ece-a8271a-2b,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+7bb034-df0ed7-11,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+7c7b8d-c9f1a9-d8,Columbia University,Chemistry,Columbia University-Chemistry,treatment
+8d24be-52d495-3b,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+910890-842604-65,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+975048-4cf33b-e4,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+a61434-2e4287-f4,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+ab89a7-a8e628-1a,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+ba07aa-aba3a1-6c,Columbia University,Physics,Columbia University-Physics,treatment
+cebadc-dbe099-4c,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+d502f4-40e80d-a0,Columbia University,Physics,Columbia University-Physics,treatment
+e0a24e-6b3a34-3b,Columbia University,Physics,Columbia University-Physics,treatment
+e11e1c-cc16b0-26,Columbia University,Mathematics,Columbia University-Mathematics,treatment
+e2fa90-c6f241-92,Columbia University,Chemistry,Columbia University-Chemistry,treatment
+f5a5a6-ca5a79-69,Columbia University,Physics,Columbia University-Physics,treatment
+faf5af-cf5a4a-53,Columbia University,Physics,Columbia University-Physics,treatment
+0829eb-fb5608-35,Cornell University,Computer Science,Cornell University-Computer Science,control
+0ac71a-1f1cf9-c8,Cornell University,Mathematics,Cornell University-Mathematics,control
+0eaf7b-fbc084-ab,Cornell University,Mathematics,Cornell University-Mathematics,control
+27f1e7-f97c46-86,Cornell University,Mathematics,Cornell University-Mathematics,control
+3e6050-369647-1c,Cornell University,Mathematics,Cornell University-Mathematics,control
+4c9d90-bc4a87-4b,Cornell University,Computer Science,Cornell University-Computer Science,control
+504cc0-16bec9-50,Cornell University,Physics,Cornell University-Physics,control
+5d4b77-34236f-6f,Cornell University,Mechanical Engineering,Cornell University-Mechanical Engineering,control
+6ae331-b3b51e-02,Cornell University,Mathematics,Cornell University-Mathematics,control
+730a88-875fa3-6f,Cornell University,Mathematics,Cornell University-Mathematics,control
+850d7e-3a0243-48,Cornell University,Computer Science,Cornell University-Computer Science,control
+86617c-01d56e-23,Cornell University,Physics,Cornell University-Physics,control
+8c6d07-f3155b-6d,Cornell University,Computer Science,Cornell University-Computer Science,control
+8cba67-ae989a-04,Cornell University,Mathematics,Cornell University-Mathematics,control
+8d2fe7-0b6506-38,Cornell University,Physics,Cornell University-Physics,control
+9dfc3d-e02114-c7,Cornell University,Computer Science,Cornell University-Computer Science,control
+bc03be-2e7f9d-e3,Cornell University,Mathematics,Cornell University-Mathematics,control
+c58155-16d461-92,Cornell University,Physics,Cornell University-Physics,control
+ce8285-843f17-6f,Cornell University,Computer Science,Cornell University-Computer Science,control
+6c375f-782aa4-50,Cornell University,Chemistry,Cornell University-Chemistry,control
+e0b321-06e3a5-fd,Cornell University,Computer Science,Cornell University-Computer Science,control
+eb4ed4-02da84-a9,Cornell University,Mathematics,Cornell University-Mathematics,control
+f377dd-fe6ad1-21,Cornell University,Computer Science,Cornell University-Computer Science,control
+f60386-02bb44-e5,Cornell University,Computer Science,Cornell University-Computer Science,control
+02adab-fbecf1-62,Dartmouth College,Mathematics,Dartmouth College-Mathematics,treatment
+037aee-5187c5-4b,Dartmouth College,Mathematics,Dartmouth College-Mathematics,treatment
+14ee17-1608f4-cf,Dartmouth College,Mathematics,Dartmouth College-Mathematics,treatment
+18fabd-3843fa-ee,Dartmouth College,Mathematics,Dartmouth College-Mathematics,treatment
+1ff62d-8feb49-c9,Dartmouth College,Mathematics,Dartmouth College-Mathematics,treatment
+20cf69-fbca32-ac,Dartmouth College,Physics,Dartmouth College-Physics,control
+2a3bb1-3ffdb0-2a,Dartmouth College,Mathematics,Dartmouth College-Mathematics,treatment
+668246-942f12-f1,Dartmouth College,Chemistry,Dartmouth College-Chemistry,treatment
+ebe0bd-cfb517-5a,Dartmouth College,Mathematics,Dartmouth College-Mathematics,treatment
+98d306-642ad6-08,Drexel University,Mechanical Engineering,Drexel University-Mechanical Engineering,treatment
+fc42f0-1c727c-ef,Drexel University,Mathematics,Drexel University-Mathematics,control
+01fa01-187e22-7b,Duke University,Mathematics,Duke University-Mathematics,control
+09516c-97650f-f5,Duke University,Mathematics,Duke University-Mathematics,control
+1bc459-2243ab-76,Duke University,Mathematics,Duke University-Mathematics,control
+43ecc9-390f1d-82,Duke University,Chemistry,Duke University-Chemistry,control
+722ff9-16723b-c8,Duke University,Chemistry,Duke University-Chemistry,control
+7a3799-c95229-6a,Duke University,Computer Science,Duke University-Computer Science,treatment
+91528d-d70fde-e5,Duke University,Computer Science,Duke University-Computer Science,treatment
+ab4ac2-ac78c6-2b,Duke University,Mathematics,Duke University-Mathematics,control
+c7c39d-c90fbf-be,Duke University,Mechanical Engineering,Duke University-Mechanical Engineering,control
+fe1390-4e37ce-a9,Duke University,Computer Science,Duke University-Computer Science,treatment
+af51ae-d92723-a1,Emory University,Physics,Emory University-Physics,control
+374d2a-b3662d-de,Emory University,Mathematics,Emory University-Mathematics,treatment
+4d211e-8deb28-f9,Emory University,Mathematics,Emory University-Mathematics,treatment
+b6d039-5603d4-f2,Emory University,Mathematics,Emory University-Mathematics,treatment
+be5c50-7801d7-87,Emory University,Mathematics,Emory University-Mathematics,treatment
+c79205-ff3fef-68,Emory University,Chemistry,Emory University-Chemistry,control
+d217fb-d32e2e-ae,Emory University,Mathematics,Emory University-Mathematics,treatment
+f95206-a3fda4-dc,Emory University,Chemistry,Emory University-Chemistry,control
+455cae-e9c5be-62,Florida International University,Physics,Florida International University-Physics,treatment
+4d3834-ee13f2-6d,Florida International University,Chemistry,Florida International University-Chemistry,treatment
+8de2f5-51921e-2e,Florida International University,Mathematics,Florida International University-Mathematics,treatment
+c701ce-ab880c-ff,Florida International University,Mathematics,Florida International University-Mathematics,treatment
+edee66-715064-0b,Florida International University,Mathematics,Florida International University-Mathematics,treatment
+37dc5e-c3be8f-2f,Florida State University,Physics,Florida State University-Physics,control
+46a4cc-5a3edf-60,Florida State University,Mathematics,Florida State University-Mathematics,treatment
+5bbe85-e2aad2-2b,Florida State University,Physics,Florida State University-Physics,control
+610ed1-afa060-df,Florida State University,Chemistry,Florida State University-Chemistry,control
+674556-05bcb3-bb,Florida State University,Mathematics,Florida State University-Mathematics,treatment
+67fcf9-5db00c-b8,Florida State University,Mathematics,Florida State University-Mathematics,treatment
+768f54-82fec1-79,Florida State University,Mathematics,Florida State University-Mathematics,treatment
+7a1c2b-455301-0b,Florida State University,Mathematics,Florida State University-Mathematics,treatment
+89d567-5244dd-f4,Florida State University,Computer Science,Florida State University-Computer Science,treatment
+8bd481-23905d-b6,Florida State University,Chemistry,Florida State University-Chemistry,control
+95f15d-fa9e6a-f7,Florida State University,Physics,Florida State University-Physics,control
+988554-4c0175-a3,Florida State University,Chemistry,Florida State University-Chemistry,control
+9b91c5-cdf862-34,Florida State University,Mechanical Engineering,Florida State University-Mechanical Engineering,treatment
+a5a6ab-bdb564-e6,Florida State University,Chemistry,Florida State University-Chemistry,control
+df9bc4-60a724-a2,Florida State University,Chemistry,Florida State University-Chemistry,control
+e1abab-0d17ba-7d,Florida State University,Chemistry,Florida State University-Chemistry,control
+e8d617-b32ba6-b0,Florida State University,Chemistry,Florida State University-Chemistry,control
+ea3597-810014-f0,Florida State University,Physics,Florida State University-Physics,control
+f9f4fd-83e346-b3,Florida State University,Chemistry,Florida State University-Chemistry,control
+1934c0-46decf-60,George Mason University,Chemistry,George Mason University-Chemistry,treatment
+37799a-16ba7d-59,George Mason University,Mathematics,George Mason University-Mathematics,control
+3aaf16-691128-bf,George Mason University,Mechanical Engineering,George Mason University-Mechanical Engineering,treatment
+469ea7-091936-14,George Mason University,Mathematics,George Mason University-Mathematics,control
+7f6971-d439b5-ce,George Mason University,Physics,George Mason University-Physics,control
+97b4bc-abdb40-4c,George Mason University,Mathematics,George Mason University-Mathematics,control
+9f98e4-dab545-75,George Mason University,Mathematics,George Mason University-Mathematics,control
+a9a63a-9b0ca5-79,George Mason University,Mathematics,George Mason University-Mathematics,control
+bd2a07-237bb4-13,George Mason University,Mathematics,George Mason University-Mathematics,control
+cf886a-977af3-32,George Mason University,Computer Science,George Mason University-Computer Science,control
+d00b64-000f55-c3,George Mason University,Mathematics,George Mason University-Mathematics,control
+1a7ad5-871502-5c,George Washington University,Mathematics,George Washington University-Mathematics,control
+36a4dc-0708fc-8f,George Washington University,Mathematics,George Washington University-Mathematics,control
+3fb6dd-7502fe-84,George Washington University,Mathematics,George Washington University-Mathematics,control
+c4386b-a15a82-1f,George Washington University,Physics,George Washington University-Physics,treatment
+c9ecc5-c43e11-36,George Washington University,Mathematics,George Washington University-Mathematics,control
+d57ee4-8a7386-41,George Washington University,Mathematics,George Washington University-Mathematics,control
+def1f6-769030-df,George Washington University,Chemistry,George Washington University-Chemistry,treatment
+0ae6a3-c63ba2-2a,Georgetown University,Physics,Georgetown University-Physics,control
+f24ef4-f3901a-85,Georgetown University,Chemistry,Georgetown University-Chemistry,control
+fcdd45-92e229-20,Georgetown University,Mathematics,Georgetown University-Mathematics,control
+191a70-d4123f-ad,Georgia Institute of Technology,Physics,Georgia Institute of Technology-Physics,treatment
+24efab-827d6c-e1,Georgia Institute of Technology,Chemistry,Georgia Institute of Technology-Chemistry,treatment
+38e02e-14c170-16,Georgia Institute of Technology,Chemistry,Georgia Institute of Technology-Chemistry,treatment
+452b39-566707-5f,Georgia Institute of Technology,Physics,Georgia Institute of Technology-Physics,treatment
+45ee20-ac2778-47,Georgia Institute of Technology,Chemistry,Georgia Institute of Technology-Chemistry,treatment
+4e379a-406f5d-73,Georgia Institute of Technology,Computer Science,Georgia Institute of Technology-Computer Science,treatment
+679527-c7ae53-82,Georgia Institute of Technology,Physics,Georgia Institute of Technology-Physics,treatment
+69712d-fd073a-e4,Georgia Institute of Technology,Mechanical Engineering,Georgia Institute of Technology-Mechanical Engineering,control
+71ea4b-187ac9-d0,Georgia Institute of Technology,Computer Science,Georgia Institute of Technology-Computer Science,treatment
+8a6862-b80f30-39,Georgia Institute of Technology,Chemistry,Georgia Institute of Technology-Chemistry,treatment
+962ddf-492353-c4,Georgia Institute of Technology,Computer Science,Georgia Institute of Technology-Computer Science,treatment
+a7924a-b6a6a3-a6,Georgia Institute of Technology,Mechanical Engineering,Georgia Institute of Technology-Mechanical Engineering,control
+af1460-826c08-0e,Georgia Institute of Technology,Physics,Georgia Institute of Technology-Physics,treatment
+afc242-173044-7a,Georgia Institute of Technology,Chemistry,Georgia Institute of Technology-Chemistry,treatment
+cba51e-b171b5-49,Georgia Institute of Technology,Chemistry,Georgia Institute of Technology-Chemistry,treatment
+e200c0-b70c98-27,Georgia Institute of Technology,Computer Science,Georgia Institute of Technology-Computer Science,treatment
+beee17-0a7c45-e6,Georgia State University,Physics,Georgia State University-Physics,control
+a95938-ecfa92-b1,Georgia State University,Chemistry,Georgia State University-Chemistry,control
+0fa505-face0a-59,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+25c262-8f8251-d0,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+300242-4f18c1-a7,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+301c28-e5dfd7-11,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+3ce8ef-86e561-d2,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+536452-d533b0-6b,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+53d5ec-300b01-fe,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+5aac54-5b0ed7-d6,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+5cc3e9-6ebb53-28,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+631334-d8bf31-54,"Graduate Center, CUNY",Mechanical Engineering,"Graduate Center, CUNY-Mechanical Engineering",treatment
+6848c2-39065a-bc,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+720b81-f8ea43-7c,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+755421-d45fdf-4e,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+89982c-08ba85-47,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+99643c-f7005c-63,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+a4f3b3-216f2e-9e,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+a68b20-2b1a3e-b6,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+c9f1e9-e851d0-22,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+db226d-ee03c6-95,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+e585b8-893649-cb,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+ea35af-16019d-be,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+fc1c08-122f75-0a,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+fe46e8-7be9ca-e6,"Graduate Center, CUNY",Mathematics,"Graduate Center, CUNY-Mathematics",treatment
+140dcc-499b35-b5,Harvard University,Computer Science,Harvard University-Computer Science,treatment
+28aa3d-1acaa4-b9,Harvard University,Physics,Harvard University-Physics,treatment
+2b6f21-88b562-82,Harvard University,Physics,Harvard University-Physics,treatment
+300f07-e11dda-fe,Harvard University,Computer Science,Harvard University-Computer Science,treatment
+322353-7d6bc3-74,Harvard University,Mechanical Engineering,Harvard University-Mechanical Engineering,control
+3c2a38-0ca61e-4a,Harvard University,Chemistry,Harvard University-Chemistry,treatment
+6c2466-ea0f37-8e,Harvard University,Physics,Harvard University-Physics,treatment
+8801fe-935e9a-b4,Harvard University,Chemistry,Harvard University-Chemistry,treatment
+d86c59-02c068-e1,Harvard University,Physics,Harvard University-Physics,treatment
+d8f37f-001ca9-7d,Harvard University,Computer Science,Harvard University-Computer Science,treatment
+0c5861-7c2846-26,Indiana University Bloomington,Chemistry,Indiana University Bloomington-Chemistry,control
+33e8d2-9520a6-58,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+44f177-4ba2f2-6d,Indiana University Bloomington,Chemistry,Indiana University Bloomington-Chemistry,control
+4c8a9e-450686-4c,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+52f135-344f5a-92,Indiana University Bloomington,Chemistry,Indiana University Bloomington-Chemistry,control
+54c6cd-e1042a-d7,Indiana University Bloomington,Physics,Indiana University Bloomington-Physics,control
+5ca708-d0db7c-43,Indiana University Bloomington,Chemistry,Indiana University Bloomington-Chemistry,control
+5fc010-5aaf63-85,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+6d6b92-12b97a-d2,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+8bf934-ec7527-99,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+9bc912-aec49e-62,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+a806c0-927eb0-c9,Indiana University Bloomington,Chemistry,Indiana University Bloomington-Chemistry,control
+c76102-f57518-7e,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+ca1917-de0303-9f,Indiana University Bloomington,Chemistry,Indiana University Bloomington-Chemistry,control
+e09f61-d1354f-65,Indiana University Bloomington,Physics,Indiana University Bloomington-Physics,control
+e57762-9b8435-03,Indiana University Bloomington,Physics,Indiana University Bloomington-Physics,control
+e9ac3c-1f074a-37,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+fe30b3-5064d0-f8,Indiana University Bloomington,Mathematics,Indiana University Bloomington-Mathematics,treatment
+0ced91-704999-5f,Iowa State University,Mathematics,Iowa State University-Mathematics,control
+0d05ee-10e108-0d,Iowa State University,Mathematics,Iowa State University-Mathematics,control
+363e0a-2f1b83-4f,Iowa State University,Chemistry,Iowa State University-Chemistry,control
+36f770-e8b3fd-bb,Iowa State University,Computer Science,Iowa State University-Computer Science,control
+39ac30-8bfa14-e5,Iowa State University,Physics,Iowa State University-Physics,treatment
+4e0ddc-5a1282-e1,Iowa State University,Mathematics,Iowa State University-Mathematics,control
+83cb44-20fd83-7d,Iowa State University,Chemistry,Iowa State University-Chemistry,control
+cc0d4d-2c09f5-52,Iowa State University,Mathematics,Iowa State University-Mathematics,control
+d2d250-69bd53-70,Iowa State University,Mathematics,Iowa State University-Mathematics,control
+dc9d86-ed5328-15,Iowa State University,Mathematics,Iowa State University-Mathematics,control
+df5e71-67d4c9-ef,Iowa State University,Mathematics,Iowa State University-Mathematics,control
+e2b892-d47eea-00,Iowa State University,Mechanical Engineering,Iowa State University-Mechanical Engineering,control
+f9e9c4-251abf-62,Iowa State University,Chemistry,Iowa State University-Chemistry,control
+fe0d69-e9f89d-07,Iowa State University,Chemistry,Iowa State University-Chemistry,control
+195a10-8498ad-fc,Johns Hopkins University,Chemistry,Johns Hopkins University-Chemistry,control
+1de9d2-a8993a-72,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+1f52d0-155a70-a9,Johns Hopkins University,Chemistry,Johns Hopkins University-Chemistry,control
+20e351-fc70ca-68,Johns Hopkins University,Mathematics,Johns Hopkins University-Mathematics,control
+22b1d2-b9da12-d2,Johns Hopkins University,Mechanical Engineering,Johns Hopkins University-Mechanical Engineering,control
+377535-0cdc03-c8,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+41d2aa-a93c61-24,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+4a2e75-4f973e-4c,Johns Hopkins University,Mechanical Engineering,Johns Hopkins University-Mechanical Engineering,control
+4ce0e1-1135c8-2e,Johns Hopkins University,Mathematics,Johns Hopkins University-Mathematics,control
+52cab4-192a37-f5,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+81a8c9-a5fb23-f8,Johns Hopkins University,Mathematics,Johns Hopkins University-Mathematics,control
+8382d8-c78047-a3,Johns Hopkins University,Mathematics,Johns Hopkins University-Mathematics,control
+96ac5b-1dd134-5d,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+a36911-821b50-d5,Johns Hopkins University,Mathematics,Johns Hopkins University-Mathematics,control
+a4cc96-3a4fcd-87,Johns Hopkins University,Mechanical Engineering,Johns Hopkins University-Mechanical Engineering,control
+b4d92a-21f5c5-03,Johns Hopkins University,Computer Science,Johns Hopkins University-Computer Science,control
+d2e78d-3cfd3f-4c,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+d75929-fb0e28-9a,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+e731c5-6eb5e5-ad,Johns Hopkins University,Mathematics,Johns Hopkins University-Mathematics,control
+f91ff6-ad1b8a-a2,Johns Hopkins University,Physics,Johns Hopkins University-Physics,control
+011ce3-f043e2-21,Kansas State University,Physics,Kansas State University-Physics,treatment
+2cbcb0-7f6dad-b0,Kansas State University,Physics,Kansas State University-Physics,treatment
+570006-cd2af6-a4,Kansas State University,Chemistry,Kansas State University-Chemistry,treatment
+9368ce-daae78-f7,Kansas State University,Mathematics,Kansas State University-Mathematics,treatment
+a4714d-75c127-2e,Kansas State University,Mathematics,Kansas State University-Mathematics,treatment
+a8ad26-62426b-bb,Kansas State University,Physics,Kansas State University-Physics,treatment
+ac90d5-0efae8-e0,Kansas State University,Mathematics,Kansas State University-Mathematics,treatment
+ae42f6-b61c0f-df,Kansas State University,Mathematics,Kansas State University-Mathematics,treatment
+082a7c-cef7a5-58,Kent State University,Mathematics,Kent State University-Mathematics,control
+1aa59d-5a8f72-b6,Kent State University,Mathematics,Kent State University-Mathematics,control
+51f366-8bb07b-72,Kent State University,Chemistry,Kent State University-Chemistry,treatment
+75b622-32b250-cf,Kent State University,Physics,Kent State University-Physics,control
+96c414-37e233-ec,Kent State University,Mathematics,Kent State University-Mathematics,control
+8bf661-4f6e95-52,Kent State University,Mathematics,Kent State University-Mathematics,control
+aeac91-ff22e5-0f,Kent State University,Physics,Kent State University-Physics,control
+c8d299-1ef019-ec,Kent State University,Mathematics,Kent State University-Mathematics,control
+022725-6d33b2-9b,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+36c29a-656e79-c3,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+58204f-d0aa63-77,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+621dd3-751cc2-b1,Louisiana State University,Chemistry,Louisiana State University-Chemistry,treatment
+6b2bc1-ec5dc5-23,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+725f5e-0312d7-e4,Louisiana State University,Physics,Louisiana State University-Physics,control
+7a3a89-13d591-fe,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+96213c-5545cc-02,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+971367-5fd2fe-05,Louisiana State University,Physics,Louisiana State University-Physics,control
+a692bb-accbaf-38,Louisiana State University,Chemistry,Louisiana State University-Chemistry,treatment
+a8463d-b804a0-55,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+a881c1-febdd1-39,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+c0923a-a93022-4e,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+c1a20f-c969f0-35,Louisiana State University,Chemistry,Louisiana State University-Chemistry,treatment
+e36e74-3292e6-f6,Louisiana State University,Mathematics,Louisiana State University-Mathematics,treatment
+ef3641-707959-29,Louisiana State University,Chemistry,Louisiana State University-Chemistry,treatment
+f19c1f-83fad7-4d,Louisiana State University,Computer Science,Louisiana State University-Computer Science,control
+169a4f-3f7d3a-58,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+1fa975-3356fd-4d,Massachusetts Institute of Technology,Chemistry,Massachusetts Institute of Technology-Chemistry,treatment
+3172eb-4eb59c-6d,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+32cc6a-0513fa-6d,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+368b9b-4d1a71-f2,Massachusetts Institute of Technology,Physics,Massachusetts Institute of Technology-Physics,treatment
+3edce7-18d358-3a,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+42afab-734f95-a4,Massachusetts Institute of Technology,Computer Science,Massachusetts Institute of Technology-Computer Science,control
+518749-24c60d-c9,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+539afd-82647c-2e,Massachusetts Institute of Technology,Mechanical Engineering,Massachusetts Institute of Technology-Mechanical Engineering,treatment
+6af717-6dae3a-14,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+6e273d-7a2617-47,Massachusetts Institute of Technology,Computer Science,Massachusetts Institute of Technology-Computer Science,control
+7eaee5-9a0463-fa,Massachusetts Institute of Technology,Physics,Massachusetts Institute of Technology-Physics,treatment
+80161b-5a3c6b-18,Massachusetts Institute of Technology,Mechanical Engineering,Massachusetts Institute of Technology-Mechanical Engineering,treatment
+813e45-f3c9ee-02,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+9c7aba-df7b87-40,Massachusetts Institute of Technology,Chemistry,Massachusetts Institute of Technology-Chemistry,treatment
+a23799-803c98-39,Massachusetts Institute of Technology,Physics,Massachusetts Institute of Technology-Physics,treatment
+aa9a1f-0ccbcd-fa,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+ab4d7f-6506ca-f6,Massachusetts Institute of Technology,Chemistry,Massachusetts Institute of Technology-Chemistry,treatment
+ad6384-8a3e57-ec,Massachusetts Institute of Technology,Physics,Massachusetts Institute of Technology-Physics,treatment
+aff580-acc8c6-db,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+b34096-35a864-a4,Massachusetts Institute of Technology,Physics,Massachusetts Institute of Technology-Physics,treatment
+b397cb-18a17a-8b,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+b78c74-4137f2-14,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+c87eeb-01097a-f5,Massachusetts Institute of Technology,Physics,Massachusetts Institute of Technology-Physics,treatment
+d62baf-afaa6d-4b,Massachusetts Institute of Technology,Chemistry,Massachusetts Institute of Technology-Chemistry,treatment
+d72ab8-b64b35-0c,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+d82fe3-70ef76-8d,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+d99065-a7a094-89,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+df1734-108d8a-11,Massachusetts Institute of Technology,Computer Science,Massachusetts Institute of Technology-Computer Science,control
+df33b5-6d426e-82,Massachusetts Institute of Technology,Computer Science,Massachusetts Institute of Technology-Computer Science,control
+e8c0a8-7535c8-3b,Massachusetts Institute of Technology,Computer Science,Massachusetts Institute of Technology-Computer Science,control
+fc0598-ee834b-c9,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+ffeb6d-1fbebf-f0,Massachusetts Institute of Technology,Mathematics,Massachusetts Institute of Technology-Mathematics,control
+19c3a6-009880-48,Michigan State University,Physics,Michigan State University-Physics,control
+1db731-735a1f-fe,Michigan State University,Physics,Michigan State University-Physics,control
+5ae0df-7d9f8d-a5,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+5c0ac8-4e62a3-2c,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+601d8c-390422-ea,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+63f950-163a01-1a,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+6ac827-1494be-58,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+70ffc8-c0c5c9-33,Michigan State University,Physics,Michigan State University-Physics,control
+77a14b-0c8498-0d,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+f1a8f7-de9a3a-4f,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+8af320-b4b262-f6,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+966b0e-486f89-78,Michigan State University,Computer Science,Michigan State University-Computer Science,control
+ac9f50-100f05-13,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+acd58d-ff3e9f-9d,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+b2406c-f92ce3-46,Michigan State University,Chemistry,Michigan State University-Chemistry,treatment
+b327d5-21c725-3c,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+b7bafc-074bbd-f3,Michigan State University,Chemistry,Michigan State University-Chemistry,treatment
+c566cb-c2fb13-c4,Michigan State University,Computer Science,Michigan State University-Computer Science,control
+f3b23d-8e0575-6d,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+fb6fc1-c5d7c6-e6,Michigan State University,Mathematics,Michigan State University-Mathematics,control
+32d74d-11aee9-20,Mississippi State University,Chemistry,Mississippi State University-Chemistry,treatment
+6fef66-483091-f3,Mississippi State University,Physics,Mississippi State University-Physics,treatment
+86aac9-87126c-dc,Mississippi State University,Computer Science,Mississippi State University-Computer Science,control
+c64475-f0dd12-5a,Mississippi State University,Mathematics,Mississippi State University-Mathematics,treatment
+005d0a-caf943-2a,Montana State University,Mathematics,Montana State University-Mathematics,treatment
+1981a8-ac4c1d-f7,Montana State University,Mathematics,Montana State University-Mathematics,treatment
+4a9620-d2ce55-f1,Montana State University,Computer Science,Montana State University-Computer Science,control
+5093ca-546bca-93,Montana State University,Mathematics,Montana State University-Mathematics,treatment
+8f6d42-5f019f-d3,Montana State University,Physics,Montana State University-Physics,control
+16094b-ee728c-74,Montana State University,Chemistry,Montana State University-Chemistry,treatment
+58adea-4d686c-06,New Jersey Institute of Technology,Computer Science,New Jersey Institute of Technology-Computer Science,control
+9b4494-e6a770-22,New Jersey Institute of Technology,Mathematics,New Jersey Institute of Technology-Mathematics,treatment
+881654-db0786-23,New Jersey Institute of Technology,Physics,New Jersey Institute of Technology-Physics,treatment
+d8ef76-6bb727-3a,New Jersey Institute of Technology,Mathematics,New Jersey Institute of Technology-Mathematics,treatment
+dab507-4f665b-11,New Jersey Institute of Technology,Physics,New Jersey Institute of Technology-Physics,treatment
+06d591-975592-48,New York University,Mathematics,New York University-Mathematics,control
+08783c-af46b5-41,New York University,Mathematics,New York University-Mathematics,control
+164d63-ee9263-b7,New York University,Mathematics,New York University-Mathematics,control
+166b41-73e4f7-90,New York University,Mathematics,New York University-Mathematics,control
+1b1c2d-c3a1c0-e8,New York University,Mathematics,New York University-Mathematics,control
+223285-14f038-2a,New York University,Physics,New York University-Physics,treatment
+2d959d-6de411-79,New York University,Chemistry,New York University-Chemistry,control
+304530-00d6c1-3d,New York University,Physics,New York University-Physics,treatment
+3fca95-1d876b-82,New York University,Physics,New York University-Physics,treatment
+4487a3-b142a0-1d,New York University,Computer Science,New York University-Computer Science,treatment
+4accde-ee77d8-d7,New York University,Mathematics,New York University-Mathematics,control
+4ad761-b836b4-56,New York University,Physics,New York University-Physics,treatment
+503ade-f6e71c-c8,New York University,Physics,New York University-Physics,treatment
+55eaa9-45b7e8-fb,New York University,Computer Science,New York University-Computer Science,treatment
+5f725b-7078ee-cb,New York University,Physics,New York University-Physics,treatment
+785a27-678acf-83,New York University,Mathematics,New York University-Mathematics,control
+87c22a-2b2915-dd,New York University,Mathematics,New York University-Mathematics,control
+948e19-f5b647-93,New York University,Mathematics,New York University-Mathematics,control
+aed7a8-b70d7e-ce,New York University,Mathematics,New York University-Mathematics,control
+bbe76d-a46ebe-83,New York University,Computer Science,New York University-Computer Science,treatment
+d116b4-30f5e5-5f,New York University,Mathematics,New York University-Mathematics,control
+e6adfb-2fe38e-64,New York University,Physics,New York University-Physics,treatment
+ee8223-5c6f7d-c2,New York University,Chemistry,New York University-Chemistry,control
+059130-ac3c3e-80,North Carolina State University,Mathematics,North Carolina State University-Mathematics,treatment
+059b2e-0ac028-51,North Carolina State University,Mathematics,North Carolina State University-Mathematics,treatment
+4fc7c1-7fb7bb-22,North Carolina State University,Mathematics,North Carolina State University-Mathematics,treatment
+5a0e49-5bd931-28,North Carolina State University,Mathematics,North Carolina State University-Mathematics,treatment
+63b307-208a52-a6,North Carolina State University,Chemistry,North Carolina State University-Chemistry,control
+73a5de-475ec5-b4,North Carolina State University,Mathematics,North Carolina State University-Mathematics,treatment
+751c7d-3d4e3c-1a,North Carolina State University,Mathematics,North Carolina State University-Mathematics,treatment
+a695c2-495355-e5,North Carolina State University,Mathematics,North Carolina State University-Mathematics,treatment
+aa51ec-d06624-43,North Carolina State University,Physics,North Carolina State University-Physics,control
+ba93a0-0672fb-ba,North Carolina State University,Chemistry,North Carolina State University-Chemistry,control
+cb333b-c7f581-e2,North Carolina State University,Mechanical Engineering,North Carolina State University-Mechanical Engineering,control
+d2e70d-5a0567-b1,North Carolina State University,Physics,North Carolina State University-Physics,control
+d9b79a-6b9f82-65,North Carolina State University,Computer Science,North Carolina State University-Computer Science,control
+c18f5b-8e156c-cc,North Carolina State University,Chemistry,North Carolina State University-Chemistry,control
+7c54d9-8dfa0e-54,North Carolina State University,Chemistry,North Carolina State University-Chemistry,control
+65625a-9ddacd-7f,North Carolina State University,Chemistry,North Carolina State University-Chemistry,control
+f822f3-edf2b8-71,North Carolina State University,Computer Science,North Carolina State University-Computer Science,control
+1f05d2-c38084-b9,North Dakota State University,Mathematics,North Dakota State University-Mathematics,treatment
+34f9d5-1cb21a-dc,North Dakota State University,Mathematics,North Dakota State University-Mathematics,treatment
+57f459-14eb89-28,North Dakota State University,Mathematics,North Dakota State University-Mathematics,treatment
+bc62e8-680ace-05,North Dakota State University,Mathematics,North Dakota State University-Mathematics,treatment
+cf0eae-1d19f1-25,North Dakota State University,Physics,North Dakota State University-Physics,treatment
+d43aad-441877-87,North Dakota State University,Computer Science,North Dakota State University-Computer Science,control
+0440cb-2db6c1-41,Northeastern University,Computer Science,Northeastern University-Computer Science,treatment
+0cee9c-4400fb-97,Northeastern University,Mathematics,Northeastern University-Mathematics,treatment
+2cedc1-2c1383-0c,Northeastern University,Mathematics,Northeastern University-Mathematics,treatment
+749093-e8bd02-08,Northeastern University,Computer Science,Northeastern University-Computer Science,treatment
+873820-959d97-04,Northeastern University,Mathematics,Northeastern University-Mathematics,treatment
+9a38e8-b24e10-29,Northeastern University,Physics,Northeastern University-Physics,treatment
+a3b69c-38deea-56,Northeastern University,Chemistry,Northeastern University-Chemistry,control
+f3fa97-5a82a5-da,Northeastern University,Physics,Northeastern University-Physics,treatment
+f8e9e2-ad6798-2e,Northeastern University,Physics,Northeastern University-Physics,treatment
+134bf3-98037b-2d,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+247c10-ca0668-ce,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+2b4cc5-6b1915-92,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+2fc2fc-b03713-a7,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+38c0a3-a91cf7-08,Northwestern University,Computer Science,Northwestern University-Computer Science,control
+5ecf1b-688af6-b5,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+6d3e0d-cdbaaf-26,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+8b4e81-dda4a0-23,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+a9f288-c84ed6-9e,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+c3a842-4ef7f6-f3,Northwestern University,Mathematics,Northwestern University-Mathematics,treatment
+cee8a8-3c6a12-a8,Northwestern University,Computer Science,Northwestern University-Computer Science,control
+0b179f-1a779c-6d,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+169d47-d02bdf-10,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+1b64f0-f5a9ad-6d,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+2103ca-eaca9e-c3,Ohio State University,Physics,Ohio State University-Physics,treatment
+269f60-9743d8-c0,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+28327b-02544c-61,Ohio State University,Physics,Ohio State University-Physics,treatment
+2e25f5-67151f-a2,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+2e8de6-79564d-ce,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+333e3d-08f9ee-03,Ohio State University,Chemistry,Ohio State University-Chemistry,treatment
+3f8c76-8da1b9-43,Ohio State University,Physics,Ohio State University-Physics,treatment
+4c1dab-50f7ce-aa,Ohio State University,Physics,Ohio State University-Physics,treatment
+7372d2-9e9ce4-da,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+825035-eb5620-f3,Ohio State University,Physics,Ohio State University-Physics,treatment
+829787-0dbe12-9b,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+87f65e-e23c21-35,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+5971c5-78dc61-cf,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+8bb43e-0dd591-fd,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+8fcd0d-8c43a5-32,Ohio State University,Chemistry,Ohio State University-Chemistry,treatment
+9c4f45-9106df-57,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+a7f0f5-de25f2-3b,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+b08a08-4c30f0-4b,Ohio State University,Physics,Ohio State University-Physics,treatment
+ba4bfc-098dfe-59,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+c679b1-dfe22a-b6,Ohio State University,Physics,Ohio State University-Physics,treatment
+cee7c3-791273-6a,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+cfad34-81d328-c7,Ohio State University,Physics,Ohio State University-Physics,treatment
+d0841c-77bbfc-7a,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+db7ee6-0de6c7-e2,Ohio State University,Physics,Ohio State University-Physics,treatment
+ed47b5-bcf2a0-b5,Ohio State University,Chemistry,Ohio State University-Chemistry,treatment
+f25749-5e8965-25,Ohio State University,Physics,Ohio State University-Physics,treatment
+fb33f9-63d7ee-b5,Ohio State University,Mathematics,Ohio State University-Mathematics,treatment
+01de47-a88483-6e,Ohio University,Physics,Ohio University-Physics,treatment
+6d9d91-7b898b-76,Ohio University,Chemistry,Ohio University-Chemistry,control
+700453-6be2ef-10,Ohio University,Mathematics,Ohio University-Mathematics,treatment
+c11751-d9ebe4-94,Ohio University,Physics,Ohio University-Physics,treatment
+1e22cb-20fc56-2c,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+45b27a-7f298a-be,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+534828-b5f519-2f,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+58d3fc-d0d91a-4e,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+7501f8-6d6731-43,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+925d8e-21826d-9c,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+9a0854-d090f0-23,Oklahoma State University-Stillwater,Chemistry,Oklahoma State University-Stillwater-Chemistry,treatment
+bfc62c-1aeb6b-09,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+d690dc-48b10c-27,Oklahoma State University-Stillwater,Physics,Oklahoma State University-Stillwater-Physics,control
+d87285-d2ecf7-2c,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+e6f247-3c271e-e5,Oklahoma State University-Stillwater,Mathematics,Oklahoma State University-Stillwater-Mathematics,control
+4bedcf-1da5da-cb,Old Dominion University,Chemistry,Old Dominion University-Chemistry,treatment
+6cb94d-f5c64b-ba,Old Dominion University,Computer Science,Old Dominion University-Computer Science,control
+812c69-06a68d-c8,Old Dominion University,Physics,Old Dominion University-Physics,control
+8fe7da-2930c6-1b,Old Dominion University,Mathematics,Old Dominion University-Mathematics,control
+ba9178-cc0858-e1,Old Dominion University,Physics,Old Dominion University-Physics,control
+013a53-eb8d4a-88,Oregon State University,Computer Science,Oregon State University-Computer Science,control
+2d7e54-e26c65-c7,Oregon State University,Computer Science,Oregon State University-Computer Science,control
+50453b-04a7ad-49,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+764904-c75b74-dc,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+930bcf-5d8cd3-b3,Oregon State University,Mechanical Engineering,Oregon State University-Mechanical Engineering,treatment
+9874cf-ce5618-5e,Oregon State University,Physics,Oregon State University-Physics,control
+9887a8-15e5a5-3f,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+b5e09b-b7c821-3a,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+b6aa16-4a7d6e-fa,Oregon State University,Physics,Oregon State University-Physics,control
+cf5a22-788cc0-6f,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+cff16b-186708-a5,Oregon State University,Chemistry,Oregon State University-Chemistry,control
+d48cc5-6fd034-56,Oregon State University,Computer Science,Oregon State University-Computer Science,control
+d50e1c-a201e9-84,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+dd20fd-0c13b6-62,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+e316c7-4b5ba1-c9,Oregon State University,Mechanical Engineering,Oregon State University-Mechanical Engineering,treatment
+ec0050-d84fe6-73,Oregon State University,Mechanical Engineering,Oregon State University-Mechanical Engineering,treatment
+ef0319-090d40-c5,Oregon State University,Mathematics,Oregon State University-Mathematics,treatment
+fff1e8-088e56-78,Oregon State University,Mechanical Engineering,Oregon State University-Mechanical Engineering,treatment
+202caa-2379f3-c4,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+23a36e-69b407-1e,Pennsylvania State University,Physics,Pennsylvania State University-Physics,control
+249470-3fa383-98,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+2d9b5d-a335ae-d1,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+338895-06c1c2-6e,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+3bfd79-3162ff-7d,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+4125eb-6be93c-c8,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+424149-4b9de3-72,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+4f67b4-f12d17-6e,Pennsylvania State University,Mechanical Engineering,Pennsylvania State University-Mechanical Engineering,control
+552c7a-d2666a-90,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+71c5d2-6abb85-14,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+7d0426-e7177f-c8,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+7df4b3-63707d-1f,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+a49036-090587-5e,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+b07d29-39a9fe-38,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+b18888-d6a9dc-51,Pennsylvania State University,Physics,Pennsylvania State University-Physics,control
+be11a1-5a14ae-d7,Pennsylvania State University,Chemistry,Pennsylvania State University-Chemistry,treatment
+c02109-2cd04d-25,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+d9d8d8-0958d9-74,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+e9e5b5-0581cd-31,Pennsylvania State University,Mathematics,Pennsylvania State University-Mathematics,control
+09adbe-115b9f-19,Princeton University,Mathematics,Princeton University-Mathematics,control
+0a7e6f-67877c-29,Princeton University,Mathematics,Princeton University-Mathematics,control
+0d2528-e3e71f-da,Princeton University,Mathematics,Princeton University-Mathematics,control
+159c40-1d68a4-b9,Princeton University,Mathematics,Princeton University-Mathematics,control
+25ecbf-8944f9-39,Princeton University,Chemistry,Princeton University-Chemistry,treatment
+3e9d38-c2423f-ed,Princeton University,Mathematics,Princeton University-Mathematics,control
+3ea741-6f1bfe-35,Princeton University,Chemistry,Princeton University-Chemistry,treatment
+413707-148a78-3d,Princeton University,Mathematics,Princeton University-Mathematics,control
+48613d-04b12b-dc,Princeton University,Mathematics,Princeton University-Mathematics,control
+52f52e-9b0a3b-b6,Princeton University,Mathematics,Princeton University-Mathematics,control
+5eece1-8e494a-58,Princeton University,Physics,Princeton University-Physics,control
+70b888-41139b-a4,Princeton University,Chemistry,Princeton University-Chemistry,treatment
+734636-624c92-70,Princeton University,Mathematics,Princeton University-Mathematics,control
+7fa346-9e6c95-0a,Princeton University,Mechanical Engineering,Princeton University-Mechanical Engineering,control
+965cb6-82226f-71,Princeton University,Physics,Princeton University-Physics,control
+9bc45b-7e5f12-c5,Princeton University,Mathematics,Princeton University-Mathematics,control
+a0def1-6db309-2d,Princeton University,Chemistry,Princeton University-Chemistry,treatment
+c12d90-47dffa-15,Princeton University,Mathematics,Princeton University-Mathematics,control
+b2cac7-ec74e5-79,Princeton University,Chemistry,Princeton University-Chemistry,treatment
+b93e2d-f2afcb-8c,Princeton University,Computer Science,Princeton University-Computer Science,treatment
+bc2568-46b6c1-a7,Princeton University,Mathematics,Princeton University-Mathematics,control
+c0b0d5-bde040-dc,Princeton University,Mathematics,Princeton University-Mathematics,control
+cf1991-774aee-7b,Princeton University,Mathematics,Princeton University-Mathematics,control
+d15b2b-f62717-8b,Princeton University,Mathematics,Princeton University-Mathematics,control
+da3885-378956-bf,Princeton University,Mathematics,Princeton University-Mathematics,control
+dc8606-3e5f66-97,Princeton University,Chemistry,Princeton University-Chemistry,treatment
+dd72b4-c616d7-d9,Princeton University,Mathematics,Princeton University-Mathematics,control
+e999ed-a0f601-05,Princeton University,Mathematics,Princeton University-Mathematics,control
+eb6882-b62ee5-81,Princeton University,Mathematics,Princeton University-Mathematics,control
+ee1a6d-ae29d8-57,Princeton University,Mathematics,Princeton University-Mathematics,control
+f049b5-c85521-3e,Princeton University,Physics,Princeton University-Physics,control
+f105e5-8fcde4-0d,Princeton University,Mechanical Engineering,Princeton University-Mechanical Engineering,control
+084aec-dcee6d-fb,Purdue University,Physics,Purdue University-Physics,control
+0895f9-067ce7-da,Purdue University,Physics,Purdue University-Physics,control
+2d6e0b-a2b1df-c6,Purdue University,Mathematics,Purdue University-Mathematics,treatment
+391871-9e99d4-be,Purdue University,Physics,Purdue University-Physics,control
+3d1545-c806eb-5f,Purdue University,Physics,Purdue University-Physics,control
+41c7d7-cf0269-40,Purdue University,Chemistry,Purdue University-Chemistry,control
+486360-65bd85-02,Purdue University,Computer Science,Purdue University-Computer Science,treatment
+4af734-69f58a-6f,Purdue University,Mathematics,Purdue University-Mathematics,treatment
+558087-2a4782-83,Purdue University,Physics,Purdue University-Physics,control
+59b256-c93966-44,Purdue University,Chemistry,Purdue University-Chemistry,control
+6b805f-ff8139-cd,Purdue University,Chemistry,Purdue University-Chemistry,control
+7011a0-9fe669-5b,Purdue University,Mathematics,Purdue University-Mathematics,treatment
+80d49a-f55b97-a8,Purdue University,Computer Science,Purdue University-Computer Science,treatment
+90368f-0d4672-eb,Purdue University,Physics,Purdue University-Physics,control
+9bb845-14335d-15,Purdue University,Mechanical Engineering,Purdue University-Mechanical Engineering,treatment
+a082c6-8a899c-90,Purdue University,Chemistry,Purdue University-Chemistry,control
+a9dcf6-50da4f-67,Purdue University,Mathematics,Purdue University-Mathematics,treatment
+c18a55-f4b12d-8f,Purdue University,Mathematics,Purdue University-Mathematics,treatment
+c19135-df3606-4b,Purdue University,Chemistry,Purdue University-Chemistry,control
+c89321-29c7b6-37,Purdue University,Mathematics,Purdue University-Mathematics,treatment
+c98170-d99af0-28,Purdue University,Chemistry,Purdue University-Chemistry,control
+d7f826-59fec3-8e,Purdue University,Chemistry,Purdue University-Chemistry,control
+ddab79-175ccf-2c,Purdue University,Computer Science,Purdue University-Computer Science,treatment
+ded33b-d2e50a-a6,Purdue University,Computer Science,Purdue University-Computer Science,treatment
+f7598a-d8ebf9-d9,Purdue University,Physics,Purdue University-Physics,control
+f826a6-21f2b7-f2,Purdue University,Mathematics,Purdue University-Mathematics,treatment
+fbc0c9-9288ab-df,Purdue University,Chemistry,Purdue University-Chemistry,control
+273fa2-5060ca-c8,Rensselaer Polytechnic Institute,Mathematics,Rensselaer Polytechnic Institute-Mathematics,treatment
+33fc23-5ce873-c6,Rensselaer Polytechnic Institute,Chemistry,Rensselaer Polytechnic Institute-Chemistry,treatment
+3af205-6a1314-11,Rensselaer Polytechnic Institute,Mechanical Engineering,Rensselaer Polytechnic Institute-Mechanical Engineering,treatment
+868e6f-e89418-e7,Rensselaer Polytechnic Institute,Physics,Rensselaer Polytechnic Institute-Physics,control
+cc969a-4987cf-8e,Rensselaer Polytechnic Institute,Computer Science,Rensselaer Polytechnic Institute-Computer Science,control
+539a12-7a6572-17,Rice University,Mathematics,Rice University-Mathematics,treatment
+5a8639-bfd795-6b,Rice University,Physics,Rice University-Physics,treatment
+663396-502db0-61,Rice University,Computer Science,Rice University-Computer Science,control
+78696b-885c69-ec,Rice University,Computer Science,Rice University-Computer Science,control
+24ea37-a9ded1-11,Rice University,Mathematics,Rice University-Mathematics,treatment
+994e47-382084-10,Rice University,Mathematics,Rice University-Mathematics,treatment
+a66aec-c6eeaf-57,Rice University,Mathematics,Rice University-Mathematics,treatment
+b8c357-72f1c3-d6,Rice University,Mathematics,Rice University-Mathematics,treatment
+e15d24-5ab08a-b5,Rice University,Chemistry,Rice University-Chemistry,treatment
+ee5226-64a607-eb,Rice University,Mechanical Engineering,Rice University-Mechanical Engineering,treatment
+011abf-b70a67-65,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+091e6a-43893d-19,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+12f461-b39d81-77,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+1c7f9e-67dd36-6e,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+1dfdc5-617b7e-53,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+2f6158-df5fb5-05,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+3f4eff-e104a0-47,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+53712b-6cd5bb-fc,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+53b3ce-1dbb51-8e,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+570429-e69e82-92,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+5c24ca-98952b-a3,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+5f2abe-7c7f66-36,Rutgers University-New Brunswick,Computer Science,Rutgers University-New Brunswick-Computer Science,treatment
+6b0bae-6aa458-b9,Rutgers University-New Brunswick,Chemistry,Rutgers University-New Brunswick-Chemistry,treatment
+6c0daf-86198b-d4,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+755de0-b9a967-a0,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+94dccd-adb6ce-92,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+884bb7-38b1f0-5b,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+8b533f-e01c0b-a9,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+a587a6-565588-70,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+3a99f9-c530ab-fc,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+c190ef-b1bf31-07,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+bb88f4-435527-7c,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+bd99ce-20f38e-bc,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+be7c55-fd0fad-f8,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+c11c5f-58b459-d3,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+cd7093-32e4d3-00,Rutgers University-New Brunswick,Mathematics,Rutgers University-New Brunswick-Mathematics,control
+d2c7d2-9a80c2-3c,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+d56a7f-3834a1-6b,Rutgers University-New Brunswick,Chemistry,Rutgers University-New Brunswick-Chemistry,treatment
+e077f4-d030f7-25,Rutgers University-New Brunswick,Chemistry,Rutgers University-New Brunswick-Chemistry,treatment
+e59b6b-a79a88-de,Rutgers University-New Brunswick,Mechanical Engineering,Rutgers University-New Brunswick-Mechanical Engineering,treatment
+e99937-4b7861-69,Rutgers University-New Brunswick,Computer Science,Rutgers University-New Brunswick-Computer Science,treatment
+e9c6ab-f54df3-fa,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+f152be-7b5986-27,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+f1ae63-1482df-32,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+f52613-d884a6-ca,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+f8bbf1-0e6afd-27,Rutgers University-New Brunswick,Computer Science,Rutgers University-New Brunswick-Computer Science,treatment
+f9856d-6195a4-9e,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+fcd883-ff382a-7e,Rutgers University-New Brunswick,Chemistry,Rutgers University-New Brunswick-Chemistry,treatment
+ffb31a-aefbd2-6c,Rutgers University-New Brunswick,Physics,Rutgers University-New Brunswick-Physics,control
+35dd3e-ffece6-a3,Stanford University,Chemistry,Stanford University-Chemistry,treatment
+3e4593-3652c8-17,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+472d83-1c2503-1c,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+48de1f-38d33a-5f,Stanford University,Chemistry,Stanford University-Chemistry,treatment
+6a234c-8d16ef-60,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+72ab6a-050849-40,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+b02679-21eb6a-dc,Stanford University,Chemistry,Stanford University-Chemistry,treatment
+385dcb-1da035-1c,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+390fc3-1803cf-5a,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+3be33f-c29741-4b,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+baf0b9-4945ff-ca,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+c50ba6-c44e7f-84,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+bca10b-1bdbb7-c2,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+c3443a-280e59-31,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+dc2ced-2906a5-dc,Stanford University,Physics,Stanford University-Physics,control
+e598e0-8c3363-03,Stanford University,Chemistry,Stanford University-Chemistry,treatment
+ed484b-f3b587-fa,Stanford University,Mathematics,Stanford University-Mathematics,treatment
+01dcca-7bbb99-e5,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+158842-d0c47c-1e,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+1d36f0-52fa39-a8,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+20b5f4-babe1c-53,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+2917a9-10c521-36,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+30add6-d82e2f-ec,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+623420-d5d1fe-25,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+726f84-fc7d5b-e4,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+760332-8ee2a2-41,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+868472-64f440-e2,Stony Brook University,Chemistry,Stony Brook University-Chemistry,control
+87c14d-dd4a98-f8,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+8e8971-ed2625-18,Stony Brook University,Chemistry,Stony Brook University-Chemistry,control
+922d4d-915a67-06,Stony Brook University,Computer Science,Stony Brook University-Computer Science,control
+938cf3-201780-68,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+9696e1-6c9766-c3,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+aff408-0cd9a5-42,Stony Brook University,Computer Science,Stony Brook University-Computer Science,control
+6a9484-cfb8db-a2,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+b59298-a43d5b-db,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+bf8213-0fc894-fa,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+bd6503-c3c782-bd,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+c137dd-f6685f-cd,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+c7da6e-67fd51-fd,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+cbb5cf-d96504-2c,Stony Brook University,Chemistry,Stony Brook University-Chemistry,control
+d0c5c2-365b16-8c,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+d78bf6-bb391c-25,Stony Brook University,Chemistry,Stony Brook University-Chemistry,control
+db1d1d-795f6b-c5,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+e5029e-18ce25-1a,Stony Brook University,Chemistry,Stony Brook University-Chemistry,control
+e9ba2d-ebc5f3-dd,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+f0f147-98a885-cd,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+f96fc3-2715f0-03,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+fc1036-fa14ec-59,Stony Brook University,Physics,Stony Brook University-Physics,treatment
+fcc4ac-5b2ce4-1a,Stony Brook University,Mathematics,Stony Brook University-Mathematics,control
+078e81-afde7a-ca,Syracuse University,Physics,Syracuse University-Physics,treatment
+11de47-300d27-53,Syracuse University,Chemistry,Syracuse University-Chemistry,treatment
+296f16-abc6c8-be,Syracuse University,Physics,Syracuse University-Physics,treatment
+64dfbf-c28db0-84,Syracuse University,Physics,Syracuse University-Physics,treatment
+baab16-d8578e-b4,Syracuse University,Physics,Syracuse University-Physics,treatment
+1c63dc-e62fb3-6b,Temple University,Mathematics,Temple University-Mathematics,control
+6e3f25-d35359-18,Temple University,Physics,Temple University-Physics,treatment
+785b34-5ac112-34,Temple University,Mathematics,Temple University-Mathematics,control
+92f339-e8dfcc-61,Temple University,Physics,Temple University-Physics,treatment
+a73341-50e535-78,Temple University,Mathematics,Temple University-Mathematics,control
+b38af2-032c35-49,Temple University,Mathematics,Temple University-Mathematics,control
+d4bf73-266067-af,Temple University,Chemistry,Temple University-Chemistry,treatment
+dedd0a-716edb-1b,Temple University,Mathematics,Temple University-Mathematics,control
+e48224-badd91-82,Temple University,Mathematics,Temple University-Mathematics,control
+e97c21-d8a738-e2,Temple University,Mathematics,Temple University-Mathematics,control
+04b408-f784d7-ac,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+1b6b3d-38f401-de,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+2d244e-252307-08,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+2e898f-e2a69f-92,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+31cb93-c5a3b5-0d,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+418248-124a3d-bf,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+444fb5-6376b0-81,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+494171-68c9dc-85,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+5270e1-8aa732-3d,Texas A&M University,Chemistry,Texas A&M University-Chemistry,treatment
+59fd69-c64f8b-94,Texas A&M University,Computer Science,Texas A&M University-Computer Science,control
+8b63a1-adb166-94,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+eddb64-40d70b-b2,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+9e7616-191888-ca,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+ba2f65-3f1c6d-f8,Texas A&M University,Mechanical Engineering,Texas A&M University-Mechanical Engineering,treatment
+baee54-2350e8-48,Texas A&M University,Mechanical Engineering,Texas A&M University-Mechanical Engineering,treatment
+c3e476-86b2ed-b2,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+cbe47f-1812bc-13,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+dcf667-541e0b-cb,Texas A&M University,Physics,Texas A&M University-Physics,treatment
+f7f774-fcc47c-89,Texas A&M University,Mathematics,Texas A&M University-Mathematics,treatment
+5ad64d-d24077-8c,Texas Tech University,Computer Science,Texas Tech University-Computer Science,treatment
+95382e-d29ef6-f4,Texas Tech University,Chemistry,Texas Tech University-Chemistry,treatment
+b4948d-b66a2e-08,Texas Tech University,Mathematics,Texas Tech University-Mathematics,control
+e1ee1e-5afbc5-88,Texas Tech University,Mathematics,Texas Tech University-Mathematics,control
+e3b897-2c1a43-a3,Texas Tech University,Mechanical Engineering,Texas Tech University-Mechanical Engineering,treatment
+fcdb2f-495f4e-4e,Texas Tech University,Physics,Texas Tech University-Physics,treatment
+0248f3-7f4441-14,Tufts University,Mathematics,Tufts University-Mathematics,control
+13c4c8-fd1c57-d9,Tufts University,Mathematics,Tufts University-Mathematics,control
+1e5d13-0a8490-ac,Tufts University,Physics,Tufts University-Physics,treatment
+20166e-41d1c4-b0,Tufts University,Physics,Tufts University-Physics,treatment
+255e18-fa2507-67,Tufts University,Physics,Tufts University-Physics,treatment
+2bb577-beec08-36,Tufts University,Physics,Tufts University-Physics,treatment
+39aa8f-a98676-c3,Tufts University,Mathematics,Tufts University-Mathematics,control
+60179d-20e751-ed,Tufts University,Chemistry,Tufts University-Chemistry,treatment
+6714ca-11e111-73,Tufts University,Computer Science,Tufts University-Computer Science,control
+6c5728-11e20d-e3,Tufts University,Physics,Tufts University-Physics,treatment
+a67823-9e13a0-05,Tufts University,Mathematics,Tufts University-Mathematics,control
+bb708b-4f48e0-e5,Tufts University,Mathematics,Tufts University-Mathematics,control
+bf864a-130847-86,Tufts University,Mathematics,Tufts University-Mathematics,control
+ff7c42-a308a7-22,Tufts University,Mechanical Engineering,Tufts University-Mechanical Engineering,control
+0c9de2-68d4f1-d0,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+21b81e-93bda8-d7,Tulane University,Computer Science,Tulane University-Computer Science,control
+239860-b2b400-44,Tulane University,Chemistry,Tulane University-Chemistry,control
+3cf822-41a3b2-b9,Tulane University,Physics,Tulane University-Physics,treatment
+4da718-6f0402-c0,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+5075ea-d8a95f-aa,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+52522e-5b7f1f-8b,Tulane University,Computer Science,Tulane University-Computer Science,control
+944599-aba4e5-da,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+b108e7-4d62ab-cf,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+ceccea-f74857-9a,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+e191e4-9ea3e8-79,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+ea5f4f-5f2e0e-6b,Tulane University,Mathematics,Tulane University-Mathematics,treatment
+154975-f8ef1f-3d,"University at Albany, SUNY",Physics,"University at Albany, SUNY-Physics",treatment
+38601b-7a378a-98,"University at Albany, SUNY",Mathematics,"University at Albany, SUNY-Mathematics",control
+5c4b38-bb1f55-56,"University at Albany, SUNY",Mathematics,"University at Albany, SUNY-Mathematics",control
+6311fc-eb6ed6-6c,"University at Albany, SUNY",Chemistry,"University at Albany, SUNY-Chemistry",treatment
+b3ca7a-d3cc7d-4f,"University at Albany, SUNY",Physics,"University at Albany, SUNY-Physics",treatment
+b6be6f-864927-7a,"University at Albany, SUNY",Mathematics,"University at Albany, SUNY-Mathematics",control
+d06499-94ed3a-c2,"University at Albany, SUNY",Mathematics,"University at Albany, SUNY-Mathematics",control
+011e14-875572-14,University at Buffalo,Computer Science,University at Buffalo-Computer Science,control
+08af46-bd4f45-0b,University at Buffalo,Mathematics,University at Buffalo-Mathematics,control
+24e5fe-8957fe-3c,University at Buffalo,Mathematics,University at Buffalo-Mathematics,control
+51a4e6-9b9dda-01,University at Buffalo,Chemistry,University at Buffalo-Chemistry,control
+53df1c-c10c46-5b,University at Buffalo,Physics,University at Buffalo-Physics,treatment
+76144c-9a9c83-5b,University at Buffalo,Mathematics,University at Buffalo-Mathematics,control
+8485ce-63972b-3a,University at Buffalo,Chemistry,University at Buffalo-Chemistry,control
+a717e0-9977cf-a3,University at Buffalo,Mathematics,University at Buffalo-Mathematics,control
+a74ca3-1b760b-60,University at Buffalo,Computer Science,University at Buffalo-Computer Science,control
+b85c07-52d94e-4c,University at Buffalo,Mechanical Engineering,University at Buffalo-Mechanical Engineering,control
+b8a5d0-789810-39,University at Buffalo,Mathematics,University at Buffalo-Mathematics,control
+e44274-d9d19c-45,University at Buffalo,Physics,University at Buffalo-Physics,treatment
+f0016d-34e7d8-8b,University at Buffalo,Chemistry,University at Buffalo-Chemistry,control
+1deb5d-36fe46-e0,University of Alabama,Chemistry,University of Alabama-Chemistry,treatment
+3c48d8-464bed-81,University of Alabama,Computer Science,University of Alabama-Computer Science,control
+70ed2a-0a5abf-98,University of Alabama,Physics,University of Alabama-Physics,control
+885615-4bc480-29,University of Alabama,Mathematics,University of Alabama-Mathematics,control
+a424e9-cbf2fe-e2,University of Alabama,Mathematics,University of Alabama-Mathematics,control
+d0040b-e7803f-a0,University of Alabama,Mathematics,University of Alabama-Mathematics,control
+ee6baa-8705e6-cb,University of Alabama,Mechanical Engineering,University of Alabama-Mechanical Engineering,treatment
+278db4-02d7d5-e4,University of Alabama at Birmingham,Mathematics,University of Alabama at Birmingham-Mathematics,control
+bf1a8c-9c8b93-02,University of Alabama at Birmingham,Chemistry,University of Alabama at Birmingham-Chemistry,treatment
+089265-dd6228-06,University of Alabama in Huntsville,Mathematics,University of Alabama in Huntsville-Mathematics,control
+59b606-239bdc-24,University of Alabama in Huntsville,Physics,University of Alabama in Huntsville-Physics,control
+0f3b3e-9b0550-4c,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+12deb4-1b70d7-8b,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+14568e-f0fc54-c7,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+167259-627a63-2d,University of Arizona,Chemistry,University of Arizona-Chemistry,control
+1f8281-5b0696-14,University of Arizona,Chemistry,University of Arizona-Chemistry,control
+227222-df75da-75,University of Arizona,Physics,University of Arizona-Physics,control
+31daa5-e2bf52-58,University of Arizona,Chemistry,University of Arizona-Chemistry,control
+3562af-e9bbdc-20,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+3f042b-edb130-a3,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+428a53-522aba-f1,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+4ed910-2de68e-8e,University of Arizona,Chemistry,University of Arizona-Chemistry,control
+69c48f-679c55-c7,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+7da751-e139f6-39,University of Arizona,Mechanical Engineering,University of Arizona-Mechanical Engineering,control
+812a53-ff0c8c-ba,University of Arizona,Physics,University of Arizona-Physics,control
+bac0f6-0ea93e-c6,University of Arizona,Computer Science,University of Arizona-Computer Science,treatment
+c2515f-12671d-97,University of Arizona,Chemistry,University of Arizona-Chemistry,control
+c65a4f-2c5b50-8b,University of Arizona,Chemistry,University of Arizona-Chemistry,control
+c90079-bd3836-2b,University of Arizona,Physics,University of Arizona-Physics,control
+e8e1e0-1137cf-4a,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+f02df6-f291a8-58,University of Arizona,Physics,University of Arizona-Physics,control
+f44e8e-66bf2a-bd,University of Arizona,Physics,University of Arizona-Physics,control
+f49479-d292fc-f9,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+f676d4-69642c-a7,University of Arizona,Mathematics,University of Arizona-Mathematics,treatment
+34dd9d-8e97cf-3d,University of Arkansas,Physics,University of Arkansas-Physics,control
+511b18-d892cb-6c,University of Arkansas,Mathematics,University of Arkansas-Mathematics,treatment
+83481f-564ed6-33,University of Arkansas,Chemistry,University of Arkansas-Chemistry,treatment
+8633b6-893350-f2,University of Arkansas,Mathematics,University of Arkansas-Mathematics,treatment
+887a30-8013d2-ae,University of Arkansas,Mathematics,University of Arkansas-Mathematics,treatment
+eacfa3-71199d-c9,University of Arkansas,Physics,University of Arkansas-Physics,control
+0f5c65-8df78f-ce,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+16d531-009c16-7d,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+19711a-a99c34-9a,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+1a7a33-ad8f63-ba,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+1f13a2-8b1743-9c,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+2bcbfb-c365c7-42,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+2f6dff-5a4583-1e,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+374dd7-1d0a88-f1,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+47a370-167ac7-35,"University of California, Berkeley",Physics,"University of California, Berkeley-Physics",control
+481b4e-bb9f38-32,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+52f7da-4131c3-37,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+59395b-23c135-4e,"University of California, Berkeley",Physics,"University of California, Berkeley-Physics",control
+5d502a-9647e8-ec,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+5f9ed9-74bac3-07,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+641cc8-b13b14-fc,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+676015-5ae8ab-a6,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+77b599-a812cf-88,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+7f5a3e-6c8a60-66,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+812f97-296260-86,"University of California, Berkeley",Mechanical Engineering,"University of California, Berkeley-Mechanical Engineering",control
+8be985-e22b73-3e,"University of California, Berkeley",Computer Science,"University of California, Berkeley-Computer Science",control
+8c8295-dcf26c-9b,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+8daa09-344943-e1,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+8e1801-de6ab3-fd,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+8e6fd4-8b26c1-14,"University of California, Berkeley",Physics,"University of California, Berkeley-Physics",control
+8f68f5-8c76fa-3b,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+921db4-5edcc3-1e,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+93e080-b3e46c-a0,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+9842ab-884d58-36,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+9be8e9-d6e229-4f,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+a515b8-c69bee-22,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+aa6aa6-44abcc-dc,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+bda41e-48efda-01,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+c11378-b3a14f-b5,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+c1e7be-7dff0d-b8,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+ca272f-0d6565-fb,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+cb9070-f7eef8-b9,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+cbb328-7f3a63-26,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+cf58b7-3d64bc-4f,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+dd7334-458c7f-db,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+e0d5ca-21e936-43,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+eb06ce-5e845c-b1,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+ee0a31-db9a9c-6a,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+f663e2-cb5cc5-57,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+f6683c-a6ab79-2d,"University of California, Berkeley",Mathematics,"University of California, Berkeley-Mathematics",treatment
+fc2602-4ed799-0d,"University of California, Berkeley",Chemistry,"University of California, Berkeley-Chemistry",treatment
+045e8a-441431-f5,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+13d5b1-86734f-f1,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+2be995-e1ff50-6a,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+2f2c30-9d8b31-24,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+35df9c-dcc9b8-c4,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+3ae77b-26dfcb-cb,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+3b087b-117d60-25,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+3ce6fe-4618b2-83,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+6d9a7e-fb10da-a0,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+78448d-d4e025-b3,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+7e0500-eaa339-22,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+7e4cd9-f42a77-a8,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+8906b2-b81d67-a8,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+905d6e-1462e5-2f,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+9b6e32-7c4709-00,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+aa03a2-594fb3-26,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+c695df-d0159b-73,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+d18200-7e106a-5b,"University of California, Davis",Chemistry,"University of California, Davis-Chemistry",treatment
+d8bb28-8287dd-6c,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+da74a4-6c5a15-e2,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+eb5a62-02e0c7-56,"University of California, Davis",Mathematics,"University of California, Davis-Mathematics",control
+f3d223-0a4f74-1b,"University of California, Davis",Physics,"University of California, Davis-Physics",control
+00b316-d7200e-fd,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+02178a-edb0b8-b1,"University of California, Irvine",Physics,"University of California, Irvine-Physics",treatment
+0a9d77-f684ff-8a,"University of California, Irvine",Physics,"University of California, Irvine-Physics",treatment
+14d5b4-ddb3cf-f5,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+174cb3-09ac2c-14,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+175f93-30c4bc-eb,"University of California, Irvine",Physics,"University of California, Irvine-Physics",treatment
+2049a8-02b4f2-d4,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+331817-d30ba9-50,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+342c05-4fdeb2-42,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+3c2ff3-5bb333-57,"University of California, Irvine",Computer Science,"University of California, Irvine-Computer Science",treatment
+3eb2d1-f43d48-3d,"University of California, Irvine",Physics,"University of California, Irvine-Physics",treatment
+3fae5c-726137-ca,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+42e4d6-7bb66a-06,"University of California, Irvine",Physics,"University of California, Irvine-Physics",treatment
+61625e-11002f-58,"University of California, Irvine",Chemistry,"University of California, Irvine-Chemistry",control
+717205-04f382-ef,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+73f147-e9e87f-ec,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+8a805b-bac800-b1,"University of California, Irvine",Computer Science,"University of California, Irvine-Computer Science",treatment
+8f2db6-f5b9e2-b9,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+91a074-655cf0-b5,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+9dde82-2cf9a0-89,"University of California, Irvine",Physics,"University of California, Irvine-Physics",treatment
+aa7cf7-8fb7fe-93,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+adf7f5-75af74-d9,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+b7940c-413458-a1,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+b99160-7991ca-b4,"University of California, Irvine",Computer Science,"University of California, Irvine-Computer Science",treatment
+ba16ae-0ace16-fc,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+d79c80-be1367-03,"University of California, Irvine",Computer Science,"University of California, Irvine-Computer Science",treatment
+de5b85-b316ce-6b,"University of California, Irvine",Mechanical Engineering,"University of California, Irvine-Mechanical Engineering",control
+dffd39-41b7b0-14,"University of California, Irvine",Computer Science,"University of California, Irvine-Computer Science",treatment
+e18cb9-0c2421-4d,"University of California, Irvine",Mathematics,"University of California, Irvine-Mathematics",control
+e4b8d6-a2a80a-f1,"University of California, Irvine",Physics,"University of California, Irvine-Physics",treatment
+ff3f53-75adda-c0,"University of California, Irvine",Computer Science,"University of California, Irvine-Computer Science",treatment
+086a11-532139-0c,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+0f01ed-8508d6-07,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+10d866-56146b-9d,"University of California, Los Angeles",Chemistry,"University of California, Los Angeles-Chemistry",treatment
+11a9ad-20255e-57,"University of California, Los Angeles",Mechanical Engineering,"University of California, Los Angeles-Mechanical Engineering",control
+1a9023-af1dec-a5,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+1fc5ce-174f62-39,"University of California, Los Angeles",Chemistry,"University of California, Los Angeles-Chemistry",treatment
+289207-9b98ab-c3,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+2ba917-158630-c2,"University of California, Los Angeles",Mechanical Engineering,"University of California, Los Angeles-Mechanical Engineering",control
+30d2d1-88dbb4-83,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+344d47-ddc31a-c1,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+410865-4537f2-98,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+43aa94-d5b5eb-64,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+45d5f8-56a52b-35,"University of California, Los Angeles",Computer Science,"University of California, Los Angeles-Computer Science",treatment
+460b58-6484b2-3e,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+469d72-769329-27,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+4d73b4-6ee15b-4a,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+5b3ff4-5d1e2f-57,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+652978-5b5ab0-6b,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+6b5927-45a321-b6,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+6bed10-bbedc2-cc,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+708963-5df9b4-11,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+75bcf9-234469-58,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+827107-7e79c5-9f,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+832827-e6375e-c0,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+910626-6f93b2-c8,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+935aef-d278ba-ac,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+96afb3-38b0d9-92,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+979236-3b96d8-be,"University of California, Los Angeles",Chemistry,"University of California, Los Angeles-Chemistry",treatment
+9b1836-4fa550-a3,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+a6ae3c-9eebd9-3e,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+a94eed-d22c7a-3e,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+ab5b4e-4221d6-e8,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+b1f648-7ad346-5f,"University of California, Los Angeles",Chemistry,"University of California, Los Angeles-Chemistry",treatment
+b20aff-acb6d9-d4,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+b787ec-5b16eb-cb,"University of California, Los Angeles",Chemistry,"University of California, Los Angeles-Chemistry",treatment
+cec6f4-9bda2e-c2,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+df0f44-8f708d-a7,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+e71b30-61edb6-b1,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+f251bb-255c61-47,"University of California, Los Angeles",Chemistry,"University of California, Los Angeles-Chemistry",treatment
+f44e62-abacc2-1b,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+f6d9dc-dfd2f8-a8,"University of California, Los Angeles",Chemistry,"University of California, Los Angeles-Chemistry",treatment
+fc239e-e6a33c-c6,"University of California, Los Angeles",Mathematics,"University of California, Los Angeles-Mathematics",control
+fc6b0d-49f81f-d6,"University of California, Los Angeles",Physics,"University of California, Los Angeles-Physics",treatment
+0bc297-6655d5-c0,"University of California, Riverside",Computer Science,"University of California, Riverside-Computer Science",control
+1bb2ba-4337df-01,"University of California, Riverside",Chemistry,"University of California, Riverside-Chemistry",treatment
+206226-0f6984-8e,"University of California, Riverside",Physics,"University of California, Riverside-Physics",control
+372723-9be494-8a,"University of California, Riverside",Physics,"University of California, Riverside-Physics",control
+3a7e6a-f4da6f-cf,"University of California, Riverside",Computer Science,"University of California, Riverside-Computer Science",control
+468cc8-636c59-23,"University of California, Riverside",Mechanical Engineering,"University of California, Riverside-Mechanical Engineering",control
+579de3-d811b3-35,"University of California, Riverside",Chemistry,"University of California, Riverside-Chemistry",treatment
+716903-7140d0-00,"University of California, Riverside",Chemistry,"University of California, Riverside-Chemistry",treatment
+8a32d7-d047e6-85,"University of California, Riverside",Physics,"University of California, Riverside-Physics",control
+a50955-0eccf9-9b,"University of California, Riverside",Chemistry,"University of California, Riverside-Chemistry",treatment
+e1ece5-5e97a2-ca,"University of California, Riverside",Chemistry,"University of California, Riverside-Chemistry",treatment
+fd9fbc-8beea3-8a,"University of California, Riverside",Physics,"University of California, Riverside-Physics",control
+06e46a-f64c31-d5,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+0d64a1-dedf3f-60,"University of California, San Diego",Chemistry,"University of California, San Diego-Chemistry",control
+119ae7-646532-6c,"University of California, San Diego",Chemistry,"University of California, San Diego-Chemistry",control
+124b83-56b845-1b,"University of California, San Diego",Chemistry,"University of California, San Diego-Chemistry",control
+12d4e7-bdfb96-da,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+18a52c-75b384-f8,"University of California, San Diego",Mechanical Engineering,"University of California, San Diego-Mechanical Engineering",control
+1bee8c-a75308-7f,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+3aa523-94ac66-f1,"University of California, San Diego",Mechanical Engineering,"University of California, San Diego-Mechanical Engineering",control
+44d080-791236-21,"University of California, San Diego",Physics,"University of California, San Diego-Physics",treatment
+5381b7-15eebe-38,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+61f06c-5af08a-f8,"University of California, San Diego",Chemistry,"University of California, San Diego-Chemistry",control
+6489a5-ef8500-35,"University of California, San Diego",Chemistry,"University of California, San Diego-Chemistry",control
+6fb4a6-025082-e6,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+74187d-efbd09-b6,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+7e3650-a4cfb4-f3,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+84eaa4-b62058-14,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+91dd59-d2a922-05,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+92f997-15415a-f0,"University of California, San Diego",Physics,"University of California, San Diego-Physics",treatment
+9b0a83-311bc4-74,"University of California, San Diego",Mechanical Engineering,"University of California, San Diego-Mechanical Engineering",control
+a5680d-f44328-c3,"University of California, San Diego",Mechanical Engineering,"University of California, San Diego-Mechanical Engineering",control
+b919d7-744f19-ae,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+bd5103-e8c0a0-60,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+c079a1-0f99fc-a5,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+c07d4f-a98325-91,"University of California, San Diego",Chemistry,"University of California, San Diego-Chemistry",control
+c0ccce-d5765d-42,"University of California, San Diego",Mechanical Engineering,"University of California, San Diego-Mechanical Engineering",control
+ea5e8e-8ef108-33,"University of California, San Diego",Chemistry,"University of California, San Diego-Chemistry",control
+fd8b82-029fb4-b4,"University of California, San Diego",Mathematics,"University of California, San Diego-Mathematics",treatment
+145b13-d2c791-0d,"University of California, Santa Barbara",Computer Science,"University of California, Santa Barbara-Computer Science",treatment
+221186-a72a53-7f,"University of California, Santa Barbara",Physics,"University of California, Santa Barbara-Physics",control
+2b17d0-21e67b-da,"University of California, Santa Barbara",Chemistry,"University of California, Santa Barbara-Chemistry",treatment
+350cbd-691de9-a7,"University of California, Santa Barbara",Chemistry,"University of California, Santa Barbara-Chemistry",treatment
+6865a9-8980b0-37,"University of California, Santa Barbara",Physics,"University of California, Santa Barbara-Physics",control
+702c10-db74c6-ea,"University of California, Santa Barbara",Chemistry,"University of California, Santa Barbara-Chemistry",treatment
+76efc5-ca69e4-17,"University of California, Santa Barbara",Chemistry,"University of California, Santa Barbara-Chemistry",treatment
+79dbc8-9e679e-29,"University of California, Santa Barbara",Computer Science,"University of California, Santa Barbara-Computer Science",treatment
+7e90ca-163d17-11,"University of California, Santa Barbara",Mathematics,"University of California, Santa Barbara-Mathematics",control
+818a84-d6b1c3-84,"University of California, Santa Barbara",Computer Science,"University of California, Santa Barbara-Computer Science",treatment
+894ef5-8a3df1-bc,"University of California, Santa Barbara",Chemistry,"University of California, Santa Barbara-Chemistry",treatment
+8ef5e6-862f90-29,"University of California, Santa Barbara",Mathematics,"University of California, Santa Barbara-Mathematics",control
+95accd-4b4be7-a9,"University of California, Santa Barbara",Mathematics,"University of California, Santa Barbara-Mathematics",control
+9b5023-8bf5b0-ca,"University of California, Santa Barbara",Mechanical Engineering,"University of California, Santa Barbara-Mechanical Engineering",treatment
+c680be-ef3cb0-7d,"University of California, Santa Barbara",Mathematics,"University of California, Santa Barbara-Mathematics",control
+c814a9-b5a50b-72,"University of California, Santa Barbara",Mathematics,"University of California, Santa Barbara-Mathematics",control
+0981bb-fbb99c-8f,"University of California, Santa Cruz",Physics,"University of California, Santa Cruz-Physics",treatment
+0cd47b-0e5d48-e0,"University of California, Santa Cruz",Mathematics,"University of California, Santa Cruz-Mathematics",treatment
+38d065-1f37d7-bc,"University of California, Santa Cruz",Physics,"University of California, Santa Cruz-Physics",treatment
+70dc15-1397ad-20,"University of California, Santa Cruz",Mathematics,"University of California, Santa Cruz-Mathematics",treatment
+97bbac-0098cb-fc,"University of California, Santa Cruz",Physics,"University of California, Santa Cruz-Physics",treatment
+c8f3ca-af7bb8-23,"University of California, Santa Cruz",Mathematics,"University of California, Santa Cruz-Mathematics",treatment
+e717fe-ff48fa-b7,"University of California, Santa Cruz",Chemistry,"University of California, Santa Cruz-Chemistry",treatment
+3846db-b3df00-61,University of Central Florida,Mathematics,University of Central Florida-Mathematics,treatment
+513b7e-461441-5d,University of Central Florida,Physics,University of Central Florida-Physics,treatment
+68bab1-211a90-09,University of Central Florida,Chemistry,University of Central Florida-Chemistry,treatment
+7b5c1c-7088de-a2,University of Central Florida,Mathematics,University of Central Florida-Mathematics,treatment
+e1eaa1-17ac8e-90,University of Central Florida,Mathematics,University of Central Florida-Mathematics,treatment
+e976f1-ace3a2-c0,University of Central Florida,Mathematics,University of Central Florida-Mathematics,treatment
+0343da-985cf4-0e,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+0b98ab-7656c6-1d,University of Chicago,Chemistry,University of Chicago-Chemistry,treatment
+1ba1fc-40358b-b7,University of Chicago,Physics,University of Chicago-Physics,treatment
+20687a-dd55d8-e1,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+249308-980400-28,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+387938-fbda47-26,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+3c95d3-9d8946-11,University of Chicago,Computer Science,University of Chicago-Computer Science,treatment
+41aacf-10e061-23,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+441623-5d8055-e4,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+487947-00316d-d1,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+1d6037-61f0ad-b7,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+573a43-163ec6-f9,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+5cc631-34546c-44,University of Chicago,Chemistry,University of Chicago-Chemistry,treatment
+601eb6-cff4d3-b3,University of Chicago,Physics,University of Chicago-Physics,treatment
+61d20b-62eb03-0d,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+6a389a-4e2d79-50,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+1285a6-8fe8c1-93,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+846dab-fd06e9-1c,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+af3844-951c38-71,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+bb5a98-72a0df-52,University of Chicago,Physics,University of Chicago-Physics,treatment
+d82df8-f98c99-60,University of Chicago,Chemistry,University of Chicago-Chemistry,treatment
+e5bacd-274278-32,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+fdc27d-877d04-8f,University of Chicago,Mathematics,University of Chicago-Mathematics,control
+048afd-b56b8b-7b,University of Cincinnati,Mechanical Engineering,University of Cincinnati-Mechanical Engineering,control
+4f6b5c-fe537f-f8,University of Cincinnati,Chemistry,University of Cincinnati-Chemistry,control
+c11aac-863fb4-b6,University of Cincinnati,Mathematics,University of Cincinnati-Mathematics,control
+d26451-7b8674-6f,University of Cincinnati,Mathematics,University of Cincinnati-Mathematics,control
+03fa38-199b92-45,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+235413-77381d-74,University of Colorado Boulder,Physics,University of Colorado Boulder-Physics,control
+2f8538-e851a0-c8,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+33f1bf-d6aad8-24,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+4076c4-c4c032-ab,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+50c066-4d8396-2d,University of Colorado Boulder,Physics,University of Colorado Boulder-Physics,control
+53addd-76f490-bc,University of Colorado Boulder,Chemistry,University of Colorado Boulder-Chemistry,treatment
+564d18-89cdb0-a5,University of Colorado Boulder,Chemistry,University of Colorado Boulder-Chemistry,treatment
+857e75-b59f28-40,University of Colorado Boulder,Chemistry,University of Colorado Boulder-Chemistry,treatment
+99ed4c-d932fe-68,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+9ec117-a13f2f-a7,University of Colorado Boulder,Physics,University of Colorado Boulder-Physics,control
+a1547d-8134c1-b4,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+b617ce-939010-b5,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+b87638-7220d8-ca,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+bb6593-009c0c-d9,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+bed028-cbf98e-26,University of Colorado Boulder,Mechanical Engineering,University of Colorado Boulder-Mechanical Engineering,control
+c6ca2c-b9e1f2-9a,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+cd596c-f36de6-97,University of Colorado Boulder,Mechanical Engineering,University of Colorado Boulder-Mechanical Engineering,control
+e87b9e-3f797a-56,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+ef08db-85b641-06,University of Colorado Boulder,Chemistry,University of Colorado Boulder-Chemistry,treatment
+f71884-bcfcc2-9b,University of Colorado Boulder,Mathematics,University of Colorado Boulder-Mathematics,control
+36cd78-71dc6d-af,University of Colorado Denver,Mathematics,University of Colorado Denver-Mathematics,treatment
+7f6800-e75ee8-e0,University of Colorado Denver,Chemistry,University of Colorado Denver-Chemistry,treatment
+96a32d-1bc325-b2,University of Colorado Denver,Chemistry,University of Colorado Denver-Chemistry,treatment
+e00233-07d0ce-1c,University of Colorado Denver,Chemistry,University of Colorado Denver-Chemistry,treatment
+fe5aa9-00f67b-c7,University of Colorado Denver,Mathematics,University of Colorado Denver-Mathematics,treatment
+03392d-63bd38-9a,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+1b7fc8-db4f7a-19,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+256909-179d98-d1,University of Connecticut,Physics,University of Connecticut-Physics,treatment
+2ff8fc-f22539-04,University of Connecticut,Chemistry,University of Connecticut-Chemistry,treatment
+490950-470362-c6,University of Connecticut,Mechanical Engineering,University of Connecticut-Mechanical Engineering,treatment
+759c2d-b4200b-0a,University of Connecticut,Physics,University of Connecticut-Physics,treatment
+7d8b9b-46431a-ed,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+810c9b-d6f3cd-a0,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+88d340-bbecd7-92,University of Connecticut,Physics,University of Connecticut-Physics,treatment
+8c10f4-e13fa1-d7,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+9ada1a-06a217-96,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+b604a4-14f085-5d,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+c158eb-8efb84-d5,University of Connecticut,Physics,University of Connecticut-Physics,treatment
+c34f68-b77e93-65,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+d9e124-deddb2-0c,University of Connecticut,Mathematics,University of Connecticut-Mathematics,treatment
+06f139-d14dcb-99,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+174d30-df924d-c4,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+1b065b-36010c-82,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+2e28be-1b0ca8-4b,University of Delaware,Physics,University of Delaware-Physics,treatment
+3014fa-d5e3d6-45,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+663a3b-e32bf2-8d,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+85174c-8d65d3-35,University of Delaware,Physics,University of Delaware-Physics,treatment
+e8147f-a22478-30,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+ae934f-104f9e-3e,University of Delaware,Physics,University of Delaware-Physics,treatment
+b2fa90-bb460d-1f,University of Delaware,Physics,University of Delaware-Physics,treatment
+4078ea-b63d6e-72,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+d0d417-f3f76f-9f,University of Delaware,Mechanical Engineering,University of Delaware-Mechanical Engineering,control
+d16cab-b39e78-c5,University of Delaware,Physics,University of Delaware-Physics,treatment
+d26520-5d1a1e-bc,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+e50aca-851449-ee,University of Delaware,Computer Science,University of Delaware-Computer Science,treatment
+ebaee8-773795-03,University of Delaware,Mathematics,University of Delaware-Mathematics,treatment
+f2e0a0-11ac28-19,University of Delaware,Physics,University of Delaware-Physics,treatment
+fb4e27-772966-da,University of Delaware,Physics,University of Delaware-Physics,treatment
+3c1ad8-2e7c58-9b,University of Denver,Chemistry,University of Denver-Chemistry,control
+456012-7e7bd1-a9,University of Denver,Physics,University of Denver-Physics,treatment
+5c1e52-9bd2ae-8a,University of Denver,Mathematics,University of Denver-Mathematics,control
+70f2f2-2f9d92-f8,University of Denver,Mathematics,University of Denver-Mathematics,control
+d90b76-c20def-62,University of Denver,Mathematics,University of Denver-Mathematics,control
+0f0a7a-345883-3c,University of Florida,Mathematics,University of Florida-Mathematics,control
+408523-7e4bbb-19,University of Florida,Mathematics,University of Florida-Mathematics,control
+4bfad5-cf18b6-b5,University of Florida,Physics,University of Florida-Physics,control
+4fc430-c773aa-f1,University of Florida,Computer Science,University of Florida-Computer Science,treatment
+6ffd67-a86bca-19,University of Florida,Physics,University of Florida-Physics,control
+777966-2bc88d-a8,University of Florida,Mechanical Engineering,University of Florida-Mechanical Engineering,treatment
+833011-6e1cb5-76,University of Florida,Mathematics,University of Florida-Mathematics,control
+907bf9-56b6cb-0c,University of Florida,Mathematics,University of Florida-Mathematics,control
+b08eb8-ad139d-c3,University of Florida,Mathematics,University of Florida-Mathematics,control
+bc9181-8ca4bb-c5,University of Florida,Physics,University of Florida-Physics,control
+dcd903-e43435-91,University of Florida,Chemistry,University of Florida-Chemistry,control
+f0aa7f-a4d802-65,University of Florida,Physics,University of Florida-Physics,control
+00aa10-e8beff-4c,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+0d091a-267479-aa,University of Georgia,Chemistry,University of Georgia-Chemistry,control
+1194d0-7e014e-48,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+14eb82-27042c-2d,University of Georgia,Chemistry,University of Georgia-Chemistry,control
+198c52-06192d-14,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+3ed1e4-abc2aa-bd,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+46b4a8-1ac3fa-e2,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+6fbaee-d743b6-a4,University of Georgia,Chemistry,University of Georgia-Chemistry,control
+896fd1-6c9ee6-e3,University of Georgia,Chemistry,University of Georgia-Chemistry,control
+9bd382-d00cff-19,University of Georgia,Chemistry,University of Georgia-Chemistry,control
+a2237f-432669-4e,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+a43131-f167c3-e8,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+8041e7-ad35b1-8c,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+cbc57d-ef1db9-56,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+dd9c59-183eb9-29,University of Georgia,Computer Science,University of Georgia-Computer Science,control
+e8cd71-52a52c-4e,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+f0fcc6-16d0eb-c8,University of Georgia,Physics,University of Georgia-Physics,control
+f211a4-5b5d19-cc,University of Georgia,Chemistry,University of Georgia-Chemistry,control
+fa33f3-a5e719-4c,University of Georgia,Mathematics,University of Georgia-Mathematics,treatment
+1f196d-0e3b15-5c,University of Hawaii at Manoa,Mathematics,University of Hawaii at Manoa-Mathematics,control
+2129db-85fa2d-7a,University of Hawaii at Manoa,Physics,University of Hawaii at Manoa-Physics,control
+3d499c-542c76-3a,University of Hawaii at Manoa,Mechanical Engineering,University of Hawaii at Manoa-Mechanical Engineering,treatment
+7181ff-c941d1-9c,University of Hawaii at Manoa,Mathematics,University of Hawaii at Manoa-Mathematics,control
+f55c64-d3428c-9d,University of Hawaii at Manoa,Chemistry,University of Hawaii at Manoa-Chemistry,control
+0966b8-833dd9-cb,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+142e80-600353-9e,University of Houston,Mechanical Engineering,University of Houston-Mechanical Engineering,control
+41b8f7-851268-25,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+4bd2df-49b63f-ee,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+858944-8ecfbb-03,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+8b2ce9-dc67fb-5d,University of Houston,Physics,University of Houston-Physics,control
+8b2f77-a35bb7-75,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+b8ea64-5c827e-47,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+c7e74d-5996a7-3a,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+d10261-5d0f69-5f,University of Houston,Computer Science,University of Houston-Computer Science,treatment
+dffebf-43f15b-8a,University of Houston,Chemistry,University of Houston-Chemistry,treatment
+e6f4ef-aaeb26-ca,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+f021d1-a1071e-6f,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+fdd0ed-31bb6e-20,University of Houston,Mathematics,University of Houston-Mathematics,treatment
+058042-a002d6-1f,University of Illinois Chicago,Physics,University of Illinois Chicago-Physics,treatment
+2a4362-a16ae7-07,University of Illinois Chicago,Mathematics,University of Illinois Chicago-Mathematics,control
+400d91-a09426-a3,University of Illinois Chicago,Physics,University of Illinois Chicago-Physics,treatment
+2a447b-1b6ad2-e8,University of Illinois Chicago,Mechanical Engineering,University of Illinois Chicago-Mechanical Engineering,treatment
+417388-0167eb-74,University of Illinois Chicago,Computer Science,University of Illinois Chicago-Computer Science,control
+52cf29-787554-8e,University of Illinois Chicago,Chemistry,University of Illinois Chicago-Chemistry,treatment
+6ab20e-31ba0c-39,University of Illinois Chicago,Physics,University of Illinois Chicago-Physics,treatment
+74583a-8eec85-19,University of Illinois Chicago,Physics,University of Illinois Chicago-Physics,treatment
+070c95-519ed4-ac,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+22c22e-62879e-83,University of Illinois Urbana-Champaign,Mechanical Engineering,University of Illinois Urbana-Champaign-Mechanical Engineering,treatment
+2bf4a9-cf5a5d-cb,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+35692c-476f38-99,University of Illinois Urbana-Champaign,Chemistry,University of Illinois Urbana-Champaign-Chemistry,control
+40bbe4-0c2a19-65,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+57a379-49af03-5c,University of Illinois Urbana-Champaign,Mathematics,University of Illinois Urbana-Champaign-Mathematics,treatment
+60e0a0-92771b-cd,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+627383-96707f-71,University of Illinois Urbana-Champaign,Computer Science,University of Illinois Urbana-Champaign-Computer Science,treatment
+7e166b-10cfba-b5,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+ae4ec7-9ec772-a7,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+b0ef3e-af0204-25,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+b15db7-7882c3-ac,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+b634ab-d0dd15-c4,University of Illinois Urbana-Champaign,Chemistry,University of Illinois Urbana-Champaign-Chemistry,control
+bb9684-9c1e3c-55,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+d42d3a-031390-20,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+1a21b3-f88892-9e,University of Illinois Urbana-Champaign,Chemistry,University of Illinois Urbana-Champaign-Chemistry,control
+a0e96a-89bd69-cd,University of Illinois Urbana-Champaign,Chemistry,University of Illinois Urbana-Champaign-Chemistry,control
+991e5a-a4de9a-5b,University of Illinois Urbana-Champaign,Chemistry,University of Illinois Urbana-Champaign-Chemistry,control
+dec363-0aa6bf-f0,University of Illinois Urbana-Champaign,Physics,University of Illinois Urbana-Champaign-Physics,treatment
+32eef3-56f794-51,University of Iowa,Chemistry,University of Iowa-Chemistry,control
+44c646-03227c-ba,University of Iowa,Chemistry,University of Iowa-Chemistry,control
+4e14c5-8f594f-2b,University of Iowa,Mathematics,University of Iowa-Mathematics,control
+83f066-0d238f-9b,University of Iowa,Computer Science,University of Iowa-Computer Science,control
+85ac3a-0ccf24-a7,University of Iowa,Physics,University of Iowa-Physics,control
+9fba06-8ec63c-1d,University of Iowa,Mathematics,University of Iowa-Mathematics,control
+2a5bc9-cc81b4-5e,University of Kansas,Chemistry,University of Kansas-Chemistry,control
+5a64c2-65bc12-c8,University of Kansas,Physics,University of Kansas-Physics,control
+646418-2ae4c3-cd,University of Kansas,Mathematics,University of Kansas-Mathematics,control
+86fd12-31766b-f6,University of Kansas,Chemistry,University of Kansas-Chemistry,control
+8cf2f4-781031-fa,University of Kansas,Chemistry,University of Kansas-Chemistry,control
+aef5f9-0d5cd2-1d,University of Kansas,Chemistry,University of Kansas-Chemistry,control
+c290ec-62caa3-39,University of Kansas,Physics,University of Kansas-Physics,control
+eb3cfe-5d06eb-ce,University of Kansas,Mathematics,University of Kansas-Mathematics,control
+f1e214-edd2fc-48,University of Kansas,Physics,University of Kansas-Physics,control
+1d45c4-c5c48c-b8,University of Kentucky,Mechanical Engineering,University of Kentucky-Mechanical Engineering,treatment
+204f85-979a42-90,University of Kentucky,Mathematics,University of Kentucky-Mathematics,control
+5c795d-2da1e2-d7,University of Kentucky,Physics,University of Kentucky-Physics,control
+64d7dd-4ef5c4-58,University of Kentucky,Computer Science,University of Kentucky-Computer Science,treatment
+7d1f97-8d00a3-7a,University of Kentucky,Physics,University of Kentucky-Physics,control
+a34241-75b6e8-13,University of Kentucky,Mathematics,University of Kentucky-Mathematics,control
+ac530a-4b1327-25,University of Kentucky,Physics,University of Kentucky-Physics,control
+af569e-da84d9-4a,University of Kentucky,Physics,University of Kentucky-Physics,control
+d00b5c-461b21-3f,University of Kentucky,Chemistry,University of Kentucky-Chemistry,treatment
+d3f23e-89958f-74,University of Kentucky,Physics,University of Kentucky-Physics,control
+ebd770-fc81bf-66,University of Kentucky,Physics,University of Kentucky-Physics,control
+2cf96e-806178-35,University of Louisiana at Lafayette,Chemistry,University of Louisiana at Lafayette-Chemistry,control
+390d1f-19dc2b-96,University of Louisiana at Lafayette,Mathematics,University of Louisiana at Lafayette-Mathematics,control
+504bdf-cbf291-3a,University of Louisiana at Lafayette,Mathematics,University of Louisiana at Lafayette-Mathematics,control
+54f579-b0fb32-10,University of Louisiana at Lafayette,Physics,University of Louisiana at Lafayette-Physics,treatment
+58fc8d-86e321-50,University of Louisiana at Lafayette,Mathematics,University of Louisiana at Lafayette-Mathematics,control
+5a9b97-9d6c34-60,University of Louisiana at Lafayette,Mathematics,University of Louisiana at Lafayette-Mathematics,control
+6a053c-02a30a-35,University of Louisiana at Lafayette,Mathematics,University of Louisiana at Lafayette-Mathematics,control
+80b4ee-3117f6-85,University of Louisiana at Lafayette,Computer Science,University of Louisiana at Lafayette-Computer Science,treatment
+ab345a-5a7183-77,University of Louisiana at Lafayette,Mechanical Engineering,University of Louisiana at Lafayette-Mechanical Engineering,control
+001fae-92e882-7e,University of Louisville,Mathematics,University of Louisville-Mathematics,control
+1364a7-bafdca-99,University of Louisville,Physics,University of Louisville-Physics,treatment
+4de3df-ccf3a4-99,University of Louisville,Mathematics,University of Louisville-Mathematics,control
+635129-552b86-d0,University of Louisville,Mechanical Engineering,University of Louisville-Mechanical Engineering,treatment
+78350e-e7e7a0-83,University of Louisville,Mathematics,University of Louisville-Mathematics,control
+825f72-79130d-d4,University of Louisville,Mathematics,University of Louisville-Mathematics,control
+88bbd0-2a4a7b-44,University of Louisville,Mathematics,University of Louisville-Mathematics,control
+bc5ad1-98277f-99,University of Louisville,Chemistry,University of Louisville-Chemistry,control
+cf3e7b-86bc45-53,University of Louisville,Mathematics,University of Louisville-Mathematics,control
+d8b08a-c497fb-a4,University of Louisville,Computer Science,University of Louisville-Computer Science,control
+714cf3-6ef3a0-c2,University of Maine,Mathematics,University of Maine-Mathematics,control
+cc942f-d4beac-a2,University of Maine,Mechanical Engineering,University of Maine-Mechanical Engineering,control
+eaca50-1fc505-46,University of Maine,Physics,University of Maine-Physics,treatment
+3f5f0b-21cb22-53,"University of Maryland, Baltimore County",Physics,"University of Maryland, Baltimore County-Physics",control
+5345fc-a561b1-d5,"University of Maryland, Baltimore County",Mathematics,"University of Maryland, Baltimore County-Mathematics",treatment
+55ef36-756dcc-68,"University of Maryland, Baltimore County",Physics,"University of Maryland, Baltimore County-Physics",control
+561aff-cb06c0-d8,"University of Maryland, Baltimore County",Mathematics,"University of Maryland, Baltimore County-Mathematics",treatment
+bafa9d-6d1566-34,"University of Maryland, Baltimore County",Mathematics,"University of Maryland, Baltimore County-Mathematics",treatment
+f12570-55dc08-57,"University of Maryland, Baltimore County",Mathematics,"University of Maryland, Baltimore County-Mathematics",treatment
+0888cc-80dcd3-8c,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+2c76c7-e003bf-44,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+2f8b60-34047a-de,"University of Maryland, College Park",Mechanical Engineering,"University of Maryland, College Park-Mechanical Engineering",treatment
+31d1bf-c8cda1-72,"University of Maryland, College Park",Physics,"University of Maryland, College Park-Physics",control
+3b0378-b67cce-7e,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+489228-992bf4-7a,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+4c4754-3aedd1-85,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+51ac52-931ab5-10,"University of Maryland, College Park",Computer Science,"University of Maryland, College Park-Computer Science",treatment
+559178-14deed-b4,"University of Maryland, College Park",Physics,"University of Maryland, College Park-Physics",control
+5bafa8-29f72d-f7,"University of Maryland, College Park",Physics,"University of Maryland, College Park-Physics",control
+5decc2-444d08-4b,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+61c88f-9cd64c-bf,"University of Maryland, College Park",Computer Science,"University of Maryland, College Park-Computer Science",treatment
+62f13b-ff2266-cd,"University of Maryland, College Park",Physics,"University of Maryland, College Park-Physics",control
+745e58-c2c775-66,"University of Maryland, College Park",Computer Science,"University of Maryland, College Park-Computer Science",treatment
+8c8c3c-d564e1-49,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+949156-8d5fe1-5f,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+a8c68b-d20375-ee,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+b4b0f1-97c1eb-c4,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+c29066-c11806-ee,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+cd0d68-4ba8b1-24,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+d12437-232532-19,"University of Maryland, College Park",Physics,"University of Maryland, College Park-Physics",control
+d46176-5252c4-05,"University of Maryland, College Park",Computer Science,"University of Maryland, College Park-Computer Science",treatment
+d7aa7c-4c0fb0-c6,"University of Maryland, College Park",Physics,"University of Maryland, College Park-Physics",control
+db8a87-3c76c4-07,"University of Maryland, College Park",Computer Science,"University of Maryland, College Park-Computer Science",treatment
+eac348-4af568-6f,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+ed1459-1750b2-0f,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+f6df41-ac2555-67,"University of Maryland, College Park",Physics,"University of Maryland, College Park-Physics",control
+f89059-83a4a7-d9,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+fe9fb3-f9cddb-fc,"University of Maryland, College Park",Mathematics,"University of Maryland, College Park-Mathematics",control
+06af24-486e60-04,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+2e218a-f9655a-ac,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+31f5df-7d1f95-e8,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+395f3e-8895d8-35,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+3989f4-ab5b0f-1e,University of Massachusetts Amherst,Chemistry,University of Massachusetts Amherst-Chemistry,control
+3cbf2f-6c91c9-cc,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+40a1fc-f5e8f0-7f,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+436a96-84b0be-17,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+4474db-7e569d-6f,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+4707f9-15f8aa-8f,University of Massachusetts Amherst,Computer Science,University of Massachusetts Amherst-Computer Science,control
+662114-e3b95d-85,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+8cda65-139de9-65,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+a14b0f-e0e173-7a,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+d61a50-a56786-28,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+e0bb44-3b6096-91,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+e80f7d-e898a9-69,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+e8d3c3-48da5d-60,University of Massachusetts Amherst,Mathematics,University of Massachusetts Amherst-Mathematics,control
+024600-71da61-b1,University of Memphis,Mathematics,University of Memphis-Mathematics,control
+3c3776-1602c0-6b,University of Memphis,Chemistry,University of Memphis-Chemistry,treatment
+963763-62c1c9-82,University of Memphis,Mathematics,University of Memphis-Mathematics,control
+a345dd-5d70f7-3d,University of Memphis,Mathematics,University of Memphis-Mathematics,control
+cf5d48-72ca4c-cc,University of Memphis,Computer Science,University of Memphis-Computer Science,treatment
+e4529c-843d53-4e,University of Memphis,Mathematics,University of Memphis-Mathematics,control
+e78c24-cbe19d-9f,University of Memphis,Physics,University of Memphis-Physics,treatment
+11b531-3a984b-04,University of Miami,Computer Science,University of Miami-Computer Science,treatment
+463dad-0ddef9-e9,University of Miami,Mathematics,University of Miami-Mathematics,treatment
+9f9034-b4d1c1-a2,University of Miami,Physics,University of Miami-Physics,treatment
+c2a880-96e94f-12,University of Miami,Physics,University of Miami-Physics,treatment
+3596ae-145d30-74,University of Miami,Chemistry,University of Miami-Chemistry,control
+e13ab9-948e25-5d,University of Miami,Mathematics,University of Miami-Mathematics,treatment
+0827ad-65389c-d1,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+0c8b29-4d8ba9-d4,University of Michigan,Mechanical Engineering,University of Michigan-Mechanical Engineering,treatment
+0f9b3d-fcc0d4-5e,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+14bfbd-7f30c4-e4,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+1943bd-dd3040-8d,University of Michigan,Physics,University of Michigan-Physics,treatment
+1c056a-e44e07-da,University of Michigan,Physics,University of Michigan-Physics,treatment
+1c670c-c35bfe-6c,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+1dd1fd-04f157-e4,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+213f4f-ffa635-c0,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+214c5f-278771-f5,University of Michigan,Chemistry,University of Michigan-Chemistry,treatment
+242ac9-6e29b2-67,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+24ce84-6a64c2-bd,University of Michigan,Physics,University of Michigan-Physics,treatment
+271ebe-13a861-2a,University of Michigan,Physics,University of Michigan-Physics,treatment
+275a9b-117962-2d,University of Michigan,Chemistry,University of Michigan-Chemistry,treatment
+28299d-f555ed-05,University of Michigan,Chemistry,University of Michigan-Chemistry,treatment
+283950-c8da24-ee,University of Michigan,Physics,University of Michigan-Physics,treatment
+2baa2e-bd8e39-bc,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+338bb0-beb76d-55,University of Michigan,Chemistry,University of Michigan-Chemistry,treatment
+39c822-9d751a-8a,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+551ae6-e1a9ed-c0,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+61666a-10c997-b9,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+6308aa-655400-ab,University of Michigan,Chemistry,University of Michigan-Chemistry,treatment
+64c918-44b205-d3,University of Michigan,Physics,University of Michigan-Physics,treatment
+65459b-730d5e-2c,University of Michigan,Physics,University of Michigan-Physics,treatment
+655443-807273-cf,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+691ed6-94b8c7-37,University of Michigan,Physics,University of Michigan-Physics,treatment
+6fedb4-29d156-a3,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+706819-b850c8-41,University of Michigan,Chemistry,University of Michigan-Chemistry,treatment
+709fb4-5d4a22-b2,University of Michigan,Physics,University of Michigan-Physics,treatment
+87dcbf-17d917-79,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+93cb37-006186-d4,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+9a8e4d-37d2aa-29,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+9eec13-bdb8fa-21,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+9f8c2c-63a362-7c,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+a6dc14-dfb760-a7,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+ab1a5b-0a633b-fc,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+954a40-a4f705-52,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+b40cd7-211a41-df,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+b53ea0-de54ad-4f,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+b6361f-a482ec-58,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+c1b506-7671e3-3f,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+c575be-725d40-77,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+c7c489-963ffb-8a,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+ca0b75-473d4e-ba,University of Michigan,Physics,University of Michigan-Physics,treatment
+7c0390-d28d51-2e,University of Michigan,Mathematics,University of Michigan-Mathematics,treatment
+4af28c-9a7af5-27,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+ef2346-b6a782-38,University of Michigan,Computer Science,University of Michigan-Computer Science,treatment
+f6c0d9-695ff9-b1,University of Michigan,Physics,University of Michigan-Physics,treatment
+091eaa-98f544-e6,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+1956fd-b9715d-44,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+418ae9-326f45-0a,University of Minnesota,Physics,University of Minnesota-Physics,treatment
+5a0498-86d87f-12,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+669415-e22903-3f,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+884ea4-afe071-1c,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+9218fa-4573e3-8f,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+939f3c-b0f39d-6e,University of Minnesota,Chemistry,University of Minnesota-Chemistry,control
+abb873-dc3dd8-eb,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+b2a072-e7887b-4f,University of Minnesota,Mechanical Engineering,University of Minnesota-Mechanical Engineering,treatment
+b43fa4-7426c0-25,University of Minnesota,Physics,University of Minnesota-Physics,treatment
+c723cf-0ed1d2-4c,University of Minnesota,Physics,University of Minnesota-Physics,treatment
+cf64ec-51440b-9a,University of Minnesota,Physics,University of Minnesota-Physics,treatment
+d0057b-281563-ce,University of Minnesota,Chemistry,University of Minnesota-Chemistry,control
+d3d312-39b8ef-71,University of Minnesota,Mechanical Engineering,University of Minnesota-Mechanical Engineering,treatment
+d6d258-5ad9e0-4f,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+eceaab-0f0cc6-7f,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+f65fb2-cae935-9f,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+f7cd94-479386-f7,University of Minnesota,Computer Science,University of Minnesota-Computer Science,control
+fcd66a-d824a8-94,University of Minnesota,Mathematics,University of Minnesota-Mathematics,treatment
+1474e0-69b9ac-1a,University of Mississippi,Chemistry,University of Mississippi-Chemistry,treatment
+820adf-879471-ea,University of Mississippi,Mathematics,University of Mississippi-Mathematics,treatment
+8a91b3-d684a2-21,University of Mississippi,Mathematics,University of Mississippi-Mathematics,treatment
+bd94dd-977d74-55,University of Mississippi,Physics,University of Mississippi-Physics,control
+0f24d1-7ccc62-8e,University of Missouri,Mathematics,University of Missouri-Mathematics,control
+10e2eb-1ed185-c0,University of Missouri,Mathematics,University of Missouri-Mathematics,control
+183479-ce7cba-a1,University of Missouri,Chemistry,University of Missouri-Chemistry,treatment
+227f57-d1b682-fa,University of Missouri,Mathematics,University of Missouri-Mathematics,control
+2aca4e-ee5d9c-88,University of Missouri,Mathematics,University of Missouri-Mathematics,control
+4b26be-bb33f4-36,University of Missouri,Mathematics,University of Missouri-Mathematics,control
+53333b-ae288d-09,University of Missouri,Mechanical Engineering,University of Missouri-Mechanical Engineering,control
+91592c-c83293-04,University of Missouri,Physics,University of Missouri-Physics,treatment
+ddf207-3e049e-2a,University of Missouri,Physics,University of Missouri-Physics,treatment
+e955ba-e786e3-cb,University of Missouri,Chemistry,University of Missouri-Chemistry,treatment
+ff45a5-9e6343-3a,University of Missouri,Physics,University of Missouri-Physics,treatment
+34f319-f60689-24,University of Montana,Chemistry,University of Montana-Chemistry,treatment
+bc5846-fa05a5-9c,University of Montana,Mathematics,University of Montana-Mathematics,treatment
+de3940-ebf8ce-8d,University of Montana,Chemistry,University of Montana-Chemistry,treatment
+03a7c7-525fe4-c2,University of Nebraska-Lincoln,Chemistry,University of Nebraska-Lincoln-Chemistry,treatment
+2d143c-e76d21-cd,University of Nebraska-Lincoln,Mathematics,University of Nebraska-Lincoln-Mathematics,control
+6260a2-ec2f93-2d,University of Nebraska-Lincoln,Computer Science,University of Nebraska-Lincoln-Computer Science,control
+af45b1-443860-df,University of Nebraska-Lincoln,Physics,University of Nebraska-Lincoln-Physics,treatment
+962ebc-998abd-e7,"University of Nevada, Las Vegas",Physics,"University of Nevada, Las Vegas-Physics",treatment
+7d1d53-53c92f-7c,"University of Nevada, Reno",Computer Science,"University of Nevada, Reno-Computer Science",treatment
+ab4e9d-52f894-97,"University of Nevada, Reno",Mathematics,"University of Nevada, Reno-Mathematics",treatment
+fc8a9c-769b3a-6c,"University of Nevada, Reno",Mathematics,"University of Nevada, Reno-Mathematics",treatment
+72a5f8-e7ddc5-f6,University of New Hampshire,Mathematics,University of New Hampshire-Mathematics,treatment
+bb1ed0-572699-11,University of New Hampshire,Chemistry,University of New Hampshire-Chemistry,treatment
+ca62a8-d3802e-60,University of New Hampshire,Physics,University of New Hampshire-Physics,control
+ea6b77-ddacbb-d5,University of New Hampshire,Chemistry,University of New Hampshire-Chemistry,treatment
+256e9f-28c591-16,University of New Mexico,Computer Science,University of New Mexico-Computer Science,treatment
+3470dc-a2d8f8-6c,University of New Mexico,Mathematics,University of New Mexico-Mathematics,control
+3cf243-75042c-eb,University of New Mexico,Physics,University of New Mexico-Physics,control
+5806cc-8c4756-92,University of New Mexico,Chemistry,University of New Mexico-Chemistry,control
+5a3ff8-9fc281-d4,University of New Mexico,Mathematics,University of New Mexico-Mathematics,control
+68097c-562c16-a9,University of New Mexico,Physics,University of New Mexico-Physics,control
+6af2f8-df8567-a5,University of New Mexico,Physics,University of New Mexico-Physics,control
+a1b047-9256cd-f3,University of New Mexico,Chemistry,University of New Mexico-Chemistry,control
+a4f368-ab3bf5-a9,University of New Mexico,Mathematics,University of New Mexico-Mathematics,control
+e14c3e-4e177c-ea,University of New Mexico,Physics,University of New Mexico-Physics,control
+eeec18-b9f684-ee,University of New Mexico,Mathematics,University of New Mexico-Mathematics,control
+08b2ad-871b53-22,University of North Carolina at Chapel Hill,Mathematics,University of North Carolina at Chapel Hill-Mathematics,treatment
+4b70d8-9e9526-d4,University of North Carolina at Chapel Hill,Chemistry,University of North Carolina at Chapel Hill-Chemistry,control
+4d47cc-b284f4-9e,University of North Carolina at Chapel Hill,Physics,University of North Carolina at Chapel Hill-Physics,treatment
+55b3f4-2be68e-42,University of North Carolina at Chapel Hill,Chemistry,University of North Carolina at Chapel Hill-Chemistry,control
+5c3d88-a29b75-fd,University of North Carolina at Chapel Hill,Chemistry,University of North Carolina at Chapel Hill-Chemistry,control
+62e359-67cb5a-c1,University of North Carolina at Chapel Hill,Mathematics,University of North Carolina at Chapel Hill-Mathematics,treatment
+6a05db-66ab02-d8,University of North Carolina at Chapel Hill,Mathematics,University of North Carolina at Chapel Hill-Mathematics,treatment
+708d44-8bb211-7c,University of North Carolina at Chapel Hill,Mathematics,University of North Carolina at Chapel Hill-Mathematics,treatment
+76c2ae-45b773-04,University of North Carolina at Chapel Hill,Computer Science,University of North Carolina at Chapel Hill-Computer Science,control
+8f83c8-44b530-a3,University of North Carolina at Chapel Hill,Chemistry,University of North Carolina at Chapel Hill-Chemistry,control
+90ec43-9f1fb5-27,University of North Carolina at Chapel Hill,Mathematics,University of North Carolina at Chapel Hill-Mathematics,treatment
+9cb837-8982bd-b2,University of North Carolina at Chapel Hill,Chemistry,University of North Carolina at Chapel Hill-Chemistry,control
+d00db5-80cdbb-85,University of North Carolina at Chapel Hill,Mathematics,University of North Carolina at Chapel Hill-Mathematics,treatment
+f2b1b5-5cc455-33,University of North Carolina at Chapel Hill,Chemistry,University of North Carolina at Chapel Hill-Chemistry,control
+59937b-c12dc1-6a,University of North Texas,Mathematics,University of North Texas-Mathematics,treatment
+6017e9-6e72a0-72,University of North Texas,Mathematics,University of North Texas-Mathematics,treatment
+603f76-9ac7b6-6e,University of North Texas,Mechanical Engineering,University of North Texas-Mechanical Engineering,treatment
+8892b9-461dfa-52,University of North Texas,Physics,University of North Texas-Physics,treatment
+b56932-40061b-5f,University of North Texas,Chemistry,University of North Texas-Chemistry,control
+db9cf3-552ad4-dd,University of North Texas,Mathematics,University of North Texas-Mathematics,treatment
+e4a838-35ead5-6c,University of North Texas,Computer Science,University of North Texas-Computer Science,control
+0db08a-23f095-ba,University of Notre Dame,Physics,University of Notre Dame-Physics,control
+1be8fb-b2f0d7-15,University of Notre Dame,Physics,University of Notre Dame-Physics,control
+23b4cd-a54bb7-b8,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+25339d-784088-07,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+30045e-ad83e3-76,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+302546-b2b41e-62,University of Notre Dame,Physics,University of Notre Dame-Physics,control
+53171d-397217-94,University of Notre Dame,Physics,University of Notre Dame-Physics,control
+5ca7f1-2454aa-24,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+6e4495-eb3cf9-5d,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+94d027-450cf9-35,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+9615e8-4f1bf5-b1,University of Notre Dame,Physics,University of Notre Dame-Physics,control
+b75cef-76f2b7-79,University of Notre Dame,Chemistry,University of Notre Dame-Chemistry,treatment
+c785f1-1b6214-16,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+d83628-005281-e1,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+dbd0f5-f5a008-99,University of Notre Dame,Chemistry,University of Notre Dame-Chemistry,treatment
+e1b7fc-8956dd-b1,University of Notre Dame,Chemistry,University of Notre Dame-Chemistry,treatment
+e31815-598871-99,University of Notre Dame,Physics,University of Notre Dame-Physics,control
+e45675-0e2564-6c,University of Notre Dame,Mathematics,University of Notre Dame-Mathematics,treatment
+16c3a3-87dca3-e5,University of Oklahoma,Mathematics,University of Oklahoma-Mathematics,treatment
+2071f1-c8ee5b-88,University of Oklahoma,Mathematics,University of Oklahoma-Mathematics,treatment
+245cb9-f576b5-42,University of Oklahoma,Mathematics,University of Oklahoma-Mathematics,treatment
+310d5f-1d84f2-ed,University of Oklahoma,Physics,University of Oklahoma-Physics,control
+5e6e27-c15e6d-d6,University of Oklahoma,Mathematics,University of Oklahoma-Mathematics,treatment
+753fa0-a45ee5-f7,University of Oklahoma,Mathematics,University of Oklahoma-Mathematics,treatment
+8cd459-fe4127-43,University of Oklahoma,Mathematics,University of Oklahoma-Mathematics,treatment
+8f3c8b-97f8e7-e4,University of Oklahoma,Chemistry,University of Oklahoma-Chemistry,treatment
+a09b69-ac54b3-f9,University of Oklahoma,Mathematics,University of Oklahoma-Mathematics,treatment
+403b90-31856d-4c,University of Oregon,Physics,University of Oregon-Physics,control
+6545c0-f910bc-91,University of Oregon,Mathematics,University of Oregon-Mathematics,treatment
+68d0ea-8296b6-8e,University of Oregon,Mathematics,University of Oregon-Mathematics,treatment
+6ec642-318024-1f,University of Oregon,Mathematics,University of Oregon-Mathematics,treatment
+a36cf6-18d576-61,University of Oregon,Computer Science,University of Oregon-Computer Science,control
+ef50c7-063fea-f4,University of Oregon,Mathematics,University of Oregon-Mathematics,treatment
+14982d-3ad234-84,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+1ff564-ee5117-1d,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+3e73f0-f83dc5-01,University of Pennsylvania,Computer Science,University of Pennsylvania-Computer Science,treatment
+4dc728-f40e0c-90,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+4e6f18-2688d9-20,University of Pennsylvania,Computer Science,University of Pennsylvania-Computer Science,treatment
+639755-a9f1f0-17,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+6c5d31-7dac92-04,University of Pennsylvania,Chemistry,University of Pennsylvania-Chemistry,treatment
+939278-c83e19-d9,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+998a0a-27643d-a5,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+9b961d-1d6422-ee,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+a1b52a-496f63-f3,University of Pennsylvania,Mechanical Engineering,University of Pennsylvania-Mechanical Engineering,treatment
+a9c94f-989de5-4e,University of Pennsylvania,Chemistry,University of Pennsylvania-Chemistry,treatment
+b75943-28abc3-cf,University of Pennsylvania,Chemistry,University of Pennsylvania-Chemistry,treatment
+bc78cf-1db9f0-e6,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+dd7434-f5068a-05,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+e7c653-15527b-3a,University of Pennsylvania,Chemistry,University of Pennsylvania-Chemistry,treatment
+ef889f-b805bf-bb,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+ff3b51-5f7fef-83,University of Pennsylvania,Mathematics,University of Pennsylvania-Mathematics,control
+6896f5-ef517f-49,University of Pittsburgh,Computer Science,University of Pittsburgh-Computer Science,treatment
+853f4c-d41244-32,University of Pittsburgh,Physics,University of Pittsburgh-Physics,treatment
+8e15ad-7bf5c8-78,University of Pittsburgh,Chemistry,University of Pittsburgh-Chemistry,control
+c39e2a-88c32f-92,University of Pittsburgh,Physics,University of Pittsburgh-Physics,treatment
+e17c10-3cde42-01,University of Pittsburgh,Physics,University of Pittsburgh-Physics,treatment
+296ed4-084f8b-df,University of Rochester,Chemistry,University of Rochester-Chemistry,treatment
+3898e8-88b793-0c,University of Rochester,Physics,University of Rochester-Physics,control
+45263a-cedaab-8b,University of Rochester,Mechanical Engineering,University of Rochester-Mechanical Engineering,treatment
+4cdcc3-6b3af3-7b,University of Rochester,Physics,University of Rochester-Physics,control
+514299-d1024c-4e,University of Rochester,Chemistry,University of Rochester-Chemistry,treatment
+744813-38e23f-5f,University of Rochester,Chemistry,University of Rochester-Chemistry,treatment
+a810a5-44c11c-29,University of Rochester,Chemistry,University of Rochester-Chemistry,treatment
+e26b7b-f35eaf-34,University of Rochester,Physics,University of Rochester-Physics,control
+ffeed7-2d39a3-ea,University of Rochester,Computer Science,University of Rochester-Computer Science,treatment
+22f72a-8ed382-6e,University of South Carolina,Mathematics,University of South Carolina-Mathematics,control
+2d9288-a8a2e5-1e,University of South Carolina,Physics,University of South Carolina-Physics,control
+32dc5a-cfc26b-82,University of South Carolina,Mathematics,University of South Carolina-Mathematics,control
+44f1a4-78a4fd-ae,University of South Carolina,Chemistry,University of South Carolina-Chemistry,control
+812f02-1d5d11-de,University of South Carolina,Mathematics,University of South Carolina-Mathematics,control
+ac954d-8f3d91-cf,University of South Carolina,Mathematics,University of South Carolina-Mathematics,control
+b72041-c46e1f-c4,University of South Carolina,Mathematics,University of South Carolina-Mathematics,control
+bfd699-0d7bc9-a9,University of South Carolina,Mathematics,University of South Carolina-Mathematics,control
+3700fe-f4cd9d-a2,University of South Florida,Mathematics,University of South Florida-Mathematics,control
+37c980-595548-34,University of South Florida,Mathematics,University of South Florida-Mathematics,control
+5662a1-1c7e0a-4a,University of South Florida,Mathematics,University of South Florida-Mathematics,control
+5b7411-060a44-29,University of South Florida,Computer Science,University of South Florida-Computer Science,control
+735f8d-81d79e-00,University of South Florida,Mechanical Engineering,University of South Florida-Mechanical Engineering,treatment
+88622f-b6f237-31,University of South Florida,Mathematics,University of South Florida-Mathematics,control
+a50758-ea56e4-c7,University of South Florida,Chemistry,University of South Florida-Chemistry,control
+a9de72-b06fbc-62,University of South Florida,Chemistry,University of South Florida-Chemistry,control
+0ec2f7-fd40f2-2f,University of Southern California,Mathematics,University of Southern California-Mathematics,control
+4b2bd4-c18c0d-37,University of Southern California,Physics,University of Southern California-Physics,treatment
+4bbd09-318fdc-bb,University of Southern California,Physics,University of Southern California-Physics,treatment
+527896-e1b838-b0,University of Southern California,Chemistry,University of Southern California-Chemistry,control
+65e8a5-16da34-65,University of Southern California,Physics,University of Southern California-Physics,treatment
+6a6ac9-c6294c-e1,University of Southern California,Mechanical Engineering,University of Southern California-Mechanical Engineering,control
+b79160-f421e2-a3,University of Southern California,Computer Science,University of Southern California-Computer Science,control
+95b948-4f138e-0c,University of Southern Mississippi,Mechanical Engineering,University of Southern Mississippi-Mechanical Engineering,treatment
+b3daee-d4244e-89,University of Southern Mississippi,Chemistry,University of Southern Mississippi-Chemistry,control
+e9b392-e4fc0f-4c,University of Southern Mississippi,Physics,University of Southern Mississippi-Physics,control
+07b159-e11b6a-30,University of Tennessee,Chemistry,University of Tennessee-Chemistry,control
+222e67-a35c2b-88,University of Tennessee,Physics,University of Tennessee-Physics,control
+286adc-8b7e57-da,University of Tennessee,Mathematics,University of Tennessee-Mathematics,control
+398a4e-1d36c2-ad,University of Tennessee,Mathematics,University of Tennessee-Mathematics,control
+3f54f1-10440b-4c,University of Tennessee,Mathematics,University of Tennessee-Mathematics,control
+4ac23d-a6644e-92,University of Tennessee,Mathematics,University of Tennessee-Mathematics,control
+6c9552-41c5c9-cc,University of Tennessee,Mathematics,University of Tennessee-Mathematics,control
+90972a-c6d5a9-74,University of Tennessee,Mathematics,University of Tennessee-Mathematics,control
+bea12e-eb4601-d4,University of Tennessee,Mechanical Engineering,University of Tennessee-Mechanical Engineering,treatment
+afba9e-31642c-f5,University of Tennessee,Computer Science,University of Tennessee-Computer Science,control
+bd4597-156f19-76,University of Tennessee,Mathematics,University of Tennessee-Mathematics,control
+1b0b84-44e690-a3,University of Texas at Arlington,Computer Science,University of Texas at Arlington-Computer Science,treatment
+2a8559-6c649c-0b,University of Texas at Arlington,Chemistry,University of Texas at Arlington-Chemistry,treatment
+2f9bd1-e82290-4a,University of Texas at Arlington,Physics,University of Texas at Arlington-Physics,control
+5f78fa-e10217-97,University of Texas at Arlington,Mathematics,University of Texas at Arlington-Mathematics,control
+bb54f0-cdf53a-bb,University of Texas at Arlington,Mathematics,University of Texas at Arlington-Mathematics,control
+e4fdc3-ab7b54-a9,University of Texas at Arlington,Mechanical Engineering,University of Texas at Arlington-Mechanical Engineering,control
+57c8de-9707ba-63,University of Texas at Austin,Computer Science,University of Texas at Austin-Computer Science,treatment
+b2def7-84b75a-1c,University of Texas at Austin,Physics,University of Texas at Austin-Physics,treatment
+bb0883-9c74d8-d3,University of Texas at Austin,Mathematics,University of Texas at Austin-Mathematics,control
+dcd17c-62d94c-d8,University of Texas at Austin,Computer Science,University of Texas at Austin-Computer Science,treatment
+1ffdf4-89e520-16,University of Texas at Dallas,Mathematics,University of Texas at Dallas-Mathematics,treatment
+259310-60d7ea-1d,University of Texas at Dallas,Mathematics,University of Texas at Dallas-Mathematics,treatment
+486ae8-5c50be-9b,University of Texas at Dallas,Mechanical Engineering,University of Texas at Dallas-Mechanical Engineering,treatment
+9925a0-0b98ae-81,University of Texas at Dallas,Mathematics,University of Texas at Dallas-Mathematics,treatment
+a47318-b1b4f9-4f,University of Texas at Dallas,Mathematics,University of Texas at Dallas-Mathematics,treatment
+a4db6c-5f221e-51,University of Texas at Dallas,Chemistry,University of Texas at Dallas-Chemistry,control
+c5ec3e-3395ea-a3,University of Texas at Dallas,Mathematics,University of Texas at Dallas-Mathematics,treatment
+d6ea5c-51cee0-86,University of Texas at Dallas,Mathematics,University of Texas at Dallas-Mathematics,treatment
+d6f574-7de822-74,University of Texas at Dallas,Physics,University of Texas at Dallas-Physics,control
+492742-80af2f-ec,University of Texas at El Paso,Mathematics,University of Texas at El Paso-Mathematics,control
+b54b5b-3d7b0e-eb,University of Texas at El Paso,Chemistry,University of Texas at El Paso-Chemistry,treatment
+f5642d-489f33-d4,University of Texas at El Paso,Computer Science,University of Texas at El Paso-Computer Science,control
+466ed1-d19bec-aa,University of Texas at San Antonio,Physics,University of Texas at San Antonio-Physics,treatment
+c1d96f-8429d1-10,University of Texas at San Antonio,Mathematics,University of Texas at San Antonio-Mathematics,treatment
+d94c99-68ccbb-9b,University of Texas at San Antonio,Chemistry,University of Texas at San Antonio-Chemistry,treatment
+2612b4-ca5ac1-47,University of Utah,Chemistry,University of Utah-Chemistry,treatment
+3e86dd-fe25ad-c7,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+40962c-1e0e29-55,University of Utah,Physics,University of Utah-Physics,control
+4d0a75-5aa6ae-d6,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+504ae4-489e38-d8,University of Utah,Physics,University of Utah-Physics,control
+558770-c5fd19-2e,University of Utah,Mechanical Engineering,University of Utah-Mechanical Engineering,control
+6fc2fa-060c9c-4e,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+7f07af-22f957-a5,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+87ac9d-2b52a6-cc,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+88fb67-faa470-7e,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+9c8930-de0b8f-5b,University of Utah,Physics,University of Utah-Physics,control
+ab72ad-fe0769-8d,University of Utah,Computer Science,University of Utah-Computer Science,treatment
+c1a989-ff9525-d0,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+c98074-9e0d20-97,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+da1659-c4f2cf-24,University of Utah,Mathematics,University of Utah-Mathematics,treatment
+028dbb-5175b2-50,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+2b64a2-439aff-3c,University of Virginia,Physics,University of Virginia-Physics,control
+eff396-7afae4-e2,University of Virginia,Physics,University of Virginia-Physics,control
+13d150-3314b9-4a,University of Virginia,Chemistry,University of Virginia-Chemistry,control
+27fbdf-258406-7b,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+2d0854-b8adde-6d,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+3b87be-092d56-37,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+521df0-1fffe3-11,University of Virginia,Physics,University of Virginia-Physics,control
+55cf15-0b2d09-7f,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+70580c-c37d81-0b,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+74b902-c800c6-1b,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+7ada9a-069929-b5,University of Virginia,Physics,University of Virginia-Physics,control
+9bf44a-1fbf46-ac,University of Virginia,Physics,University of Virginia-Physics,control
+b3c3e0-7e1cba-22,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+d2bb7e-5f9512-15,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+e25887-1fc59f-d5,University of Virginia,Mathematics,University of Virginia-Mathematics,control
+ec30dc-12661c-ba,University of Virginia,Physics,University of Virginia-Physics,control
+037913-25d3de-fa,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+1edc86-46ceaf-44,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+1f2ffb-e70142-7c,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+412528-cf2623-bb,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+477b42-deebe4-f3,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+5044c8-6b4bdd-47,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+629bfe-3e4bd3-de,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+72bce7-ad9145-61,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+79cb32-eef120-45,University of Washington,Physics,University of Washington-Physics,treatment
+80fa43-f9e56a-ff,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+850036-345483-3e,University of Washington,Physics,University of Washington-Physics,treatment
+85b8ae-5a2810-b4,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+af89ff-7ede2e-96,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+b7da14-16815b-14,University of Washington,Chemistry,University of Washington-Chemistry,control
+d5149b-bf59fc-c3,University of Washington,Mechanical Engineering,University of Washington-Mechanical Engineering,treatment
+ea864f-6a7c49-d2,University of Washington,Mathematics,University of Washington-Mathematics,treatment
+f4a838-4bd3a5-33,University of Washington,Computer Science,University of Washington-Computer Science,treatment
+008535-f3cced-21,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+008cef-9bdf9c-0d,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+076f84-2e12fe-78,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+08f577-df1d13-90,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+09b181-e94a8e-ed,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+0a3ef5-5c69a6-2b,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+0eaac3-793b30-4d,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+146216-51dccc-9e,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+1da974-8a2dcf-81,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+1df397-ac900e-5d,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+2719a6-c7fe27-38,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+277204-7c5825-e2,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+455b59-d51dbd-b9,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+459287-773161-66,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+51d3e1-f535f8-94,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+553a90-4681b5-ef,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+57f10d-90d10b-c3,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+595aec-31aac3-db,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+72c9ae-c835c3-0c,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+737142-ae1f9e-4e,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+8b4552-5b11ca-ca,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+90731d-d7251d-93,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+9e1636-773cc0-d6,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+b05863-83eaeb-5d,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+b24f9f-2e9316-7c,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+b944e0-41eaf3-f7,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+c378b2-4bd29c-3e,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+de7ff9-a46eed-07,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+e07029-756bcc-d6,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+e54520-c94aef-51,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+e57c82-4878a3-c8,University of Wisconsin-Madison,Mechanical Engineering,University of Wisconsin-Madison-Mechanical Engineering,treatment
+e6e78f-ce2aff-94,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+f0bae0-f1d1b4-8d,University of Wisconsin-Madison,Mathematics,University of Wisconsin-Madison-Mathematics,control
+f29f15-bc17c7-05,University of Wisconsin-Madison,Chemistry,University of Wisconsin-Madison-Chemistry,treatment
+f4f844-255911-54,University of Wisconsin-Madison,Physics,University of Wisconsin-Madison-Physics,control
+316283-f3973b-fe,University of Wisconsin-Milwaukee,Computer Science,University of Wisconsin-Milwaukee-Computer Science,treatment
+6c3db4-285887-34,University of Wisconsin-Milwaukee,Physics,University of Wisconsin-Milwaukee-Physics,control
+735b0d-1169c0-90,University of Wisconsin-Milwaukee,Mechanical Engineering,University of Wisconsin-Milwaukee-Mechanical Engineering,treatment
+b04b3f-df2ff3-a8,University of Wisconsin-Milwaukee,Physics,University of Wisconsin-Milwaukee-Physics,control
+be171a-168eaa-d7,University of Wisconsin-Milwaukee,Mathematics,University of Wisconsin-Milwaukee-Mathematics,control
+d55541-26a1ba-2a,University of Wisconsin-Milwaukee,Physics,University of Wisconsin-Milwaukee-Physics,control
+1c62f3-29a99f-85,Utah State University,Mathematics,Utah State University-Mathematics,control
+1e4af5-864e8d-7a,Utah State University,Chemistry,Utah State University-Chemistry,treatment
+842ea9-dc2b73-bf,Utah State University,Physics,Utah State University-Physics,treatment
+e5f858-e90375-89,Utah State University,Mechanical Engineering,Utah State University-Mechanical Engineering,treatment
+0e637f-95892d-6d,Vanderbilt University,Physics,Vanderbilt University-Physics,control
+1aa5c5-39b46e-64,Vanderbilt University,Mathematics,Vanderbilt University-Mathematics,control
+227db7-e955f2-1d,Vanderbilt University,Mathematics,Vanderbilt University-Mathematics,control
+325fbe-cc2767-3f,Vanderbilt University,Mechanical Engineering,Vanderbilt University-Mechanical Engineering,control
+521d22-b49e87-24,Vanderbilt University,Mathematics,Vanderbilt University-Mathematics,control
+66bc3d-9d5fe0-c9,Vanderbilt University,Mathematics,Vanderbilt University-Mathematics,control
+77c0cf-9497b7-50,Vanderbilt University,Mathematics,Vanderbilt University-Mathematics,control
+afe312-a22bbc-f8,Vanderbilt University,Chemistry,Vanderbilt University-Chemistry,treatment
+bb802d-722d1b-21,Vanderbilt University,Mathematics,Vanderbilt University-Mathematics,control
+d0707a-bbaf18-1b,Vanderbilt University,Mathematics,Vanderbilt University-Mathematics,control
+04e79f-5028b0-ac,Virginia Commonwealth University,Computer Science,Virginia Commonwealth University-Computer Science,control
+5b2dac-0a4e8f-b0,Virginia Commonwealth University,Chemistry,Virginia Commonwealth University-Chemistry,treatment
+81c1da-39db06-fa,Virginia Commonwealth University,Mathematics,Virginia Commonwealth University-Mathematics,treatment
+862967-e0c11d-44,Virginia Commonwealth University,Mathematics,Virginia Commonwealth University-Mathematics,treatment
+aaff07-b68a80-f2,Virginia Commonwealth University,Mechanical Engineering,Virginia Commonwealth University-Mechanical Engineering,treatment
+b4d3e5-90d8f8-54,Virginia Commonwealth University,Mathematics,Virginia Commonwealth University-Mathematics,treatment
+c9c2ed-5d7ca7-ba,Virginia Commonwealth University,Mathematics,Virginia Commonwealth University-Mathematics,treatment
+ceffe3-0b8847-9f,Virginia Commonwealth University,Physics,Virginia Commonwealth University-Physics,treatment
+f46e55-5424af-36,Virginia Commonwealth University,Mathematics,Virginia Commonwealth University-Mathematics,treatment
+f9e662-3c0e16-a9,Virginia Commonwealth University,Mathematics,Virginia Commonwealth University-Mathematics,treatment
+0ad6ec-dc61be-74,Virginia Tech,Mathematics,Virginia Tech-Mathematics,control
+1545aa-d0dbd0-ff,Virginia Tech,Physics,Virginia Tech-Physics,control
+17d7ca-b1b021-12,Virginia Tech,Physics,Virginia Tech-Physics,control
+1a79c5-a87c6f-25,Virginia Tech,Physics,Virginia Tech-Physics,control
+30bb95-6d1ac1-7d,Virginia Tech,Mathematics,Virginia Tech-Mathematics,control
+31677e-a65b39-a2,Virginia Tech,Mathematics,Virginia Tech-Mathematics,control
+36eec5-bdf308-79,Virginia Tech,Mechanical Engineering,Virginia Tech-Mechanical Engineering,control
+370ffe-0c9f95-45,Virginia Tech,Chemistry,Virginia Tech-Chemistry,treatment
+4be1b8-32de38-14,Virginia Tech,Physics,Virginia Tech-Physics,control
+4ef8d2-2c8907-a0,Virginia Tech,Mathematics,Virginia Tech-Mathematics,control
+587ec8-bb5270-9d,Virginia Tech,Physics,Virginia Tech-Physics,control
+6bc091-a501c0-6b,Virginia Tech,Mathematics,Virginia Tech-Mathematics,control
+a030d1-c9bb9f-01,Virginia Tech,Mechanical Engineering,Virginia Tech-Mechanical Engineering,control
+d362d0-6ecbd6-35,Virginia Tech,Mechanical Engineering,Virginia Tech-Mechanical Engineering,control
+c4495f-ecde3e-00,Virginia Tech,Computer Science,Virginia Tech-Computer Science,control
+f08e24-200f71-1a,Virginia Tech,Mathematics,Virginia Tech-Mathematics,control
+11b003-d5eaf2-f8,Washington State University,Chemistry,Washington State University-Chemistry,treatment
+229cdd-473b85-6e,Washington State University,Physics,Washington State University-Physics,treatment
+31af6b-9eda67-bd,Washington State University,Mechanical Engineering,Washington State University-Mechanical Engineering,control
+59e366-1b0faf-79,Washington State University,Mathematics,Washington State University-Mathematics,treatment
+63c596-c6347e-28,Washington State University,Computer Science,Washington State University-Computer Science,treatment
+68c35d-46686d-ea,Washington State University,Mathematics,Washington State University-Mathematics,treatment
+83106e-ac91fc-54,Washington State University,Mathematics,Washington State University-Mathematics,treatment
+9f7851-d7e9fe-64,Washington State University,Mathematics,Washington State University-Mathematics,treatment
+bd2c29-0651a1-ef,Washington State University,Mathematics,Washington State University-Mathematics,treatment
+e79f7d-68f2a3-e2,Washington State University,Mathematics,Washington State University-Mathematics,treatment
+1aa489-d713f2-1c,Washington University in St. Louis,Computer Science,Washington University in St. Louis-Computer Science,treatment
+43212b-07918a-5c,Washington University in St. Louis,Physics,Washington University in St. Louis-Physics,control
+60d4a1-1d777c-28,Washington University in St. Louis,Mathematics,Washington University in St. Louis-Mathematics,treatment
+64e5fb-fdfec0-4a,Washington University in St. Louis,Mathematics,Washington University in St. Louis-Mathematics,treatment
+6799ca-645daf-f4,Washington University in St. Louis,Mathematics,Washington University in St. Louis-Mathematics,treatment
+6aa178-c48f0f-50,Washington University in St. Louis,Physics,Washington University in St. Louis-Physics,control
+744237-956432-ed,Washington University in St. Louis,Mechanical Engineering,Washington University in St. Louis-Mechanical Engineering,control
+af6b42-972c4b-19,Washington University in St. Louis,Chemistry,Washington University in St. Louis-Chemistry,treatment
+b0d500-f9450d-78,Washington University in St. Louis,Physics,Washington University in St. Louis-Physics,control
+c017dc-96bbb1-8f,Washington University in St. Louis,Physics,Washington University in St. Louis-Physics,control
+c07852-d1d5bc-bf,Washington University in St. Louis,Mathematics,Washington University in St. Louis-Mathematics,treatment
+c1c8c7-5f94a7-84,Washington University in St. Louis,Physics,Washington University in St. Louis-Physics,control
+c25580-31a283-9c,Washington University in St. Louis,Mathematics,Washington University in St. Louis-Mathematics,treatment
+32cf26-167464-a0,Wayne State University,Physics,Wayne State University-Physics,treatment
+3dbf03-0d5e67-55,Wayne State University,Physics,Wayne State University-Physics,treatment
+478223-2c80a4-55,Wayne State University,Chemistry,Wayne State University-Chemistry,control
+58fa96-4dda6e-3b,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+5ee81c-d31287-cd,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+6e9560-2eeb10-8f,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+6ef164-3c8cc7-c9,Wayne State University,Chemistry,Wayne State University-Chemistry,control
+78b76c-d5812c-c3,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+7f4598-cc7db7-a2,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+8ca0e5-b8edeb-a4,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+94b6c0-dfe052-ec,Wayne State University,Physics,Wayne State University-Physics,treatment
+a41714-3d989b-a0,Wayne State University,Computer Science,Wayne State University-Computer Science,control
+a98713-91c200-21,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+b53fb6-d7b4f4-10,Wayne State University,Mechanical Engineering,Wayne State University-Mechanical Engineering,control
+be70bf-684451-4a,Wayne State University,Chemistry,Wayne State University-Chemistry,control
+e3b678-3d4c10-95,Wayne State University,Chemistry,Wayne State University-Chemistry,control
+e6a00f-c0bf9e-a7,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+fc8643-0fceb2-83,Wayne State University,Mathematics,Wayne State University-Mathematics,control
+39a1ab-432548-8f,West Virginia University,Mechanical Engineering,West Virginia University-Mechanical Engineering,control
+3f95a2-5b5d96-37,West Virginia University,Physics,West Virginia University-Physics,treatment
+5744b1-6aff90-36,West Virginia University,Chemistry,West Virginia University-Chemistry,treatment
+5f7de8-5c27df-e6,West Virginia University,Mathematics,West Virginia University-Mathematics,treatment
+71ddb0-e286a3-98,West Virginia University,Computer Science,West Virginia University-Computer Science,treatment
+7bb7a6-a8fe28-d5,West Virginia University,Mathematics,West Virginia University-Mathematics,treatment
+0691a6-6ee969-47,Yale University,Computer Science,Yale University-Computer Science,control
+198cf5-803383-9e,Yale University,Mathematics,Yale University-Mathematics,control
+3644e9-b99ec8-c3,Yale University,Mathematics,Yale University-Mathematics,control
+3ac0e9-670256-df,Yale University,Mathematics,Yale University-Mathematics,control
+50de8c-9d3ee9-5f,Yale University,Mathematics,Yale University-Mathematics,control
+51348d-da8c2a-83,Yale University,Physics,Yale University-Physics,treatment
+62ace6-0e753d-2b,Yale University,Mathematics,Yale University-Mathematics,control
+6e6cc2-b9c313-5d,Yale University,Mathematics,Yale University-Mathematics,control
+76f343-20c96a-47,Yale University,Physics,Yale University-Physics,treatment
+7f286f-ee9f2d-06,Yale University,Mathematics,Yale University-Mathematics,control
+cc8e11-9a825f-cc,Yale University,Chemistry,Yale University-Chemistry,control
+cf1cd5-8ca813-4d,Yale University,Mathematics,Yale University-Mathematics,control
+e5cc32-c0cfc9-a0,Yale University,Physics,Yale University-Physics,treatment
+f9a08f-ff91ec-77,Yale University,Mathematics,Yale University-Mathematics,control

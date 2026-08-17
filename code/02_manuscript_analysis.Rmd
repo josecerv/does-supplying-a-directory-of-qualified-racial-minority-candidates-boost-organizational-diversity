@@ -1,0 +1,1466 @@
+---
+title: "Can Reducing Information Frictions Increase Representation in STEM?"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    number_sections: false
+    latex_engine: xelatex
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{longtable}
+  - \usepackage{pdflscape}
+  - \usepackage{float}
+  - \usepackage{threeparttable}
+  - \usepackage{needspace}
+
+  - \usepackage{caption}
+  - \captionsetup[table]{skip=4pt, labelformat=empty}
+  - \renewcommand{\arraystretch}{1.08}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, comment = NA)
+library(tidyverse)
+library(lmtest)
+library(sandwich)
+library(modelsummary)
+library(openxlsx)
+library(systemfit)
+library(car)
+library(broom)
+library(estimatr)
+library(kableExtra)
+
+pdf_table <- function(df, caption = NULL, landscape_mode = FALSE, font_size = NULL,
+                      col_groups = NULL, notes = NULL, scale_down = FALSE) {
+  drop <- names(df) %in% c("part", "statistic") | grepl("^spacer_", names(df))
+  visible <- df[, !drop, drop = FALSE]
+  tbl <- kbl(visible, format = "latex", booktabs = TRUE,
+             caption = caption, linesep = "", row.names = FALSE)
+  opts <- "HOLD_position"
+  if (scale_down || landscape_mode) opts <- c(opts, "scale_down")
+  tbl <- kable_styling(tbl,
+    latex_options = opts,
+    font_size = font_size, position = "center")
+  if (!is.null(notes)) {
+    tbl <- footnote(tbl, general = notes, general_title = "Notes: ",
+                    footnote_as_chunk = TRUE, threeparttable = TRUE, escape = FALSE)
+  }
+  if (landscape_mode) tbl <- landscape(tbl)
+  tbl
+}
+
+# --- Standard table notes (significance legend only) ---
+note_sig <- "$\\\\dagger$ p < 0.10, * p < 0.05, ** p < 0.01, *** p < 0.001."
+note_base_ext <- note_sig
+note_extended <- note_sig
+note_iv <- note_sig
+
+key_findings <- function(models_list, caption = "Key Findings: Treatment Effects", ...) {
+  ef <- get_treatment_effects(models_list, ...)
+  display <- ef %>%
+    transmute(
+      Model = paste0("(", model, ")"),
+      Outcome = DV,
+      Controls = controls,
+      Estimate = sprintf("%.4f%s", B, sig),
+      SE = sprintf("(%.4f)", SE),
+      `p-value` = sprintf("%.4f", p)
+    )
+  kbl(display, format = "latex", booktabs = TRUE, caption = caption,
+      linesep = "", escape = TRUE, align = c("l","l","l","r","r","r")) %>%
+    kable_styling(full_width = FALSE, font_size = 9,
+                  latex_options = "hold_position") %>%
+    row_spec(0, bold = TRUE)
+}
+
+# --- HELPER FUNCTIONS ---
+
+get_treatment_effects <- function(models_list, vcov_spec = ~department_std,
+                                   dv_names = NULL, iv_name = "treatment") {
+  if (is.null(dv_names)) {
+    dv_names <- sapply(models_list, function(m) {
+      as.character(formula(m))[2]
+    })
+  }
+  results <- do.call(rbind, lapply(seq_along(models_list), function(i) {
+    model <- models_list[[i]]
+    if (inherits(model, "iv_robust")) {
+      coef_summary <- summary(model)$coefficients
+      if (iv_name %in% rownames(coef_summary)) {
+        treatment_row <- coef_summary[iv_name, ]
+        estimate <- treatment_row["Estimate"]
+        std_error <- treatment_row["Std. Error"]
+        p_value <- treatment_row["Pr(>|t|)"]
+      } else {
+        estimate <- NA; std_error <- NA; p_value <- NA
+      }
+    } else {
+      est <- modelsummary::get_estimates(model, vcov = vcov_spec)
+      treatment_row <- est[est$term == iv_name, ]
+      if (nrow(treatment_row) == 0) {
+        estimate <- NA; std_error <- NA; p_value <- NA
+      } else {
+        estimate <- treatment_row$estimate
+        std_error <- treatment_row$std.error
+        p_value <- treatment_row$p.value
+      }
+    }
+    t_stat <- if (!is.na(estimate) && !is.na(std_error) && std_error != 0) {
+      estimate / std_error
+    } else { NA }
+    data.frame(
+      model = i, DV = dv_names[i], IV = iv_name,
+      controls = ifelse(i %% 2 == 0, "Extended", "Base"),
+      B = round(estimate, 4), SE = round(std_error, 4),
+      t = round(t_stat, 3), p = round(p_value, 4),
+      sig = case_when(
+        is.na(p_value) ~ "", p_value < 0.001 ~ "***",
+        p_value < 0.01 ~ "**", p_value < 0.05 ~ "*",
+        p_value < 0.1 ~ "+", TRUE ~ ""
+      )
+    )
+  }))
+  rownames(results) <- NULL
+  return(results)
+}
+
+add_fixed_effects_rows <- function(table_base, before_constant = TRUE) {
+  col_names <- names(table_base)
+  fe_rows <- data.frame(
+    part = rep("estimates", 3),
+    term = c("Date/Time When Seminar Organizers were Contacted",
+             "Randomization Stratum", "Discipline"),
+    statistic = rep("", 3), stringsAsFactors = FALSE
+  )
+  for(col in col_names[4:length(col_names)]) {
+    fe_rows[[col]] <- rep("Yes", 3)
+  }
+  if(before_constant) {
+    constant_row <- which(table_base$term == "Constant" & table_base$statistic == "estimate")
+    if(length(constant_row) > 0) {
+      table_export <- rbind(table_base[1:(constant_row-1), ], fe_rows, table_base[constant_row:nrow(table_base), ])
+    } else {
+      gof_row <- which(table_base$part == "gof")[1]
+      if(!is.na(gof_row)) {
+        table_export <- rbind(table_base[1:(gof_row-1), ], fe_rows, table_base[gof_row:nrow(table_base), ])
+      } else {
+        table_export <- rbind(table_base, fe_rows)
+      }
+    }
+  } else {
+    gof_row <- which(table_base$part == "gof")[1]
+    if(!is.na(gof_row)) {
+      table_export <- rbind(table_base[1:(gof_row-1), ], fe_rows, table_base[gof_row:nrow(table_base), ])
+    } else {
+      table_export <- rbind(table_base, fe_rows)
+    }
+  }
+  return(table_export)
+}
+
+add_spacer_columns <- function(table_df) {
+  col_names <- names(table_df)
+  model_cols <- col_names[grepl("^\\(", col_names)]
+  n_models <- length(model_cols)
+  if (n_models <= 2) return(table_df)
+  meta_cols <- col_names[1:3]
+  new_col_order <- meta_cols
+  spacer_counter <- 1
+  for (i in seq_along(model_cols)) {
+    new_col_order <- c(new_col_order, model_cols[i])
+    if (i %% 2 == 0 && i < n_models) {
+      spacer_name <- paste0("spacer_", spacer_counter)
+      table_df[[spacer_name]] <- ""
+      new_col_order <- c(new_col_order, spacer_name)
+      spacer_counter <- spacer_counter + 1
+    }
+  }
+  table_df <- table_df[, new_col_order]
+  return(table_df)
+}
+
+# Adaptive formatter: increase decimal places until the value is non-zero
+fmt_adaptive <- function(x) {
+  ifelse(
+    round(x, 4) == 0 & x != 0, sprintf("%.5f", x),
+    ifelse(
+      round(x, 3) == 0 & x != 0, sprintf("%.4f", x),
+      sprintf("%.3f", x)
+    )
+  )
+}
+```
+
+```{r data-loading, include=FALSE}
+final_data <- read.csv("../data/final_data.csv")
+
+final_data <- final_data %>%
+  mutate(
+    department_std = as.factor(department_std),
+    discipline = as.factor(discipline)
+  )
+
+# --- Define Control Variable Groups ---
+stratification_controls <- c("bin_0_1", "bin_1_3", "bin_3_5", "bin_5_7", "bin_7_11", "bin_11_17",
+                             "batch_1", "batch_2", "batch_3", "batch_4", "batch_5",
+                             "batch_6", "batch_7", "batch_8", "batch_9")
+department_covariates <- c("total_faculty", "frac_urm_faculty", "frac_women_faculty",
+                           "dept_ranking", "missing_dept_rank", "total_urm_peer_faculty",
+                           "total_peer_departments", "num_recipients")
+
+controls_base <- paste(c(stratification_controls, "discipline"), collapse = " + ")
+controls_extended <- paste(c(stratification_controls, "discipline", department_covariates), collapse = " + ")
+controls_extended_no_discipline <- paste(c(stratification_controls, department_covariates), collapse = " + ")
+
+# Controls for Table S18: disaggregated race controls to avoid controlling for Black twice
+department_covariates_black_mod <- c("total_faculty", "frac_hispanic_faculty", "frac_native_faculty",
+                                      "frac_women_faculty", "dept_ranking", "missing_dept_rank",
+                                      "total_urm_peer_faculty", "total_peer_departments", "num_recipients")
+controls_extended_black_mod <- paste(c(stratification_controls, "discipline", department_covariates_black_mod), collapse = " + ")
+
+# Coefficient labels shared across tables
+coef_map_controls <- c(
+  "total_faculty" = "# of Faculty in Dept. of Seminar",
+  "frac_women_faculty" = "% of Faculty in Dept. of Seminar Who Are Female",
+  "frac_urm_faculty" = "% of Faculty in Dept. of Seminar Who Are URMs",
+  "frac_hispanic_faculty" = "% Hispanic Faculty",
+  "frac_native_faculty" = "% Native Am. Faculty",
+  "dept_ranking" = "U.S. News Ranking of Dept. of Seminar",
+  "missing_dept_rank" = "Missing Ranking Indicator",
+  "total_urm_peer_faculty" = "# of Faculty Displayed in URM Database for Dept. of Seminar",
+  "total_peer_departments" = "# of Peer Departments with 20+ URM Faculty",
+  "num_recipients" = "# of Dept Reps Who Received Treatment Email"
+)
+
+coef_map_full <- c(
+  "treatment" = "URM Database Treatment",
+  coef_map_controls,
+  "(Intercept)" = "Constant"
+)
+
+cat(sprintf("Analysis dataset: %d seminars.\n", nrow(final_data)))
+```
+
+
+
+\needspace{5cm}
+## Summary Statistics
+
+```{r recipient-demographics, include=FALSE}
+recipients <- read.csv("../data/raw/email_recipient_demographics.csv")
+
+seminar_organizers <- recipients %>%
+  filter(contact_type %in% c("seminar_contact", "faculty"))
+department_chairs <- recipients %>%
+  filter(contact_type == "department_chair")
+```
+
+```{r summary-stats-display}
+sample_summary <- data.frame(
+  Statistic = c("Analysis sample seminars", "Unique departments",
+                "Control seminars", "Treatment seminars",
+                "Total unique recipients", "Seminar organizers", "Department chairs",
+                "% Faculty Female", "% Faculty URM", "% Faculty Black", "% Faculty Hispanic"),
+  Value = c(
+    as.character(nrow(final_data)),
+    as.character(n_distinct(final_data$department_std)),
+    as.character(sum(final_data$treatment == 0)),
+    as.character(sum(final_data$treatment == 1)),
+    as.character(nrow(recipients)),
+    as.character(nrow(seminar_organizers)),
+    as.character(nrow(department_chairs)),
+    sprintf("%.1f%%", mean(final_data$frac_women_faculty, na.rm = TRUE) * 100),
+    sprintf("%.1f%%", mean(final_data$frac_urm_faculty, na.rm = TRUE) * 100),
+    sprintf("%.1f%%", mean(final_data$frac_black_faculty, na.rm = TRUE) * 100),
+    sprintf("%.1f%%", mean(final_data$frac_hispanic_faculty, na.rm = TRUE) * 100)
+  ), stringsAsFactors = FALSE
+)
+pdf_table(sample_summary, caption = "Sample Summary")
+```
+
+```{r table-s2-summary, include=FALSE}
+# Table S2 data is a subset of the balance table (same rows without p-values).
+# Kept for Excel export; displayed via balance table below.
+treatment_n_s2 <- sum(final_data$treatment == 1)
+control_n_s2 <- sum(final_data$treatment == 0)
+n_depts_s2 <- n_distinct(final_data$department_std)
+
+# Department-level data (one row per department)
+dept_s2 <- final_data %>%
+  group_by(department_std) %>%
+  mutate(n_seminars = n()) %>%
+  slice(1) %>%
+  ungroup() %>%
+  mutate(
+    disc_chemistry = as.integer(discipline == "Chemistry"),
+    disc_computer_science = as.integer(discipline == "Computer Science"),
+    disc_mathematics = as.integer(discipline == "Mathematics"),
+    disc_mechanical_engineering = as.integer(discipline == "Mechanical Engineering"),
+    disc_physics = as.integer(discipline == "Physics")
+  )
+
+# Helper: format a summary row with Overall / Control / Treatment columns
+fmt_row_s2 <- function(data, var, label, type = "pct") {
+  all_v <- data[[var]]; ctrl <- all_v[data$treatment == 0]; treat <- all_v[data$treatment == 1]
+  if (type == "pct") {
+    data.frame(Characteristic = label,
+      Overall = sprintf("%.2f%%", 100 * mean(all_v, na.rm = TRUE)),
+      Control = sprintf("%.2f%%", 100 * mean(ctrl, na.rm = TRUE)),
+      Treatment = sprintf("%.2f%%", 100 * mean(treat, na.rm = TRUE)),
+      stringsAsFactors = FALSE)
+  } else {
+    data.frame(Characteristic = label,
+      Overall = sprintf("%.2f (%.2f)", mean(all_v, na.rm = TRUE), sd(all_v, na.rm = TRUE)),
+      Control = sprintf("%.2f (%.2f)", mean(ctrl, na.rm = TRUE), sd(ctrl, na.rm = TRUE)),
+      Treatment = sprintf("%.2f (%.2f)", mean(treat, na.rm = TRUE), sd(treat, na.rm = TRUE)),
+      stringsAsFactors = FALSE)
+  }
+}
+
+panel_hdr <- function(text) {
+  data.frame(Characteristic = text, Overall = "", Control = "", Treatment = "",
+             stringsAsFactors = FALSE)
+}
+
+table_s2_summary_export <- rbind(
+  panel_hdr(sprintf("Panel A: Department-Level Characteristics (N = %d departments)", n_depts_s2)),
+  fmt_row_s2(dept_s2, "n_seminars", "Number of seminars in dept.", "num"),
+  fmt_row_s2(dept_s2, "disc_chemistry", "Chemistry"),
+  fmt_row_s2(dept_s2, "disc_computer_science", "Computer Science"),
+  fmt_row_s2(dept_s2, "disc_mathematics", "Mathematics"),
+  fmt_row_s2(dept_s2, "disc_mechanical_engineering", "Mechanical Engineering"),
+  fmt_row_s2(dept_s2, "disc_physics", "Physics"),
+  fmt_row_s2(dept_s2, "total_faculty", "Number of faculty", "num"),
+  fmt_row_s2(dept_s2, "frac_black_faculty", "% faculty Black"),
+  fmt_row_s2(dept_s2, "frac_hispanic_faculty", "% faculty Hispanic"),
+  fmt_row_s2(dept_s2, "frac_women_faculty", "% faculty Female"),
+  fmt_row_s2(dept_s2, "frac_dept_chair_black", "Dept. chair Black"),
+  fmt_row_s2(dept_s2, "frac_dept_chair_hispanic", "Dept. chair Hispanic"),
+  fmt_row_s2(dept_s2, "frac_dept_chair_female", "Dept. chair Female"),
+  panel_hdr(sprintf("Panel B: Seminar-Level Characteristics (N = %d seminars)", nrow(final_data))),
+  fmt_row_s2(final_data, "num_recipients", "Number of email recipients", "num"),
+  fmt_row_s2(final_data, "frac_seminar_organizer_black", "Seminar organizer Black"),
+  fmt_row_s2(final_data, "frac_seminar_organizer_hispanic", "Seminar organizer Hispanic"),
+  fmt_row_s2(final_data, "frac_seminar_organizer_female", "Seminar organizer Female")
+)
+rownames(table_s2_summary_export) <- NULL
+
+```
+
+
+
+\needspace{5cm}
+### Engagement Metrics
+
+```{r engagement-compute, include=FALSE}
+treatment_n <- sum(final_data$treatment == 1)
+control_n <- sum(final_data$treatment == 0)
+total_n <- treatment_n + control_n
+df <- total_n - 2
+
+# Bitly Click Rate
+treatment_bitly_clicked <- sum(final_data$bitly_clicked[final_data$treatment == 1])
+control_bitly_clicked <- sum(final_data$bitly_clicked[final_data$treatment == 0])
+total_clicked <- treatment_bitly_clicked + control_bitly_clicked
+treatment_click_rate <- treatment_bitly_clicked / treatment_n
+control_click_rate <- control_bitly_clicked / control_n
+overall_click_rate <- total_clicked / total_n
+click_test <- t.test(final_data$bitly_clicked ~ final_data$treatment, var.equal = TRUE)
+
+# Average Clicks Per Seminar
+treatment_avg_clicks <- sum(final_data$bitly_click_count[final_data$treatment == 1]) / treatment_n
+control_avg_clicks <- sum(final_data$bitly_click_count[final_data$treatment == 0]) / control_n
+clicks_test <- t.test(final_data$bitly_click_count ~ final_data$treatment, var.equal = TRUE)
+
+# Database Access
+treatment_db_access <- sum(final_data$accessed_database[final_data$treatment == 1])
+control_db_access <- sum(final_data$accessed_dept_database[final_data$treatment == 0])
+treatment_db_rate <- treatment_db_access / treatment_n
+control_db_rate <- control_db_access / control_n
+final_data$db_access_combined <- ifelse(final_data$treatment == 1,
+                                         final_data$accessed_database,
+                                         final_data$accessed_dept_database)
+db_test <- t.test(final_data$db_access_combined ~ final_data$treatment, var.equal = TRUE)
+
+engagement_summary <- data.frame(
+  Metric = c("Bitly Click Rate", "Avg Clicks/Seminar", "Database Access"),
+  Treatment = c(sprintf("%.1f%%", 100 * treatment_click_rate),
+                sprintf("%.2f", treatment_avg_clicks),
+                sprintf("%.1f%%", 100 * treatment_db_rate)),
+  Control = c(sprintf("%.1f%%", 100 * control_click_rate),
+              sprintf("%.2f", control_avg_clicks),
+              sprintf("%.1f%%", 100 * control_db_rate)),
+  p_value = c(sprintf("%.4f", click_test$p.value),
+              sprintf("%.4f", clicks_test$p.value),
+              sprintf("%.4f", db_test$p.value))
+)
+```
+
+```{r engagement-display}
+names(engagement_summary)[4] <- "p-value"
+pdf_table(engagement_summary, caption = "Engagement Metrics Summary")
+```
+
+
+## Balance Checks
+
+
+```{r balance-helpers, include=FALSE}
+# --- Balance table helper functions (consistent with 03_supplemental_analysis.Rmd) ---
+
+N_PERM <- 5000
+set.seed(20260307)
+
+strat_dept <- c("bin_0_1", "bin_1_3", "bin_3_5", "bin_5_7", "bin_7_11", "bin_11_17")
+strat_sem  <- c(strat_dept, paste0("batch_", 1:9))
+
+# Panel A covariates (department-level)
+panel_a_vars <- list(
+  list(var = "n_seminars", label = "Number of seminars in dept.", type = "num"),
+  list(var = "disc_chemistry", label = "Chemistry", type = "ind"),
+  list(var = "disc_computer_science", label = "Computer Science", type = "ind"),
+  list(var = "disc_mathematics", label = "Mathematics", type = "ind"),
+  list(var = "disc_mechanical_engineering", label = "Mechanical Engineering", type = "ind"),
+  list(var = "disc_physics", label = "Physics", type = "ind"),
+  list(var = "total_faculty", label = "Number of faculty", type = "num"),
+  list(var = "frac_black_faculty", label = "% faculty Black", type = "pct"),
+  list(var = "frac_hispanic_faculty", label = "% faculty Hispanic", type = "pct"),
+  list(var = "frac_women_faculty", label = "% faculty Female", type = "pct"),
+  list(var = "frac_dept_chair_black", label = "Dept. chair Black", type = "pct"),
+  list(var = "frac_dept_chair_hispanic", label = "Dept. chair Hispanic", type = "pct"),
+  list(var = "frac_dept_chair_female", label = "Dept. chair Female", type = "pct")
+)
+
+# Panel B covariates (seminar-level)
+panel_b_vars <- list(
+  list(var = "num_recipients", label = "Number of email recipients", type = "num"),
+  list(var = "frac_seminar_organizer_black", label = "Seminar organizer Black", type = "pct"),
+  list(var = "frac_seminar_organizer_hispanic", label = "Seminar organizer Hispanic", type = "pct"),
+  list(var = "frac_seminar_organizer_female", label = "Seminar organizer Female", type = "pct")
+)
+
+panel_a_varnames <- sapply(panel_a_vars, `[[`, "var")
+panel_b_varnames <- sapply(panel_b_vars, `[[`, "var")
+
+format_row_bal <- function(data, v) {
+  ctrl <- data[[v$var]][data$treatment == 0]
+  treat <- data[[v$var]][data$treatment == 1]
+  all_vals <- data[[v$var]]
+  if (v$type %in% c("pct", "ind")) {
+    overall <- sprintf("%.2f%%", mean(all_vals, na.rm = TRUE) * 100)
+    control <- sprintf("%.2f%%", mean(ctrl, na.rm = TRUE) * 100)
+    treatment <- sprintf("%.2f%%", mean(treat, na.rm = TRUE) * 100)
+  } else {
+    overall <- sprintf("%.2f (%.2f)", mean(all_vals, na.rm = TRUE), sd(all_vals, na.rm = TRUE))
+    control <- sprintf("%.2f (%.2f)", mean(ctrl, na.rm = TRUE), sd(ctrl, na.rm = TRUE))
+    treatment <- sprintf("%.2f (%.2f)", mean(treat, na.rm = TRUE), sd(treat, na.rm = TRUE))
+  }
+  n_obs <- sum(!is.na(all_vals))
+  data.frame(Characteristic = v$label, Overall = overall, Control = control,
+             Treatment = treatment, pvalue = "", N = n_obs, stringsAsFactors = FALSE)
+}
+
+ri_individual_t <- function(data, var, strata_fe, vcov_fn, perm_tvecs) {
+  data_clean <- data %>% filter(!is.na(.data[[var]]))
+  if (nrow(data_clean) < 10) return(NA_real_)
+  formula <- as.formula(paste(var, "~ treatment +", paste(strata_fe, collapse = " + ")))
+  get_t <- function(d) {
+    m <- lm(formula, data = d)
+    ct <- tryCatch(coeftest(m, vcov. = vcov_fn(m)), error = function(e) NULL)
+    if (is.null(ct) || !"treatment" %in% rownames(ct)) return(NA_real_)
+    abs(ct["treatment", "t value"])
+  }
+  t_obs <- get_t(data_clean)
+  if (is.na(t_obs)) return(NA_real_)
+  n_ge <- 0L
+  for (i in seq_len(ncol(perm_tvecs))) {
+    data_clean$treatment <- perm_tvecs[match(
+      as.character(data_clean[[attr(perm_tvecs, "dept_col")]]),
+      attr(perm_tvecs, "dept_ids")), i]
+    t_perm <- get_t(data_clean)
+    if (!is.na(t_perm) && t_perm >= t_obs) n_ge <- n_ge + 1L
+  }
+  n_ge / ncol(perm_tvecs)
+}
+
+ri_joint_f <- function(data, covariates, strata_fe, vcov_fn, perm_tvecs) {
+  data_cc <- data[complete.cases(data[, covariates]), ]
+  if (nrow(data_cc) < 10) return(list(F_obs = NA, ri_p = NA, df1 = NA, df2 = NA, N = 0))
+  formula <- as.formula(paste("treatment ~", paste(strata_fe, collapse = " + "), "+",
+                               paste(covariates, collapse = " + ")))
+  get_F <- function(d) {
+    m <- lm(formula, data = d)
+    testable <- intersect(covariates, names(coef(m))[!is.na(coef(m))])
+    if (length(testable) == 0) return(NA_real_)
+    f <- linearHypothesis(m, paste0(testable, " = 0"),
+                          vcov = vcov_fn(m), singular.ok = TRUE, test = "F")
+    f$F[2]
+  }
+  F_obs <- get_F(data_cc)
+  if (is.na(F_obs)) return(list(F_obs = NA, ri_p = NA, df1 = NA, df2 = NA, N = nrow(data_cc)))
+  m_full <- lm(formula, data = data_cc)
+  testable <- intersect(covariates, names(coef(m_full))[!is.na(coef(m_full))])
+  f_full <- linearHypothesis(m_full, paste0(testable, " = 0"),
+                             vcov = vcov_fn(m_full), singular.ok = TRUE, test = "F")
+  n_ge <- 0L
+  for (i in seq_len(ncol(perm_tvecs))) {
+    data_cc$treatment <- perm_tvecs[match(
+      as.character(data_cc[[attr(perm_tvecs, "dept_col")]]),
+      attr(perm_tvecs, "dept_ids")), i]
+    f_perm <- get_F(data_cc)
+    if (!is.na(f_perm) && f_perm >= F_obs) n_ge <- n_ge + 1L
+  }
+  list(F_obs = F_obs, ri_p = n_ge / ncol(perm_tvecs),
+       df1 = f_full$Df[2], df2 = f_full$Res.Df[2], N = nrow(data_cc))
+}
+
+generate_permutations <- function(dept_data, dept_col, n_perm) {
+  dept_data$strata_id <- apply(dept_data[, strat_dept], 1, paste, collapse = "_")
+  dept_ids <- as.character(dept_data[[dept_col]])
+  perm_mat <- matrix(NA_real_, nrow = length(dept_ids), ncol = n_perm)
+  for (i in seq_len(n_perm)) {
+    perm <- dept_data$treatment
+    for (s in unique(dept_data$strata_id)) {
+      idx <- dept_data$strata_id == s
+      perm[idx] <- sample(perm[idx])
+    }
+    perm_mat[, i] <- perm
+  }
+  attr(perm_mat, "dept_ids") <- dept_ids
+  attr(perm_mat, "dept_col") <- dept_col
+  perm_mat
+}
+
+build_balance_output <- function(dept_data, sem_data, dept_col, sample_label) {
+  cat(sprintf("\n--- Building %s balance table ---\n", sample_label))
+  n_dept <- nrow(dept_data)
+  n_sem <- nrow(sem_data)
+
+  cat(sprintf("  Generating %d permutations...\n", N_PERM))
+  perm_dept <- generate_permutations(dept_data, dept_col, N_PERM)
+  vcov_hc3 <- function(m) vcovHC(m, type = "HC3")
+
+  # --- Panel A: Department-level ---
+  cat("  Panel A (department-level)...\n")
+  panel_a_rows <- lapply(panel_a_vars, function(v) format_row_bal(dept_data, v))
+  panel_a_df <- do.call(rbind, panel_a_rows)
+  for (i in seq_along(panel_a_vars)) {
+    v <- panel_a_vars[[i]]
+    cat(sprintf("    RI for %s...\n", v$var))
+    p <- ri_individual_t(dept_data, v$var, strat_dept, vcov_hc3, perm_dept)
+    panel_a_df$pvalue[i] <- if (is.na(p)) "" else sprintf("%.3f", p)
+    panel_a_df$N[i] <- sum(!is.na(dept_data[[v$var]]))
+  }
+  cat("    Joint F-test Panel A...\n")
+  f_a <- ri_joint_f(dept_data, panel_a_varnames, strat_dept, vcov_hc3, perm_dept)
+
+  # --- Panel B: Seminar-level ---
+  cat("  Panel B (seminar-level)...\n")
+  panel_b_rows <- lapply(panel_b_vars, function(v) format_row_bal(sem_data, v))
+  panel_b_df <- do.call(rbind, panel_b_rows)
+  for (i in seq_along(panel_b_vars)) {
+    v <- panel_b_vars[[i]]
+    cat(sprintf("    RI for %s...\n", v$var))
+    sem_clean <- sem_data %>% filter(!is.na(.data[[v$var]]))
+    if (nrow(sem_clean) < 10) { panel_b_df$pvalue[i] <- ""; next }
+    formula <- as.formula(paste(v$var, "~ treatment +", paste(strat_sem, collapse = " + ")))
+    get_vcov_cl <- function(m) vcovCL(m, cluster = sem_clean[[dept_col]])
+    get_t <- function(d) {
+      m <- lm(formula, data = d)
+      ct <- tryCatch(coeftest(m, vcov. = get_vcov_cl(m)), error = function(e) NULL)
+      if (is.null(ct) || !"treatment" %in% rownames(ct)) return(NA_real_)
+      abs(ct["treatment", "t value"])
+    }
+    t_obs <- get_t(sem_clean)
+    if (is.na(t_obs)) { panel_b_df$pvalue[i] <- ""; next }
+    n_ge <- 0L
+    for (j in seq_len(N_PERM)) {
+      sem_clean$treatment <- perm_dept[match(
+        as.character(sem_clean[[dept_col]]), attr(perm_dept, "dept_ids")), j]
+      t_perm <- get_t(sem_clean)
+      if (!is.na(t_perm) && t_perm >= t_obs) n_ge <- n_ge + 1L
+    }
+    panel_b_df$pvalue[i] <- sprintf("%.3f", n_ge / N_PERM)
+    panel_b_df$N[i] <- nrow(sem_clean)
+  }
+
+  cat("    Joint F-test Panel B...\n")
+  sem_cc <- sem_data[complete.cases(sem_data[, panel_b_varnames]), ]
+  if (nrow(sem_cc) >= 10) {
+    formula_b <- as.formula(paste("treatment ~", paste(strat_sem, collapse = " + "), "+",
+                                   paste(panel_b_varnames, collapse = " + ")))
+    get_F_b <- function(d) {
+      m <- lm(formula_b, data = d)
+      testable <- intersect(panel_b_varnames, names(coef(m))[!is.na(coef(m))])
+      if (length(testable) == 0) return(NA_real_)
+      f <- linearHypothesis(m, paste0(testable, " = 0"),
+                            vcov = vcovCL(m, cluster = d[[dept_col]]),
+                            singular.ok = TRUE, test = "F")
+      f$F[2]
+    }
+    F_obs_b <- get_F_b(sem_cc)
+    m_b <- lm(formula_b, data = sem_cc)
+    testable_b <- intersect(panel_b_varnames, names(coef(m_b))[!is.na(coef(m_b))])
+    f_b_full <- linearHypothesis(m_b, paste0(testable_b, " = 0"),
+                                  vcov = vcovCL(m_b, cluster = sem_cc[[dept_col]]),
+                                  singular.ok = TRUE, test = "F")
+    n_ge_b <- 0L
+    for (j in seq_len(N_PERM)) {
+      sem_cc$treatment <- perm_dept[match(
+        as.character(sem_cc[[dept_col]]), attr(perm_dept, "dept_ids")), j]
+      f_perm <- get_F_b(sem_cc)
+      if (!is.na(f_perm) && f_perm >= F_obs_b) n_ge_b <- n_ge_b + 1L
+    }
+    f_b <- list(F_obs = F_obs_b, ri_p = n_ge_b / N_PERM,
+                df1 = f_b_full$Df[2], df2 = f_b_full$Res.Df[2], N = nrow(sem_cc))
+  } else {
+    f_b <- list(F_obs = NA, ri_p = NA, df1 = NA, df2 = NA, N = 0)
+  }
+
+  # --- Assemble output ---
+  header_a <- data.frame(
+    Characteristic = sprintf("Panel A: Department-Level Characteristics (N = %d)", n_dept),
+    Overall = "", Control = "", Treatment = "", pvalue = "", N = n_dept, stringsAsFactors = FALSE)
+  ftest_a_str <- if (!is.na(f_a$F_obs)) sprintf("F(%d, %d) = %.2f", f_a$df1, f_a$df2, f_a$F_obs) else ""
+  ftest_a_p <- if (!is.na(f_a$ri_p)) sprintf("%.3f", f_a$ri_p) else ""
+  ftest_a_row <- data.frame(Characteristic = "Joint F-test (RI p-value)", Overall = ftest_a_str,
+    Control = "", Treatment = "", pvalue = ftest_a_p, N = f_a$N, stringsAsFactors = FALSE)
+  header_b <- data.frame(
+    Characteristic = sprintf("Panel B: Seminar-Level Characteristics (N = %d)", n_sem),
+    Overall = "", Control = "", Treatment = "", pvalue = "", N = n_sem, stringsAsFactors = FALSE)
+  ftest_b_str <- if (!is.na(f_b$F_obs)) sprintf("F(%d, %d) = %.2f", f_b$df1, f_b$df2, f_b$F_obs) else ""
+  ftest_b_p <- if (!is.na(f_b$ri_p)) sprintf("%.3f", f_b$ri_p) else ""
+  ftest_b_row <- data.frame(Characteristic = "Joint F-test (RI p-value)", Overall = ftest_b_str,
+    Control = "", Treatment = "", pvalue = ftest_b_p, N = f_b$N, stringsAsFactors = FALSE)
+
+  output <- rbind(header_a, panel_a_df, ftest_a_row, header_b, panel_b_df, ftest_b_row)
+  cat(sprintf("  Done. Output has %d rows.\n", nrow(output)))
+  output
+}
+```
+
+```{r balance-compute, cache=TRUE, include=FALSE}
+# --- Analysis sample balance check (532 departments, 1,686 seminars) ---
+bal_data <- final_data %>%
+  mutate(
+    disc_chemistry = as.integer(discipline == "Chemistry"),
+    disc_computer_science = as.integer(discipline == "Computer Science"),
+    disc_mathematics = as.integer(discipline == "Mathematics"),
+    disc_mechanical_engineering = as.integer(discipline == "Mechanical Engineering"),
+    disc_physics = as.integer(discipline == "Physics")
+  ) %>%
+  group_by(department_std) %>%
+  mutate(n_seminars = n()) %>%
+  ungroup()
+
+dept_bal <- bal_data %>%
+  group_by(department_std) %>% slice(1) %>% ungroup()
+
+cat(sprintf("Balance check sample: %d seminars, %d departments\n",
+            nrow(bal_data), nrow(dept_bal)))
+
+set.seed(20260307)
+balance_output <- build_balance_output(dept_bal, bal_data, "department_std", "Analysis Sample")
+```
+
+```{r balance-display}
+pdf_table(balance_output, caption = "Balance Checks --- Analysis Sample (532 Departments, 1,686 Seminars)", scale_down = TRUE)
+```
+
+
+
+\needspace{5cm}
+### Differential Attrition
+
+```{r attrition-compute, include=FALSE}
+# Test whether attrition differs systematically by treatment assignment
+randomization_atr <- read.csv("../data/raw/treatment_assignment.csv", stringsAsFactors = FALSE) %>%
+  mutate(treatment = ifelse(condition == "treatment", 1, 0))
+
+initial_atr <- read.csv("../data/initial_seminar_sample.csv", stringsAsFactors = FALSE) %>%
+  mutate(department = paste0(university, "-", discipline))
+
+initial_atr <- initial_atr %>%
+  left_join(randomization_atr %>% select(department, treatment, bin_category), by = "department")
+
+final_data_raw_atr <- read.csv("../data/final_data.csv", stringsAsFactors = FALSE)
+retained_depts_atr <- unique(paste0(final_data_raw_atr$university, "-", final_data_raw_atr$discipline))
+
+dept_attrition <- randomization_atr %>%
+  select(department, treatment) %>%
+  mutate(fully_dropped = as.integer(!department %in% retained_depts_atr))
+
+sem_attrition <- initial_atr %>%
+  mutate(dropped = as.integer(!seminar_id %in% final_data_raw_atr$seminar_id))
+
+dept_atr_model <- lm(fully_dropped ~ treatment, data = dept_attrition)
+dept_atr_ct <- coeftest(dept_atr_model, vcov = vcovHC(dept_atr_model, type = "HC3"))
+
+sem_atr_model <- lm(dropped ~ treatment, data = sem_attrition)
+sem_atr_ct <- coeftest(sem_atr_model, vcov = vcovCL(sem_atr_model, cluster = sem_attrition$department))
+
+ctrl_dept_rate <- mean(dept_attrition$fully_dropped[dept_attrition$treatment == 0])
+treat_dept_rate <- mean(dept_attrition$fully_dropped[dept_attrition$treatment == 1])
+ctrl_sem_rate <- mean(sem_attrition$dropped[sem_attrition$treatment == 0])
+treat_sem_rate <- mean(sem_attrition$dropped[sem_attrition$treatment == 1])
+
+attrition_output <- data.frame(
+  Characteristic = c("Treatment", "", "p-value",
+    "Control attrition rate", "Treatment attrition rate", "N"),
+  Dept_Level = c(
+    sprintf("%.4f", dept_atr_ct["treatment", "Estimate"]),
+    sprintf("(%.4f)", dept_atr_ct["treatment", "Std. Error"]),
+    sprintf("%.3f", dept_atr_ct["treatment", "Pr(>|t|)"]),
+    sprintf("%.1f%%", ctrl_dept_rate * 100),
+    sprintf("%.1f%%", treat_dept_rate * 100),
+    as.character(nrow(dept_attrition))),
+  Seminar_Level = c(
+    sprintf("%.4f", sem_atr_ct["treatment", "Estimate"]),
+    sprintf("(%.4f)", sem_atr_ct["treatment", "Std. Error"]),
+    sprintf("%.3f", sem_atr_ct["treatment", "Pr(>|t|)"]),
+    sprintf("%.1f%%", ctrl_sem_rate * 100),
+    sprintf("%.1f%%", treat_sem_rate * 100),
+    as.character(nrow(sem_attrition))),
+  stringsAsFactors = FALSE)
+```
+
+```{r attrition-display}
+pdf_table(attrition_output, caption = "Tests for Differential Attrition")
+```
+
+
+
+\needspace{5cm}
+## Who Were the Speakers? Characteristics by Race/Ethnicity
+
+```{r table3-speaker-summary, include=FALSE}
+# ---------------------------------------------------------------------------
+# Table S3: Speaker Characteristics by Race/Ethnicity
+# ---------------------------------------------------------------------------
+
+# Load speaker-level data and restrict to canonical sample
+speakers <- read.csv("../data/raw/speaker_demographics.csv",
+                     fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+canonical_ids <- unique(final_data$seminar_id)
+speakers <- speakers[speakers$seminar_id %in% canonical_ids, ]
+
+# Join with seminar metadata to get university and discipline
+sem_meta <- read.csv("../data/raw/seminar_metadata.csv", stringsAsFactors = FALSE)
+speakers <- merge(speakers, sem_meta[, c("seminar_id", "university", "discipline")],
+                  by = "seminar_id", all.x = TRUE)
+
+# Build rank lookup from department_rankings.csv
+rankings_raw <- read.csv("../data/raw/department_rankings.csv", stringsAsFactors = FALSE)
+disc_rank_cols <- list(Physics = "physics_rank", Chemistry = "chemistry_rank",
+                       Mathematics = "math_rank", `Computer Science` = "cs_rank",
+                       `Mechanical Engineering` = "me_rank")
+rank_lookup <- list()
+for (disc in names(disc_rank_cols)) {
+  col <- disc_rank_cols[[disc]]
+  vals <- rankings_raw[[col]]
+  valid <- !is.na(vals)
+  rank_lookup[[disc]] <- setNames(vals[valid], rankings_raw$university[valid])
+}
+
+# Classify affiliations: peer set (within +/-20 ranks) vs. not in peer set
+classify_aff <- function(affiliation, host, discipline) {
+  if (is.na(discipline) || !(discipline %in% names(rank_lookup))) return("not_in_peer_set")
+  disc_ranks <- rank_lookup[[discipline]]
+  if (is.na(affiliation)) return("not_in_peer_set")
+  aff_rank <- disc_ranks[affiliation]
+  host_rank <- if (!is.na(host)) disc_ranks[host] else NA
+  if (is.na(aff_rank) || is.na(host_rank)) return("not_in_peer_set")
+  if (abs(aff_rank - host_rank) <= 20) return("in_peer_set")
+  return("not_in_peer_set")
+}
+speakers$aff_category <- mapply(classify_aff, speakers$affiliation,
+                                speakers$university, speakers$discipline)
+
+# Helper: format count (pct%)
+fmt_cp <- function(count, total) {
+  if (total == 0) return("\u2014")
+  sprintf("%s (%.1f%%)", format(count, big.mark = ","), 100 * count / total)
+}
+
+# Define race groups
+race_groups <- list(
+  All = NULL, White = "white", Asian = "asian",
+  Hispanic = "latino", Black = "black"
+)
+
+# Build summary for each race group
+build_rows <- function(speakers, race_groups) {
+  subsets <- list()
+  for (nm in names(race_groups)) {
+    rv <- race_groups[[nm]]
+    subsets[[nm]] <- if (is.null(rv)) speakers else speakers[speakers$combined_race == rv, ]
+  }
+
+  rows <- list()
+
+  # N appearances and N unique speakers
+  app_row <- c("N appearances")
+  uniq_row <- c("N unique speakers")
+  for (nm in names(race_groups)) {
+    sub <- subsets[[nm]]
+    app_row <- c(app_row, format(nrow(sub), big.mark = ","))
+    n_uniq <- if ("speaker_id" %in% names(sub)) length(unique(sub$speaker_id)) else length(unique(sub$name))
+    uniq_row <- c(uniq_row, format(n_uniq, big.mark = ","))
+  }
+  rows <- c(rows, list(app_row, uniq_row))
+
+  # Panel: Gender
+  rows <- c(rows, list(c("Gender", rep("", length(race_groups)))))
+  for (g in c("woman", "man")) {
+    label <- if (g == "woman") "  Woman" else "  Man"
+    vals <- c(label)
+    for (nm in names(race_groups)) {
+      sub <- subsets[[nm]]
+      vals <- c(vals, fmt_cp(sum(sub$combined_gender == g, na.rm = TRUE), nrow(sub)))
+    }
+    rows <- c(rows, list(vals))
+  }
+
+  # Panel: Academic Rank
+  rows <- c(rows, list(c("Academic Rank", rep("", length(race_groups)))))
+  rank_map <- c(Professor = "professor", `Associate Professor` = "associate professor",
+                `Assistant Professor` = "assistant professor", `Post-doc` = "post-doc",
+                `Graduate Student` = "graduate student", `Non-faculty` = "non-academic")
+  for (label in names(rank_map)) {
+    vals <- c(paste0("  ", label))
+    for (nm in names(race_groups)) {
+      sub <- subsets[[nm]]
+      vals <- c(vals, fmt_cp(sum(sub$rank == rank_map[[label]], na.rm = TRUE), nrow(sub)))
+    }
+    rows <- c(rows, list(vals))
+  }
+
+  # Panel: Institutional Affiliation
+  rows <- c(rows, list(c("Institutional Affiliation", rep("", length(race_groups)))))
+  aff_map <- c(`At Institution in Peer Set` = "in_peer_set",
+               `Not at Institution in Peer Set` = "not_in_peer_set")
+  for (label in names(aff_map)) {
+    vals <- c(paste0("  ", label))
+    for (nm in names(race_groups)) {
+      sub <- subsets[[nm]]
+      vals <- c(vals, fmt_cp(sum(sub$aff_category == aff_map[[label]], na.rm = TRUE), nrow(sub)))
+    }
+    rows <- c(rows, list(vals))
+  }
+
+  do.call(rbind, rows)
+}
+
+table3_mat <- build_rows(speakers, race_groups)
+table3_df <- as.data.frame(table3_mat, stringsAsFactors = FALSE)
+names(table3_df) <- c("", "All Speakers", "White", "Asian", "Hispanic/Latino", "Black")
+
+cat(sprintf("Table S3: %d speaker appearances in canonical sample\n", nrow(speakers)))
+```
+
+```{r table3-display, results='asis'}
+kbl(table3_df, format = "latex", booktabs = TRUE,
+    caption = "Table S3: Characteristics of Speakers in STEM Seminars in the 2024--25 Academic Year, by Race/Ethnicity",
+    linesep = "", row.names = FALSE, escape = TRUE, align = c("l", rep("c", 5))) %>%
+  kable_styling(latex_options = c("hold_position"),
+                font_size = 9, position = "center") %>%
+  row_spec(0, bold = TRUE) %>%
+  row_spec(which(table3_mat[,1] %in% c("Gender", "Academic Rank", "Institutional Affiliation")),
+           bold = TRUE)
+```
+
+
+## Main Effects of Treatment on Speaker Representation
+
+
+
+\needspace{5cm}
+### Overall URM Speaker Representation
+
+```{r table-1}
+models_t1 <- list(
+  "(1)" = lm(as.formula(paste("pct_urm ~ treatment +", controls_base)), data = final_data),
+  "(2)" = lm(as.formula(paste("pct_urm ~ treatment +", controls_extended)), data = final_data),
+  "(3)" = lm(as.formula(paste("num_urm ~ treatment +", controls_base)), data = final_data),
+  "(4)" = lm(as.formula(paste("num_urm ~ treatment +", controls_extended)), data = final_data),
+  "(5)" = lm(as.formula(paste("has_any_urm ~ treatment +", controls_base)), data = final_data),
+  "(6)" = lm(as.formula(paste("has_any_urm ~ treatment +", controls_extended)), data = final_data)
+)
+
+table1_base <- modelsummary(
+  models_t1, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_full,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+table1_export <- table1_base
+pdf_table(table1_export, caption = "Table 1: Treatment Effect on URM Speaker Representation",
+         col_groups = c(" " = 1, "% URM" = 2, "# URM" = 2, "Any URM" = 2), scale_down = TRUE)
+```
+
+
+
+\needspace{5cm}
+### Black Speaker Representation
+
+```{r table-1-black}
+models_t1b <- list(
+  "(1)" = lm(as.formula(paste("pct_black ~ treatment +", controls_base)), data = final_data),
+  "(2)" = lm(as.formula(paste("pct_black ~ treatment +", controls_extended)), data = final_data),
+  "(3)" = lm(as.formula(paste("num_black ~ treatment +", controls_base)), data = final_data),
+  "(4)" = lm(as.formula(paste("num_black ~ treatment +", controls_extended)), data = final_data),
+  "(5)" = lm(as.formula(paste("has_any_black ~ treatment +", controls_base)), data = final_data),
+  "(6)" = lm(as.formula(paste("has_any_black ~ treatment +", controls_extended)), data = final_data)
+)
+
+table1b_base <- modelsummary(
+  models_t1b, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_full,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+table1b_export <- table1b_base
+pdf_table(table1b_export, caption = "Table 1 (Panel B): Treatment Effect on Black Representation",
+         col_groups = c(" " = 1, "% Black" = 2, "# Black" = 2, "Any Black" = 2), scale_down = TRUE)
+```
+
+
+
+\needspace{5cm}
+### Hispanic Speaker Representation
+
+```{r table-1-hispanic}
+models_t1c <- list(
+  "(1)" = lm(as.formula(paste("pct_hispanic ~ treatment +", controls_base)), data = final_data),
+  "(2)" = lm(as.formula(paste("pct_hispanic ~ treatment +", controls_extended)), data = final_data),
+  "(3)" = lm(as.formula(paste("num_hispanic ~ treatment +", controls_base)), data = final_data),
+  "(4)" = lm(as.formula(paste("num_hispanic ~ treatment +", controls_extended)), data = final_data),
+  "(5)" = lm(as.formula(paste("has_any_hispanic ~ treatment +", controls_base)), data = final_data),
+  "(6)" = lm(as.formula(paste("has_any_hispanic ~ treatment +", controls_extended)), data = final_data)
+)
+
+table1c_base <- modelsummary(
+  models_t1c, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_full,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+table1c_export <- table1c_base
+pdf_table(table1c_export, caption = "Table 1 (Panel C): Treatment Effect on Hispanic Representation",
+         col_groups = c(" " = 1, "% Hispanic" = 2, "# Hispanic" = 2, "Any Hispanic" = 2), scale_down = TRUE)
+```
+
+
+## Did Treatment Effects Vary by Semester or Discipline?
+
+
+
+
+```{r table-s6-black-semester}
+models_s6 <- list(
+  "(1)" = lm(as.formula(paste("fall_pct_black ~ treatment +", controls_base)), data = final_data),
+  "(2)" = lm(as.formula(paste("fall_pct_black ~ treatment +", controls_extended)), data = final_data),
+  "(3)" = lm(as.formula(paste("spring_pct_black ~ treatment +", controls_base)), data = final_data),
+  "(4)" = lm(as.formula(paste("spring_pct_black ~ treatment +", controls_extended)), data = final_data),
+  "(5)" = lm(as.formula(paste("fall_num_black ~ treatment +", controls_base)), data = final_data),
+  "(6)" = lm(as.formula(paste("fall_num_black ~ treatment +", controls_extended)), data = final_data),
+  "(7)" = lm(as.formula(paste("spring_num_black ~ treatment +", controls_base)), data = final_data),
+  "(8)" = lm(as.formula(paste("spring_num_black ~ treatment +", controls_extended)), data = final_data),
+  "(9)" = lm(as.formula(paste("has_any_black_fall ~ treatment +", controls_base)), data = final_data),
+  "(10)" = lm(as.formula(paste("has_any_black_fall ~ treatment +", controls_extended)), data = final_data),
+  "(11)" = lm(as.formula(paste("has_any_black_spring ~ treatment +", controls_base)), data = final_data),
+  "(12)" = lm(as.formula(paste("has_any_black_spring ~ treatment +", controls_extended)), data = final_data)
+)
+
+table_s6_base <- modelsummary(
+  models_s6, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_full,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+table_s6_export <- table_s6_base
+pdf_table(table_s6_export, caption = "Table S6: Treatment Effect on Black Representation by Semester", landscape_mode = TRUE,
+         col_groups = c(" " = 1, "Fall % Black" = 2, "Spring % Black" = 2, "Fall # Black" = 2, "Spring # Black" = 2, "Fall Any Black" = 2, "Spring Any Black" = 2))
+```
+
+```{r semester-het-compute, include=FALSE}
+semester_long <- bind_rows(
+  final_data %>%
+    mutate(semester = "Fall", pct_black_sem = fall_pct_black, num_black_sem = fall_num_black,
+           any_black_sem = has_any_black_fall, pct_urm_sem = fall_pct_urm, num_urm_sem = fall_num_urm,
+           any_urm_sem = has_any_urm_fall, pct_hispanic_sem = fall_pct_hispanic,
+           num_hispanic_sem = fall_num_hispanic, any_hispanic_sem = has_any_hispanic_fall),
+  final_data %>%
+    mutate(semester = "Spring", pct_black_sem = spring_pct_black, num_black_sem = spring_num_black,
+           any_black_sem = has_any_black_spring, pct_urm_sem = spring_pct_urm, num_urm_sem = spring_num_urm,
+           any_urm_sem = has_any_urm_spring, pct_hispanic_sem = spring_pct_hispanic,
+           num_hispanic_sem = spring_num_hispanic, any_hispanic_sem = has_any_hispanic_spring)
+)
+semester_long$semester <- factor(semester_long$semester, levels = c("Fall", "Spring"))
+
+het_test_rows <- list()
+for (info in list(
+  list(dv = "pct_black_sem", label = "% Black"),
+  list(dv = "num_black_sem", label = "# Black"),
+  list(dv = "any_black_sem", label = "Any Black"),
+  list(dv = "pct_urm_sem", label = "% URM"),
+  list(dv = "num_urm_sem", label = "# URM"),
+  list(dv = "any_urm_sem", label = "Any URM"),
+  list(dv = "pct_hispanic_sem", label = "% Hispanic"),
+  list(dv = "num_hispanic_sem", label = "# Hispanic"),
+  list(dv = "any_hispanic_sem", label = "Any Hispanic")
+)) {
+  m <- lm(as.formula(paste(info$dv, "~ -1 + semester + treatment:semester +", controls_extended)), data = semester_long)
+  het <- linearHypothesis(m, "semesterSpring:treatment - semesterFall:treatment = 0",
+    vcov = vcovCL(m, cluster = ~department_std), test = "F", singular.ok = TRUE)
+  het_test_rows[[length(het_test_rows) + 1]] <- data.frame(
+    Outcome = info$label,
+    `F-stat` = sprintf("F(%d, %d) = %.2f", het$Df[2], het$Res.Df[2], het$F[2]),
+    `p-value` = sprintf("%.3f", het$`Pr(>F)`[2]),
+    check.names = FALSE, stringsAsFactors = FALSE
+  )
+}
+sem_het_table <- do.call(rbind, het_test_rows)
+```
+
+```{r semester-het-display}
+pdf_table(sem_het_table, caption = "Semester Heterogeneity F-tests (Fall vs Spring)")
+```
+
+
+
+```{r table-s9-black-discipline-interaction}
+controls_base_no_discipline <- paste(stratification_controls, collapse = " + ")
+
+models_s9 <- list(
+  "(1)" = lm(as.formula(paste("pct_black ~ -1 + discipline + treatment:discipline +", controls_base_no_discipline)), data = final_data),
+  "(2)" = lm(as.formula(paste("pct_black ~ -1 + discipline + treatment:discipline +", controls_extended_no_discipline)), data = final_data),
+  "(3)" = lm(as.formula(paste("num_black ~ -1 + discipline + treatment:discipline +", controls_base_no_discipline)), data = final_data),
+  "(4)" = lm(as.formula(paste("num_black ~ -1 + discipline + treatment:discipline +", controls_extended_no_discipline)), data = final_data),
+  "(5)" = lm(as.formula(paste("has_any_black ~ -1 + discipline + treatment:discipline +", controls_base_no_discipline)), data = final_data),
+  "(6)" = lm(as.formula(paste("has_any_black ~ -1 + discipline + treatment:discipline +", controls_extended_no_discipline)), data = final_data)
+)
+
+discipline_main_coefs <- c(
+  "disciplineChemistry" = "Chemistry", "disciplineComputer Science" = "Computer Science",
+  "disciplineMathematics" = "Mathematics", "disciplineMechanical Engineering" = "Mechanical Engineering",
+  "disciplinePhysics" = "Physics"
+)
+discipline_interaction_coefs <- c(
+  "disciplineChemistry:treatment" = "Treatment x Chemistry",
+  "disciplineComputer Science:treatment" = "Treatment x Computer Science",
+  "disciplineMathematics:treatment" = "Treatment x Mathematics",
+  "disciplineMechanical Engineering:treatment" = "Treatment x Mechanical Engineering",
+  "disciplinePhysics:treatment" = "Treatment x Physics"
+)
+coef_map_discipline_interaction <- c(discipline_main_coefs, coef_map_controls, discipline_interaction_coefs)
+
+table_s9_base <- modelsummary(
+  models_s9, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_discipline_interaction,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+table_s9_export <- table_s9_base
+pdf_table(table_s9_export, caption = "Table S9: Black Speakers x Discipline Interaction Model",
+         col_groups = c(" " = 1, "% Black" = 2, "# Black" = 2, "Any Black" = 2),
+         landscape_mode = TRUE, font_size = 9)
+
+disc_het_rows <- list()
+for (m_info in list(
+  list(m = "(2)", label = "% Black"), list(m = "(4)", label = "# Black"), list(m = "(6)", label = "Any Black")
+)) {
+  het <- linearHypothesis(models_s9[[m_info$m]],
+    c("disciplineComputer Science:treatment - disciplineChemistry:treatment = 0",
+      "disciplineMathematics:treatment - disciplineChemistry:treatment = 0",
+      "disciplineMechanical Engineering:treatment - disciplineChemistry:treatment = 0",
+      "disciplinePhysics:treatment - disciplineChemistry:treatment = 0"),
+    vcov = vcovCL(models_s9[[m_info$m]], cluster = ~department_std), test = "F", singular.ok = TRUE)
+  disc_het_rows[[length(disc_het_rows) + 1]] <- data.frame(
+    Outcome = m_info$label,
+    `F-stat` = sprintf("F(%d, %d) = %.2f", het$Df[2], het$Res.Df[2], het$F[2]),
+    `p-value` = sprintf("%.3f", het$`Pr(>F)`[2]),
+    check.names = FALSE, stringsAsFactors = FALSE)
+}
+pdf_table(do.call(rbind, disc_het_rows), caption = "Discipline Heterogeneity F-tests (Black Speakers)")
+```
+
+
+## Estimating the Local Average Treatment Effect of URM Database Access
+
+
+
+\needspace{5cm}
+### Instrumental Variables Estimates
+
+```{r table-2-iv-diagnostics, include=FALSE}
+compliance_rate <- mean(final_data$accessed_database[final_data$treatment == 1])
+control_access_rate <- mean(final_data$accessed_dept_database[final_data$treatment == 0])
+
+first_stage <- lm(as.formula(paste("accessed_database ~ treatment +", controls_extended)), data = final_data)
+first_stage_clustered <- coeftest(first_stage, vcovCL(first_stage, cluster = ~department_std))
+fs_coef <- first_stage_clustered["treatment", "Estimate"]
+fs_se <- first_stage_clustered["treatment", "Std. Error"]
+fs_t <- first_stage_clustered["treatment", "t value"]
+fs_f <- fs_t^2
+```
+
+```{r table-2-iv-models}
+first_stage_models <- list(
+  "(1)" = lm_robust(as.formula(paste("accessed_database ~ treatment +", controls_base)),
+    data = final_data, clusters = department_std),
+  "(2)" = lm_robust(as.formula(paste("accessed_database ~ treatment +", controls_extended)),
+    data = final_data, clusters = department_std)
+)
+
+iv_models <- list(
+  "(3)" = iv_robust(as.formula(paste("pct_black ~ accessed_database +", controls_base, "| treatment +", controls_base)),
+    data = final_data, clusters = department_std),
+  "(4)" = iv_robust(as.formula(paste("pct_black ~ accessed_database +", controls_extended, "| treatment +", controls_extended)),
+    data = final_data, clusters = department_std),
+  "(5)" = iv_robust(as.formula(paste("num_black ~ accessed_database +", controls_base, "| treatment +", controls_base)),
+    data = final_data, clusters = department_std),
+  "(6)" = iv_robust(as.formula(paste("num_black ~ accessed_database +", controls_extended, "| treatment +", controls_extended)),
+    data = final_data, clusters = department_std),
+  "(7)" = iv_robust(as.formula(paste("has_any_black ~ accessed_database +", controls_base, "| treatment +", controls_base)),
+    data = final_data, clusters = department_std),
+  "(8)" = iv_robust(as.formula(paste("has_any_black ~ accessed_database +", controls_extended, "| treatment +", controls_extended)),
+    data = final_data, clusters = department_std)
+)
+
+all_table2_models <- c(first_stage_models, iv_models)
+coef_map_t2_iv <- c(
+  "treatment" = "URM Database Treatment",
+  "accessed_database" = "URM Database Access (LATE)",
+  coef_map_controls, "(Intercept)" = "Constant"
+)
+vcov_list <- list(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+
+table2_base <- modelsummary(
+  all_table2_models, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_t2_iv,
+  gof_map = c("nobs", "adj.r.squared"), vcov = vcov_list, output = "data.frame"
+)
+
+iv_diagnostics <- data.frame(
+  Statistic = c("Compliance rate", "First-stage coefficient", "First-stage SE", "First-stage F-statistic"),
+  Value = c(sprintf("%.1f%%", 100 * compliance_rate), sprintf("%.4f", fs_coef),
+            sprintf("%.4f", fs_se), sprintf("%.2f", fs_f)),
+  stringsAsFactors = FALSE)
+
+table2_export <- table2_base
+pdf_table(table2_export, caption = "Table 2: Instrumental Variables Estimates", landscape_mode = TRUE,
+         col_groups = c(" " = 1, "First Stage" = 2, "% Black (LATE)" = 2, "# Black (LATE)" = 2, "Any Black (LATE)" = 2))
+```
+
+```{r table-2-iv-validation, include=FALSE}
+itt_pct <- coeftest(models_t1b[["(2)"]], vcovCL(models_t1b[["(2)"]], cluster = ~department_std))["treatment", "Estimate"]
+itt_num <- coeftest(models_t1b[["(4)"]], vcovCL(models_t1b[["(4)"]], cluster = ~department_std))["treatment", "Estimate"]
+itt_any <- coeftest(models_t1b[["(6)"]], vcovCL(models_t1b[["(6)"]], cluster = ~department_std))["treatment", "Estimate"]
+
+iv_pct <- coef(iv_models[["(4)"]])["accessed_database"]
+iv_num <- coef(iv_models[["(6)"]])["accessed_database"]
+iv_any <- coef(iv_models[["(8)"]])["accessed_database"]
+
+validation_df <- data.frame(
+  Outcome = c("Pct Black", "Num Black", "Any Black"),
+  ITT = round(c(itt_pct, itt_num, itt_any), 3),
+  LATE = round(c(iv_pct, iv_num, iv_any), 3),
+  Ratio = round(c(iv_pct/itt_pct, iv_num/itt_num, iv_any/itt_any), 2),
+  Expected = round(1/fs_coef, 2)
+)
+pdf_table(validation_df, caption = "IV Validation: ITT vs LATE Comparison")
+```
+
+
+## How Did Our Treatment Increase Black Speaker Representation?
+
+
+
+
+\needspace{5cm}
+### Decomposition of Treatment Effect
+
+```{r table-3-compute, include=FALSE}
+ctrl <- final_data[final_data$treatment == 0, ]
+
+# === Panel A: Database Origin (extended controls only, 4 models) ===
+models_t3a <- list(
+  "(1)" = lm(as.formula(paste("pct_black_from_db ~ treatment +", controls_extended)), data = final_data),
+  "(2)" = lm(as.formula(paste("pct_black_not_from_db ~ treatment +", controls_extended)), data = final_data),
+  "(3)" = lm(as.formula(paste("num_black_from_db ~ treatment +", controls_extended)), data = final_data),
+  "(4)" = lm(as.formula(paste("num_black_not_from_db ~ treatment +", controls_extended)), data = final_data)
+)
+
+table3a_base <- modelsummary(
+  models_t3a, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_full,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+# SUR Wald Tests (Panel A)
+sur_pct_db <- tryCatch(
+  systemfit(list(
+    fromDB    = as.formula(paste("pct_black_from_db ~ treatment +", controls_extended)),
+    notFromDB = as.formula(paste("pct_black_not_from_db ~ treatment +", controls_extended))
+  ), method = "SUR", data = final_data), error = function(e) NULL)
+sur_num_db <- tryCatch(
+  systemfit(list(
+    fromDB    = as.formula(paste("num_black_from_db ~ treatment +", controls_extended)),
+    notFromDB = as.formula(paste("num_black_not_from_db ~ treatment +", controls_extended))
+  ), method = "SUR", data = final_data), error = function(e) NULL)
+
+wald_pct_db_f <- wald_pct_db_p <- wald_pct_db_df1 <- wald_pct_db_df2 <- NA_real_
+if (!is.null(sur_pct_db)) {
+  w <- linearHypothesis(sur_pct_db, "fromDB_treatment = notFromDB_treatment")
+  wald_pct_db_f <- w$F[2]; wald_pct_db_p <- w$`Pr(>F)`[2]
+  wald_pct_db_df1 <- w$Df[2]; wald_pct_db_df2 <- w$Res.Df[2]
+}
+wald_num_db_f <- wald_num_db_p <- wald_num_db_df1 <- wald_num_db_df2 <- NA_real_
+if (!is.null(sur_num_db)) {
+  w <- linearHypothesis(sur_num_db, "fromDB_treatment = notFromDB_treatment")
+  wald_num_db_f <- w$F[2]; wald_num_db_p <- w$`Pr(>F)`[2]
+  wald_num_db_df1 <- w$Df[2]; wald_num_db_df2 <- w$Res.Df[2]
+}
+
+# Supply-Adjusted Benchmark (Panel A)
+pool_fromdb <- sum(ctrl$num_black_from_db, na.rm = TRUE)
+pool_notdb  <- sum(ctrl$num_black_not_from_db, na.rm = TRUE)
+pool_total_db  <- pool_fromdb + pool_notdb
+pool_share_db <- pool_fromdb / pool_total_db
+eff_fromdb <- coef(models_t3a[["(1)"]])["treatment"]
+eff_notdb  <- coef(models_t3a[["(2)"]])["treatment"]
+eff_total_db  <- eff_fromdb + eff_notdb
+eff_share_db <- eff_fromdb / eff_total_db
+
+# Build Panel A export
+table3a_export <- table3a_base
+for (wald_info in list(
+  list(label = "Wald: from_db = not_from_db (pct)", f = wald_pct_db_f, p = wald_pct_db_p, df1 = wald_pct_db_df1, df2 = wald_pct_db_df2),
+  list(label = "Wald: from_db = not_from_db (num)", f = wald_num_db_f, p = wald_num_db_p, df1 = wald_num_db_df1, df2 = wald_num_db_df2)
+)) {
+  wald_row <- data.frame(part = "gof", term = wald_info$label,
+    statistic = sprintf("F(%d, %d) = %.3f, p = %.4f", wald_info$df1, wald_info$df2, wald_info$f, wald_info$p), stringsAsFactors = FALSE)
+  for (col in names(table3a_export)[4:length(names(table3a_export))]) wald_row[[col]] <- ""
+  table3a_export <- rbind(table3a_export, wald_row)
+}
+
+# === Panel B: Peer Window (extended controls only, 4 models) ===
+models_t3b <- list(
+  "(5)" = lm(as.formula(paste("pct_black_inpeer ~ treatment +", controls_extended)), data = final_data),
+  "(6)" = lm(as.formula(paste("pct_black_outside ~ treatment +", controls_extended)), data = final_data),
+  "(7)" = lm(as.formula(paste("num_black_inpeer ~ treatment +", controls_extended)), data = final_data),
+  "(8)" = lm(as.formula(paste("num_black_outside ~ treatment +", controls_extended)), data = final_data)
+)
+
+table3b_base <- modelsummary(
+  models_t3b, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_full,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+# SUR Wald Tests (Panel B)
+sur_peer_pct <- tryCatch(
+  systemfit(list(
+    inPeer  = as.formula(paste("pct_black_inpeer ~ treatment +", controls_extended)),
+    outside = as.formula(paste("pct_black_outside ~ treatment +", controls_extended))
+  ), method = "SUR", data = final_data), error = function(e) NULL)
+sur_peer_num <- tryCatch(
+  systemfit(list(
+    inPeer  = as.formula(paste("num_black_inpeer ~ treatment +", controls_extended)),
+    outside = as.formula(paste("num_black_outside ~ treatment +", controls_extended))
+  ), method = "SUR", data = final_data), error = function(e) NULL)
+
+wald_peer_pct_f <- wald_peer_pct_p <- wald_peer_pct_df1 <- wald_peer_pct_df2 <- NA_real_
+if (!is.null(sur_peer_pct)) {
+  w <- linearHypothesis(sur_peer_pct, "inPeer_treatment = outside_treatment")
+  wald_peer_pct_f <- w$F[2]; wald_peer_pct_p <- w$`Pr(>F)`[2]
+  wald_peer_pct_df1 <- w$Df[2]; wald_peer_pct_df2 <- w$Res.Df[2]
+}
+wald_peer_num_f <- wald_peer_num_p <- wald_peer_num_df1 <- wald_peer_num_df2 <- NA_real_
+if (!is.null(sur_peer_num)) {
+  w <- linearHypothesis(sur_peer_num, "inPeer_treatment = outside_treatment")
+  wald_peer_num_f <- w$F[2]; wald_peer_num_p <- w$`Pr(>F)`[2]
+  wald_peer_num_df1 <- w$Df[2]; wald_peer_num_df2 <- w$Res.Df[2]
+}
+
+# Supply-Adjusted Benchmark (Panel B)
+pool_inpeer  <- sum(ctrl$num_black_inpeer, na.rm = TRUE)
+pool_outside <- sum(ctrl$num_black_outside, na.rm = TRUE)
+pool_peer_total <- pool_inpeer + pool_outside
+pool_share_peer <- pool_inpeer / pool_peer_total
+eff_inpeer  <- coef(models_t3b[["(5)"]])["treatment"]
+eff_outside <- coef(models_t3b[["(6)"]])["treatment"]
+eff_peer_total <- eff_inpeer + eff_outside
+eff_share_peer <- eff_inpeer / eff_peer_total
+
+# Build Panel B export
+table3b_export <- table3b_base
+for (wald_info in list(
+  list(label = "Wald: in_peer = outside (pct)", f = wald_peer_pct_f, p = wald_peer_pct_p, df1 = wald_peer_pct_df1, df2 = wald_peer_pct_df2),
+  list(label = "Wald: in_peer = outside (num)", f = wald_peer_num_f, p = wald_peer_num_p, df1 = wald_peer_num_df1, df2 = wald_peer_num_df2)
+)) {
+  wald_row <- data.frame(part = "gof", term = wald_info$label,
+    statistic = sprintf("F(%d, %d) = %.3f, p = %.4f", wald_info$df1, wald_info$df2, wald_info$f, wald_info$p), stringsAsFactors = FALSE)
+  for (col in names(table3b_export)[4:length(names(table3b_export))]) wald_row[[col]] <- ""
+  table3b_export <- rbind(table3b_export, wald_row)
+}
+
+```
+
+```{r table-3a-display}
+pdf_table(table3a_export, caption = "Table 3, Panel A: Database Origin",
+         col_groups = c(" " = 1, "% Black" = 2, "# Black" = 2))
+```
+
+
+```{r table-3b-display}
+pdf_table(table3b_export, caption = "Table 3, Panel B: Peer Window",
+         col_groups = c(" " = 1, "% Black" = 2, "# Black" = 2))
+```
+
+
+```{r table-3c-compute-only, include=FALSE}
+```
+
+```{r mechanism-counts-compute, include=FALSE}
+treat <- final_data[final_data$treatment == 1, ]
+
+make_count_row <- function(label, ctrl_v, treat_v) {
+  data.frame(Component = label, Control = sum(ctrl_v, na.rm = TRUE),
+    Treatment = sum(treat_v, na.rm = TRUE),
+    Difference = sum(treat_v, na.rm = TRUE) - sum(ctrl_v, na.rm = TRUE),
+    stringsAsFactors = FALSE)
+}
+
+mechanism_counts <- rbind(
+  make_count_row("From DB", ctrl$num_black_from_db, treat$num_black_from_db),
+  make_count_row("Not from DB", ctrl$num_black_not_from_db, treat$num_black_not_from_db),
+  make_count_row("Total Black", ctrl$num_black, treat$num_black),
+  make_count_row("In Peer Window", ctrl$num_black_inpeer, treat$num_black_inpeer),
+  make_count_row("Outside Peer Window", ctrl$num_black_outside, treat$num_black_outside),
+  make_count_row("Higher-Ranked", ctrl$num_black_above, treat$num_black_above),
+  make_count_row("Lower-Ranked", ctrl$num_black_below, treat$num_black_below),
+  make_count_row("Host Institution", ctrl$num_black_host_inst, treat$num_black_host_inst),
+  make_count_row("Not in U.S. News Rankings", ctrl$num_black_unranked, treat$num_black_unranked)
+)
+
+topn_rows <- list()
+for (n_cut in c(10, 20, 50)) {
+  tv <- paste0("num_black_top_", n_cut)
+  bv <- paste0("num_black_bot_", n_cut)
+  topn_rows[[length(topn_rows) + 1]] <- make_count_row(sprintf("Top-%d", n_cut), ctrl[[tv]], treat[[tv]])
+  topn_rows[[length(topn_rows) + 1]] <- make_count_row(sprintf("Bottom-%d", n_cut), ctrl[[bv]], treat[[bv]])
+}
+mechanism_counts <- rbind(mechanism_counts, do.call(rbind, topn_rows))
+```
+
+```{r mechanism-counts-display, include=FALSE}
+# Hidden from PDF output; data retained for Excel export
+mechanism_counts
+```
+
+
+## Were Treatment Effects Larger in Departments with More Access to Black Faculty?
+
+
+
+
+\needspace{5cm}
+### Treatment Effect by Black Faculty Access
+
+```{r table-s18-black-faculty-moderation}
+compute_simple_effect_generic <- function(model, moderator_name, x_val) {
+  coefs <- coef(model)
+  vcov_mat <- vcovCL(model, cluster = ~department_std)
+  interact_name <- paste0("treatment:", moderator_name)
+  b_treat <- as.numeric(coefs["treatment"])
+  b_interact <- as.numeric(coefs[interact_name])
+  var_treat <- as.numeric(vcov_mat["treatment", "treatment"])
+  var_interact <- as.numeric(vcov_mat[interact_name, interact_name])
+  cov_treat_interact <- as.numeric(vcov_mat["treatment", interact_name])
+  effect <- b_treat + b_interact * x_val
+  se <- sqrt(var_treat + x_val^2 * var_interact + 2 * x_val * cov_treat_interact)
+  t_stat <- effect / se
+  p_val <- 2 * pt(-abs(t_stat), df = model$df.residual)
+  return(list(effect = effect, se = se, t = t_stat, p = p_val))
+}
+
+# Mean-center black_faculty for interpretability (treatment main effect = effect at mean)
+final_data$black_faculty_mc <- final_data$black_faculty - mean(final_data$black_faculty, na.rm = TRUE)
+
+models_s18 <- list(
+  "(1)" = lm(as.formula(paste("pct_black ~ treatment * black_faculty_mc +", controls_base)), data = final_data),
+  "(2)" = lm(as.formula(paste("pct_black ~ treatment * black_faculty_mc +", controls_extended_black_mod)), data = final_data),
+  "(3)" = lm(as.formula(paste("num_black ~ treatment * black_faculty_mc +", controls_base)), data = final_data),
+  "(4)" = lm(as.formula(paste("num_black ~ treatment * black_faculty_mc +", controls_extended_black_mod)), data = final_data),
+  "(5)" = lm(as.formula(paste("has_any_black ~ treatment * black_faculty_mc +", controls_base)), data = final_data),
+  "(6)" = lm(as.formula(paste("has_any_black ~ treatment * black_faculty_mc +", controls_extended_black_mod)), data = final_data)
+)
+
+coef_map_s18 <- c(
+  "treatment" = "URM Database Treatment",
+  "black_faculty_mc" = "Black Faculty Count (Centered)",
+  "treatment:black_faculty_mc" = "Treatment × Black Faculty (Centered)",
+  coef_map_controls, "(Intercept)" = "Constant"
+)
+
+table_s18_base <- modelsummary(
+  models_s18, stars = TRUE, fmt = fmt_adaptive, coef_map = coef_map_s18,
+  gof_map = c("nobs", "adj.r.squared"), vcov = ~department_std, output = "data.frame"
+)
+
+table_s18_export <- table_s18_base
+pdf_table(table_s18_export, caption = "Table S18: Treatment x Black Faculty Count Interaction",
+         col_groups = c(" " = 1, "% Black" = 2, "# Black" = 2, "Any Black" = 2), scale_down = TRUE)
+model_names_s18 <- c("(2)" = "% Black Speakers", "(4)" = "# Black Speakers", "(6)" = "Any Black Speaker")
+bf_mean <- mean(final_data$black_faculty, na.rm = TRUE)
+count_levels <- c("0 Black faculty" = 0 - bf_mean, "1 Black faculty" = 1 - bf_mean, "2 Black faculty" = 2 - bf_mean, "3 Black faculty" = 3 - bf_mean)
+
+simple_effects_all <- data.frame()
+for (mod_id in names(model_names_s18)) {
+  for (level_name in names(count_levels)) {
+    x_val <- count_levels[level_name]
+    result <- compute_simple_effect_generic(models_s18[[mod_id]], "black_faculty_mc", x_val)
+    simple_effects_all <- rbind(simple_effects_all, data.frame(
+      DV = model_names_s18[mod_id], Level = level_name,
+      Effect = round(result$effect, 3), SE = round(result$se, 3),
+      t = round(result$t, 3), p = round(result$p, 4)
+    ))
+  }
+}
+pdf_table(simple_effects_all, caption = "Simple Effects by Black Faculty Count (Extended Controls, Mean-Centered)", scale_down = TRUE)
+```
+
+```{r table-s18-interaction-coefs}
+interact_name <- "treatment:black_faculty_mc"
+model_labels <- c("(1)" = "% Black (base)", "(2)" = "% Black (extended)",
+                  "(3)" = "# Black (base)", "(4)" = "# Black (extended)",
+                  "(5)" = "Any Black (base)", "(6)" = "Any Black (extended)")
+
+interaction_coefs <- data.frame()
+for (mod_id in names(model_labels)) {
+  ct <- coeftest(models_s18[[mod_id]], vcov = vcovCL(models_s18[[mod_id]], cluster = ~department_std))
+  row <- ct[interact_name, ]
+  interaction_coefs <- rbind(interaction_coefs, data.frame(
+    Model = paste0(mod_id, " ", model_labels[mod_id]),
+    B = round(row[1], 4), SE = round(row[2], 4), t = round(row[3], 4), p = round(row[4], 4)
+  ))
+}
+pdf_table(interaction_coefs, caption = "Treatment x Black Faculty Count Interaction Coefficients")
+```
+
+
+<!-- Excel Export -->
+
+```{r export-all-results, include=FALSE}
+all_tables_for_export <- list(
+  "Balance_Analysis" = balance_output,
+  "Attrition" = attrition_output,
+  "Table1_URM_Effects" = add_spacer_columns(table1_export),
+  "Table1_Black_Effects" = add_spacer_columns(table1b_export),
+  "Table1_Hispanic_Effects" = add_spacer_columns(table1c_export),
+  "Table2_IV_LATE" = add_spacer_columns(table2_export),
+  "Table3_Speaker_Summary" = table3_df,
+  "Table4_PanelA_DB_Origin" = add_spacer_columns(table3a_export),
+  "Table4_PanelB_Peer_Window" = add_spacer_columns(table3b_export)
+)
+
+write.xlsx(all_tables_for_export, file = "../tables/All_Analysis_Tables.xlsx", overwrite = TRUE)
+cat("Exported manuscript tables to ../tables/All_Analysis_Tables.xlsx\n")
+```

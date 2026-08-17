@@ -1,0 +1,569 @@
+department,bin_category,condition
+Arizona State University-Computer Science,"[0,1]",treatment
+Arizona State University-Mechanical Engineering,"[0,1]",treatment
+Auburn University-Chemistry,"[0,1]",treatment
+Auburn University-Computer Science,"[0,1]",control
+Auburn University-Mechanical Engineering,"[0,1]",control
+Baylor University-Chemistry,"[0,1]",control
+Baylor University-Physics,"[0,1]",control
+Binghamton University-Mechanical Engineering,"[0,1]",control
+Boston College-Physics,"[0,1]",treatment
+California Institute of Technology-Computer Science,"[0,1]",control
+California Institute of Technology-Mechanical Engineering,"[0,1]",treatment
+Carnegie Mellon University-Chemistry,"[0,1]",control
+Carnegie Mellon University-Mechanical Engineering,"[0,1]",control
+Case Western Reserve University-Chemistry,"[0,1]",control
+Clemson University-Chemistry,"[0,1]",control
+Clemson University-Computer Science,"[0,1]",control
+Colorado School of Mines-Chemistry,"[0,1]",control
+Colorado School of Mines-Computer Science,"[0,1]",control
+Colorado School of Mines-Mathematics,"[0,1]",control
+Colorado School of Mines-Mechanical Engineering,"[0,1]",control
+Colorado School of Mines-Physics,"[0,1]",control
+Colorado State University-Computer Science,"[0,1]",control
+Colorado State University-Physics,"[0,1]",control
+Columbia University-Mechanical Engineering,"[0,1]",treatment
+Cornell University-Chemistry,"[0,1]",control
+Cornell University-Mechanical Engineering,"[0,1]",control
+Dartmouth College-Chemistry,"[0,1]",treatment
+Dartmouth College-Physics,"[0,1]",control
+Drexel University-Mathematics,"[0,1]",control
+Drexel University-Mechanical Engineering,"[0,1]",treatment
+Duke University-Mechanical Engineering,"[0,1]",control
+Emory University-Physics,"[0,1]",control
+Florida International University-Chemistry,"[0,1]",treatment
+Florida International University-Physics,"[0,1]",treatment
+Florida State University-Computer Science,"[0,1]",treatment
+Florida State University-Mechanical Engineering,"[0,1]",treatment
+George Mason University-Chemistry,"[0,1]",treatment
+George Mason University-Computer Science,"[0,1]",control
+George Mason University-Mechanical Engineering,"[0,1]",treatment
+George Mason University-Physics,"[0,1]",control
+George Washington University-Chemistry,"[0,1]",treatment
+George Washington University-Physics,"[0,1]",treatment
+Georgetown University-Chemistry,"[0,1]",control
+Georgetown University-Mathematics,"[0,1]",control
+Georgetown University-Physics,"[0,1]",control
+Georgia State University-Chemistry,"[0,1]",control
+Georgia State University-Physics,"[0,1]",control
+"Graduate Center, CUNY-Mechanical Engineering","[0,1]",treatment
+Harvard University-Mechanical Engineering,"[0,1]",control
+Iowa State University-Computer Science,"[0,1]",control
+Iowa State University-Mechanical Engineering,"[0,1]",control
+Iowa State University-Physics,"[0,1]",treatment
+Johns Hopkins University-Computer Science,"[0,1]",control
+Kansas State University-Chemistry,"[0,1]",treatment
+Kent State University-Chemistry,"[0,1]",treatment
+Louisiana State University-Computer Science,"[0,1]",control
+Louisiana State University-Physics,"[0,1]",control
+Mississippi State University-Chemistry,"[0,1]",treatment
+Mississippi State University-Computer Science,"[0,1]",control
+Mississippi State University-Mathematics,"[0,1]",treatment
+Mississippi State University-Physics,"[0,1]",treatment
+Montana State University-Chemistry,"[0,1]",treatment
+Montana State University-Computer Science,"[0,1]",control
+Montana State University-Physics,"[0,1]",control
+New Jersey Institute of Technology-Computer Science,"[0,1]",control
+North Carolina State University-Mechanical Engineering,"[0,1]",control
+North Dakota State University-Computer Science,"[0,1]",control
+North Dakota State University-Physics,"[0,1]",treatment
+Northeastern University-Chemistry,"[0,1]",control
+Ohio University-Chemistry,"[0,1]",control
+Ohio University-Mathematics,"[0,1]",treatment
+Oklahoma State University-Stillwater-Chemistry,"[0,1]",treatment
+Oklahoma State University-Stillwater-Physics,"[0,1]",control
+Old Dominion University-Chemistry,"[0,1]",treatment
+Old Dominion University-Computer Science,"[0,1]",control
+Old Dominion University-Mathematics,"[0,1]",control
+Oregon State University-Chemistry,"[0,1]",control
+Pennsylvania State University-Chemistry,"[0,1]",treatment
+Pennsylvania State University-Mechanical Engineering,"[0,1]",control
+Princeton University-Computer Science,"[0,1]",treatment
+Purdue University-Mechanical Engineering,"[0,1]",treatment
+Rensselaer Polytechnic Institute-Chemistry,"[0,1]",treatment
+Rensselaer Polytechnic Institute-Computer Science,"[0,1]",control
+Rensselaer Polytechnic Institute-Mathematics,"[0,1]",treatment
+Rensselaer Polytechnic Institute-Mechanical Engineering,"[0,1]",treatment
+Rensselaer Polytechnic Institute-Physics,"[0,1]",control
+Rice University-Chemistry,"[0,1]",treatment
+Rice University-Mechanical Engineering,"[0,1]",treatment
+Rice University-Physics,"[0,1]",treatment
+Rutgers University-New Brunswick-Mechanical Engineering,"[0,1]",treatment
+Stanford University-Physics,"[0,1]",control
+Syracuse University-Chemistry,"[0,1]",treatment
+Temple University-Chemistry,"[0,1]",treatment
+Texas A&M University-Chemistry,"[0,1]",treatment
+Texas A&M University-Computer Science,"[0,1]",control
+Texas A&M University-Physics,"[0,1]",treatment
+Texas Tech University-Chemistry,"[0,1]",treatment
+Texas Tech University-Computer Science,"[0,1]",treatment
+Texas Tech University-Mechanical Engineering,"[0,1]",treatment
+Texas Tech University-Physics,"[0,1]",treatment
+Tufts University-Chemistry,"[0,1]",treatment
+Tufts University-Computer Science,"[0,1]",control
+Tufts University-Mechanical Engineering,"[0,1]",control
+Tulane University-Chemistry,"[0,1]",control
+Tulane University-Physics,"[0,1]",treatment
+"University at Albany, SUNY-Chemistry","[0,1]",treatment
+University at Buffalo-Mechanical Engineering,"[0,1]",control
+University of Alabama at Birmingham-Chemistry,"[0,1]",treatment
+University of Alabama at Birmingham-Mathematics,"[0,1]",control
+University of Alabama in Huntsville-Mathematics,"[0,1]",control
+University of Alabama in Huntsville-Physics,"[0,1]",control
+University of Alabama-Chemistry,"[0,1]",treatment
+University of Alabama-Computer Science,"[0,1]",control
+University of Alabama-Mechanical Engineering,"[0,1]",treatment
+University of Alabama-Physics,"[0,1]",control
+University of Arizona-Computer Science,"[0,1]",treatment
+University of Arizona-Mechanical Engineering,"[0,1]",control
+University of Arkansas-Chemistry,"[0,1]",treatment
+"University of California, Berkeley-Computer Science","[0,1]",control
+"University of California, Berkeley-Mechanical Engineering","[0,1]",control
+"University of California, Davis-Chemistry","[0,1]",treatment
+"University of California, Irvine-Chemistry","[0,1]",control
+"University of California, Irvine-Mechanical Engineering","[0,1]",control
+"University of California, Los Angeles-Computer Science","[0,1]",treatment
+"University of California, Riverside-Mechanical Engineering","[0,1]",control
+"University of California, Santa Barbara-Mechanical Engineering","[0,1]",treatment
+"University of California, Santa Cruz-Chemistry","[0,1]",treatment
+University of Central Florida-Chemistry,"[0,1]",treatment
+University of Central Florida-Physics,"[0,1]",treatment
+University of Chicago-Computer Science,"[0,1]",treatment
+University of Cincinnati-Chemistry,"[0,1]",control
+University of Cincinnati-Mechanical Engineering,"[0,1]",control
+University of Connecticut-Chemistry,"[0,1]",treatment
+University of Connecticut-Mechanical Engineering,"[0,1]",treatment
+University of Delaware-Computer Science,"[0,1]",treatment
+University of Delaware-Mechanical Engineering,"[0,1]",control
+University of Denver-Chemistry,"[0,1]",control
+University of Denver-Physics,"[0,1]",treatment
+University of Florida-Chemistry,"[0,1]",control
+University of Florida-Computer Science,"[0,1]",treatment
+University of Florida-Mechanical Engineering,"[0,1]",treatment
+University of Georgia-Computer Science,"[0,1]",control
+University of Georgia-Physics,"[0,1]",control
+University of Hawaii at Manoa-Chemistry,"[0,1]",control
+University of Hawaii at Manoa-Mechanical Engineering,"[0,1]",treatment
+University of Hawaii at Manoa-Physics,"[0,1]",control
+University of Houston-Chemistry,"[0,1]",treatment
+University of Houston-Computer Science,"[0,1]",treatment
+University of Houston-Mechanical Engineering,"[0,1]",control
+University of Houston-Physics,"[0,1]",control
+University of Illinois Chicago-Chemistry,"[0,1]",treatment
+University of Illinois Chicago-Computer Science,"[0,1]",control
+University of Illinois Chicago-Mathematics,"[0,1]",control
+University of Illinois Chicago-Mechanical Engineering,"[0,1]",treatment
+University of Illinois Urbana-Champaign-Computer Science,"[0,1]",treatment
+University of Illinois Urbana-Champaign-Mathematics,"[0,1]",treatment
+University of Illinois Urbana-Champaign-Mechanical Engineering,"[0,1]",treatment
+University of Iowa-Computer Science,"[0,1]",control
+University of Iowa-Physics,"[0,1]",control
+University of Kentucky-Chemistry,"[0,1]",treatment
+University of Kentucky-Computer Science,"[0,1]",treatment
+University of Kentucky-Mechanical Engineering,"[0,1]",treatment
+University of Louisiana at Lafayette-Chemistry,"[0,1]",control
+University of Louisiana at Lafayette-Computer Science,"[0,1]",treatment
+University of Louisiana at Lafayette-Mechanical Engineering,"[0,1]",control
+University of Louisiana at Lafayette-Physics,"[0,1]",treatment
+University of Louisville-Chemistry,"[0,1]",control
+University of Louisville-Computer Science,"[0,1]",control
+University of Louisville-Mechanical Engineering,"[0,1]",treatment
+University of Louisville-Physics,"[0,1]",treatment
+University of Maine-Mathematics,"[0,1]",control
+University of Maine-Mechanical Engineering,"[0,1]",control
+University of Maine-Physics,"[0,1]",treatment
+"University of Maryland, College Park-Mechanical Engineering","[0,1]",treatment
+University of Massachusetts Amherst-Chemistry,"[0,1]",control
+University of Massachusetts Amherst-Computer Science,"[0,1]",control
+University of Memphis-Chemistry,"[0,1]",treatment
+University of Memphis-Computer Science,"[0,1]",treatment
+University of Memphis-Physics,"[0,1]",treatment
+University of Miami-Chemistry,"[0,1]",control
+University of Miami-Computer Science,"[0,1]",treatment
+University of Michigan-Mechanical Engineering,"[0,1]",treatment
+University of Minnesota-Computer Science,"[0,1]",control
+University of Mississippi-Chemistry,"[0,1]",treatment
+University of Mississippi-Physics,"[0,1]",control
+University of Missouri-Mechanical Engineering,"[0,1]",control
+University of Montana-Mathematics,"[0,1]",treatment
+University of Nebraska-Lincoln-Chemistry,"[0,1]",treatment
+University of Nebraska-Lincoln-Computer Science,"[0,1]",control
+University of Nebraska-Lincoln-Mathematics,"[0,1]",control
+University of Nebraska-Lincoln-Physics,"[0,1]",treatment
+"University of Nevada, Las Vegas-Physics","[0,1]",treatment
+"University of Nevada, Reno-Computer Science","[0,1]",treatment
+University of New Hampshire-Mathematics,"[0,1]",treatment
+University of New Hampshire-Physics,"[0,1]",control
+University of New Mexico-Computer Science,"[0,1]",treatment
+University of North Carolina at Chapel Hill-Computer Science,"[0,1]",control
+University of North Carolina at Chapel Hill-Physics,"[0,1]",treatment
+University of North Texas-Chemistry,"[0,1]",control
+University of North Texas-Computer Science,"[0,1]",control
+University of North Texas-Mechanical Engineering,"[0,1]",treatment
+University of North Texas-Physics,"[0,1]",treatment
+University of Oklahoma-Chemistry,"[0,1]",treatment
+University of Oklahoma-Physics,"[0,1]",control
+University of Oregon-Computer Science,"[0,1]",control
+University of Oregon-Physics,"[0,1]",control
+University of Pennsylvania-Mechanical Engineering,"[0,1]",treatment
+University of Pittsburgh-Chemistry,"[0,1]",control
+University of Pittsburgh-Computer Science,"[0,1]",treatment
+University of Rochester-Computer Science,"[0,1]",treatment
+University of Rochester-Mechanical Engineering,"[0,1]",treatment
+University of South Carolina-Chemistry,"[0,1]",control
+University of South Carolina-Physics,"[0,1]",control
+University of South Florida-Computer Science,"[0,1]",control
+University of South Florida-Mechanical Engineering,"[0,1]",treatment
+University of Southern California-Chemistry,"[0,1]",control
+University of Southern California-Computer Science,"[0,1]",control
+University of Southern California-Mathematics,"[0,1]",control
+University of Southern California-Mechanical Engineering,"[0,1]",control
+University of Southern Mississippi-Chemistry,"[0,1]",control
+University of Southern Mississippi-Mechanical Engineering,"[0,1]",treatment
+University of Southern Mississippi-Physics,"[0,1]",control
+University of Tennessee-Chemistry,"[0,1]",control
+University of Tennessee-Computer Science,"[0,1]",control
+University of Tennessee-Mechanical Engineering,"[0,1]",treatment
+University of Tennessee-Physics,"[0,1]",control
+University of Texas at Arlington-Chemistry,"[0,1]",treatment
+University of Texas at Arlington-Computer Science,"[0,1]",treatment
+University of Texas at Arlington-Mechanical Engineering,"[0,1]",control
+University of Texas at Arlington-Physics,"[0,1]",control
+University of Texas at Austin-Mathematics,"[0,1]",control
+University of Texas at Austin-Physics,"[0,1]",treatment
+University of Texas at Dallas-Mechanical Engineering,"[0,1]",treatment
+University of Texas at Dallas-Physics,"[0,1]",control
+University of Texas at El Paso-Chemistry,"[0,1]",treatment
+University of Texas at El Paso-Computer Science,"[0,1]",control
+University of Texas at El Paso-Mathematics,"[0,1]",control
+University of Texas at San Antonio-Chemistry,"[0,1]",treatment
+University of Texas at San Antonio-Mathematics,"[0,1]",treatment
+University of Texas at San Antonio-Physics,"[0,1]",treatment
+University of Utah-Chemistry,"[0,1]",treatment
+University of Utah-Computer Science,"[0,1]",treatment
+University of Utah-Mechanical Engineering,"[0,1]",control
+University of Virginia-Chemistry,"[0,1]",control
+University of Washington-Chemistry,"[0,1]",control
+University of Washington-Computer Science,"[0,1]",treatment
+University of Washington-Mechanical Engineering,"[0,1]",treatment
+University of Wisconsin-Madison-Mechanical Engineering,"[0,1]",treatment
+University of Wisconsin-Milwaukee-Computer Science,"[0,1]",treatment
+University of Wisconsin-Milwaukee-Mathematics,"[0,1]",control
+University of Wisconsin-Milwaukee-Mechanical Engineering,"[0,1]",treatment
+Utah State University-Chemistry,"[0,1]",treatment
+Utah State University-Mathematics,"[0,1]",control
+Utah State University-Mechanical Engineering,"[0,1]",treatment
+Utah State University-Physics,"[0,1]",treatment
+Vanderbilt University-Chemistry,"[0,1]",treatment
+Vanderbilt University-Mechanical Engineering,"[0,1]",control
+Vanderbilt University-Physics,"[0,1]",control
+Virginia Commonwealth University-Chemistry,"[0,1]",treatment
+Virginia Commonwealth University-Computer Science,"[0,1]",control
+Virginia Commonwealth University-Mechanical Engineering,"[0,1]",treatment
+Virginia Commonwealth University-Physics,"[0,1]",treatment
+Virginia Tech-Chemistry,"[0,1]",treatment
+Virginia Tech-Computer Science,"[0,1]",control
+Washington State University-Chemistry,"[0,1]",treatment
+Washington State University-Computer Science,"[0,1]",treatment
+Washington State University-Mechanical Engineering,"[0,1]",control
+Washington State University-Physics,"[0,1]",treatment
+Washington University in St. Louis-Chemistry,"[0,1]",treatment
+Washington University in St. Louis-Computer Science,"[0,1]",treatment
+Washington University in St. Louis-Mechanical Engineering,"[0,1]",control
+Wayne State University-Computer Science,"[0,1]",control
+Wayne State University-Mechanical Engineering,"[0,1]",control
+West Virginia University-Chemistry,"[0,1]",treatment
+West Virginia University-Computer Science,"[0,1]",treatment
+West Virginia University-Mechanical Engineering,"[0,1]",control
+West Virginia University-Physics,"[0,1]",treatment
+Yale University-Chemistry,"[0,1]",control
+Yale University-Computer Science,"[0,1]",control
+Binghamton University-Computer Science,"(1,3]",control
+Boston University-Chemistry,"(1,3]",treatment
+Boston University-Mechanical Engineering,"(1,3]",control
+Brandeis University-Computer Science,"(1,3]",control
+Brown University-Computer Science,"(1,3]",control
+Brown University-Mechanical Engineering,"(1,3]",treatment
+Case Western Reserve University-Computer Science,"(1,3]",treatment
+Clemson University-Mechanical Engineering,"(1,3]",treatment
+Columbia University-Computer Science,"(1,3]",treatment
+Duke University-Chemistry,"(1,3]",control
+Emory University-Chemistry,"(1,3]",control
+Georgia Institute of Technology-Mechanical Engineering,"(1,3]",control
+Harvard University-Chemistry,"(1,3]",treatment
+Johns Hopkins University-Chemistry,"(1,3]",control
+Kent State University-Physics,"(1,3]",control
+Massachusetts Institute of Technology-Mechanical Engineering,"(1,3]",treatment
+Michigan State University-Chemistry,"(1,3]",treatment
+Michigan State University-Computer Science,"(1,3]",control
+New Jersey Institute of Technology-Mathematics,"(1,3]",treatment
+New Jersey Institute of Technology-Physics,"(1,3]",treatment
+New York University-Chemistry,"(1,3]",control
+North Carolina State University-Computer Science,"(1,3]",control
+North Carolina State University-Physics,"(1,3]",control
+Northeastern University-Computer Science,"(1,3]",treatment
+Northwestern University-Computer Science,"(1,3]",control
+Ohio University-Physics,"(1,3]",treatment
+Old Dominion University-Physics,"(1,3]",control
+Oregon State University-Physics,"(1,3]",control
+Pennsylvania State University-Physics,"(1,3]",control
+Princeton University-Mechanical Engineering,"(1,3]",control
+Rice University-Computer Science,"(1,3]",control
+Stony Brook University-Computer Science,"(1,3]",control
+Temple University-Physics,"(1,3]",treatment
+Texas A&M University-Mechanical Engineering,"(1,3]",treatment
+Texas Tech University-Mathematics,"(1,3]",control
+Tulane University-Computer Science,"(1,3]",control
+"University at Albany, SUNY-Physics","(1,3]",treatment
+University at Buffalo-Computer Science,"(1,3]",control
+University at Buffalo-Physics,"(1,3]",treatment
+University of Arkansas-Physics,"(1,3]",control
+"University of California, Los Angeles-Mechanical Engineering","(1,3]",control
+"University of California, Riverside-Computer Science","(1,3]",control
+"University of California, San Diego-Physics","(1,3]",treatment
+"University of California, Santa Barbara-Physics","(1,3]",control
+University of Cincinnati-Mathematics,"(1,3]",control
+University of Colorado Boulder-Mechanical Engineering,"(1,3]",control
+University of Colorado Denver-Mathematics,"(1,3]",treatment
+University of Hawaii at Manoa-Mathematics,"(1,3]",control
+University of Iowa-Chemistry,"(1,3]",control
+University of Iowa-Mathematics,"(1,3]",control
+University of Kansas-Mathematics,"(1,3]",control
+University of Kentucky-Mathematics,"(1,3]",control
+"University of Maryland, Baltimore County-Physics","(1,3]",control
+University of Miami-Mathematics,"(1,3]",treatment
+University of Miami-Physics,"(1,3]",treatment
+University of Minnesota-Chemistry,"(1,3]",control
+University of Minnesota-Mechanical Engineering,"(1,3]",treatment
+University of Mississippi-Mathematics,"(1,3]",treatment
+University of Missouri-Chemistry,"(1,3]",treatment
+University of Montana-Chemistry,"(1,3]",treatment
+"University of Nevada, Reno-Mathematics","(1,3]",treatment
+University of New Hampshire-Chemistry,"(1,3]",treatment
+University of New Mexico-Chemistry,"(1,3]",control
+University of Pennsylvania-Computer Science,"(1,3]",treatment
+University of South Florida-Chemistry,"(1,3]",control
+University of Texas at Arlington-Mathematics,"(1,3]",control
+University of Texas at Austin-Computer Science,"(1,3]",treatment
+University of Texas at Dallas-Chemistry,"(1,3]",control
+University of Washington-Physics,"(1,3]",treatment
+West Virginia University-Mathematics,"(1,3]",treatment
+Arizona State University-Chemistry,"(1,3]",control
+Brandeis University-Physics,"(1,3]",treatment
+Brown University-Chemistry,"(1,3]",control
+Brown University-Physics,"(1,3]",treatment
+California Institute of Technology-Physics,"(1,3]",control
+Clemson University-Mathematics,"(1,3]",treatment
+Clemson University-Physics,"(1,3]",control
+Columbia University-Chemistry,"(1,3]",treatment
+Duke University-Computer Science,"(1,3]",treatment
+Florida International University-Mathematics,"(1,3]",treatment
+Harvard University-Computer Science,"(1,3]",treatment
+Indiana University Bloomington-Physics,"(1,3]",control
+Johns Hopkins University-Mechanical Engineering,"(1,3]",control
+Kansas State University-Physics,"(1,3]",treatment
+Michigan State University-Physics,"(1,3]",control
+Montana State University-Mathematics,"(1,3]",treatment
+New York University-Computer Science,"(1,3]",treatment
+Northeastern University-Mathematics,"(1,3]",treatment
+Northeastern University-Physics,"(1,3]",treatment
+Ohio State University-Chemistry,"(1,3]",treatment
+Oregon State University-Computer Science,"(1,3]",control
+Princeton University-Physics,"(1,3]",control
+Rutgers University-New Brunswick-Computer Science,"(1,3]",treatment
+University at Buffalo-Chemistry,"(1,3]",control
+University of Alabama-Mathematics,"(1,3]",control
+University of Arkansas-Mathematics,"(1,3]",treatment
+"University of California, Berkeley-Physics","(1,3]",control
+"University of California, Santa Barbara-Computer Science","(1,3]",treatment
+"University of California, Santa Cruz-Mathematics","(1,3]",treatment
+"University of California, Santa Cruz-Physics","(1,3]",treatment
+University of Chicago-Chemistry,"(1,3]",treatment
+University of Chicago-Physics,"(1,3]",treatment
+University of Colorado Boulder-Physics,"(1,3]",control
+University of Colorado Denver-Chemistry,"(1,3]",treatment
+University of Denver-Mathematics,"(1,3]",control
+University of Kansas-Physics,"(1,3]",control
+University of Missouri-Physics,"(1,3]",treatment
+University of North Texas-Mathematics,"(1,3]",treatment
+University of Notre Dame-Chemistry,"(1,3]",treatment
+University of Pittsburgh-Physics,"(1,3]",treatment
+University of Rochester-Physics,"(1,3]",control
+University of Southern California-Physics,"(1,3]",treatment
+University of Utah-Physics,"(1,3]",control
+University of Wisconsin-Milwaukee-Physics,"(1,3]",control
+Virginia Tech-Mechanical Engineering,"(1,3]",control
+Wayne State University-Physics,"(1,3]",treatment
+Yale University-Physics,"(1,3]",treatment
+Arizona State University-Mathematics,"(3,5]",control
+Baylor University-Mathematics,"(3,5]",control
+Boston College-Mathematics,"(3,5]",control
+California Institute of Technology-Mathematics,"(3,5]",control
+Case Western Reserve University-Mathematics,"(3,5]",treatment
+Case Western Reserve University-Physics,"(3,5]",control
+Cornell University-Physics,"(3,5]",control
+Duke University-Mathematics,"(3,5]",control
+Florida State University-Physics,"(3,5]",control
+Georgia Institute of Technology-Computer Science,"(3,5]",treatment
+Georgia Institute of Technology-Physics,"(3,5]",treatment
+Harvard University-Physics,"(3,5]",treatment
+Iowa State University-Chemistry,"(3,5]",control
+Kansas State University-Mathematics,"(3,5]",treatment
+Louisiana State University-Chemistry,"(3,5]",treatment
+Massachusetts Institute of Technology-Chemistry,"(3,5]",treatment
+North Dakota State University-Mathematics,"(3,5]",treatment
+Oregon State University-Mechanical Engineering,"(3,5]",treatment
+Purdue University-Computer Science,"(3,5]",treatment
+Rutgers University-New Brunswick-Chemistry,"(3,5]",treatment
+Stanford University-Chemistry,"(3,5]",treatment
+Syracuse University-Physics,"(3,5]",treatment
+"University at Albany, SUNY-Mathematics","(3,5]",control
+"University of California, Riverside-Physics","(3,5]",control
+University of Central Florida-Mathematics,"(3,5]",treatment
+University of Colorado Boulder-Chemistry,"(3,5]",treatment
+University of Connecticut-Physics,"(3,5]",treatment
+University of Florida-Physics,"(3,5]",control
+University of Illinois Chicago-Physics,"(3,5]",treatment
+University of Kansas-Chemistry,"(3,5]",control
+"University of Maryland, Baltimore County-Mathematics","(3,5]",treatment
+University of Memphis-Mathematics,"(3,5]",control
+University of Minnesota-Physics,"(3,5]",treatment
+University of New Mexico-Mathematics,"(3,5]",control
+University of New Mexico-Physics,"(3,5]",control
+University of Oregon-Mathematics,"(3,5]",treatment
+University of Pennsylvania-Chemistry,"(3,5]",treatment
+University of Rochester-Chemistry,"(3,5]",treatment
+University of South Florida-Mathematics,"(3,5]",control
+Wayne State University-Chemistry,"(3,5]",control
+Arizona State University-Physics,"(3,5]",treatment
+Boston University-Mathematics,"(3,5]",treatment
+Brandeis University-Mathematics,"(3,5]",treatment
+California Institute of Technology-Chemistry,"(3,5]",control
+Colorado State University-Chemistry,"(3,5]",treatment
+Emory University-Mathematics,"(3,5]",treatment
+Florida State University-Mathematics,"(3,5]",treatment
+George Washington University-Mathematics,"(3,5]",control
+Kent State University-Mathematics,"(3,5]",control
+Massachusetts Institute of Technology-Computer Science,"(3,5]",control
+North Carolina State University-Chemistry,"(3,5]",control
+Rice University-Mathematics,"(3,5]",treatment
+Stony Brook University-Chemistry,"(3,5]",control
+Tufts University-Physics,"(3,5]",treatment
+University at Buffalo-Mathematics,"(3,5]",control
+University of Arizona-Physics,"(3,5]",control
+"University of California, Riverside-Chemistry","(3,5]",treatment
+"University of California, San Diego-Mechanical Engineering","(3,5]",control
+"University of California, Santa Barbara-Chemistry","(3,5]",treatment
+"University of California, Santa Barbara-Mathematics","(3,5]",control
+University of Florida-Mathematics,"(3,5]",control
+University of Illinois Urbana-Champaign-Chemistry,"(3,5]",control
+University of Louisiana at Lafayette-Mathematics,"(3,5]",control
+"University of Maryland, College Park-Computer Science","(3,5]",treatment
+University of Missouri-Mathematics,"(3,5]",control
+Virginia Tech-Physics,"(3,5]",control
+Washington University in St. Louis-Mathematics,"(3,5]",treatment
+Washington University in St. Louis-Physics,"(3,5]",control
+Boston University-Physics,"(5,7]",control
+Carnegie Mellon University-Mathematics,"(5,7]",treatment
+Georgia Institute of Technology-Chemistry,"(5,7]",treatment
+Indiana University Bloomington-Chemistry,"(5,7]",control
+Johns Hopkins University-Mathematics,"(5,7]",control
+Massachusetts Institute of Technology-Physics,"(5,7]",treatment
+Princeton University-Chemistry,"(5,7]",treatment
+Tufts University-Mathematics,"(5,7]",control
+University of Arizona-Chemistry,"(5,7]",control
+"University of California, Irvine-Computer Science","(5,7]",treatment
+University of Georgia-Chemistry,"(5,7]",control
+University of Kentucky-Physics,"(5,7]",control
+University of Louisville-Mathematics,"(5,7]",control
+University of Michigan-Chemistry,"(5,7]",treatment
+University of North Carolina at Chapel Hill-Chemistry,"(5,7]",control
+University of North Carolina at Chapel Hill-Mathematics,"(5,7]",treatment
+University of Notre Dame-Physics,"(5,7]",control
+University of South Carolina-Mathematics,"(5,7]",control
+University of Texas at Dallas-Mathematics,"(5,7]",treatment
+University of Virginia-Physics,"(5,7]",control
+Virginia Commonwealth University-Mathematics,"(5,7]",treatment
+Virginia Tech-Mathematics,"(5,7]",control
+Washington State University-Mathematics,"(5,7]",treatment
+Auburn University-Mathematics,"(5,7]",control
+Boston University-Computer Science,"(5,7]",treatment
+Colorado State University-Mathematics,"(5,7]",treatment
+Columbia University-Physics,"(5,7]",treatment
+Dartmouth College-Mathematics,"(5,7]",treatment
+George Mason University-Mathematics,"(5,7]",control
+Iowa State University-Mathematics,"(5,7]",control
+New York University-Physics,"(5,7]",treatment
+North Carolina State University-Mathematics,"(5,7]",treatment
+Purdue University-Mathematics,"(5,7]",treatment
+Purdue University-Physics,"(5,7]",control
+Temple University-Mathematics,"(5,7]",control
+"University of California, Irvine-Physics","(5,7]",treatment
+"University of California, Los Angeles-Chemistry","(5,7]",treatment
+"University of California, San Diego-Chemistry","(5,7]",control
+University of Delaware-Physics,"(5,7]",treatment
+"University of Maryland, College Park-Physics","(5,7]",control
+University of Oklahoma-Mathematics,"(5,7]",treatment
+University of Tennessee-Mathematics,"(5,7]",control
+Vanderbilt University-Mathematics,"(5,7]",control
+Binghamton University-Mathematics,"(7,11]",control
+Carnegie Mellon University-Computer Science,"(7,11]",control
+Florida State University-Chemistry,"(7,11]",control
+Johns Hopkins University-Physics,"(7,11]",control
+Oregon State University-Mathematics,"(7,11]",treatment
+Purdue University-Chemistry,"(7,11]",control
+Tulane University-Mathematics,"(7,11]",treatment
+"University of California, Davis-Physics","(7,11]",control
+University of Wisconsin-Madison-Chemistry,"(7,11]",treatment
+Cornell University-Computer Science,"(7,11]",control
+Cornell University-Mathematics,"(7,11]",control
+Indiana University Bloomington-Mathematics,"(7,11]",treatment
+Northwestern University-Mathematics,"(7,11]",treatment
+Oklahoma State University-Stillwater-Mathematics,"(7,11]",control
+University of Connecticut-Mathematics,"(7,11]",treatment
+University of Delaware-Mathematics,"(7,11]",treatment
+University of Notre Dame-Mathematics,"(7,11]",treatment
+University of Utah-Mathematics,"(7,11]",treatment
+Wayne State University-Mathematics,"(7,11]",control
+Yale University-Mathematics,"(7,11]",control
+Ohio State University-Physics,"(7,11]",treatment
+University of Houston-Mathematics,"(7,11]",treatment
+University of Michigan-Computer Science,"(7,11]",treatment
+University of Virginia-Mathematics,"(7,11]",control
+University of Wisconsin-Madison-Physics,"(7,11]",control
+Brown University-Mathematics,"(7,11]",control
+New York University-Mathematics,"(7,11]",control
+University of Georgia-Mathematics,"(7,11]",treatment
+University of Illinois Urbana-Champaign-Physics,"(7,11]",treatment
+University of Michigan-Physics,"(7,11]",treatment
+University of Minnesota-Mathematics,"(7,11]",treatment
+University of Pennsylvania-Mathematics,"(7,11]",control
+Louisiana State University-Mathematics,"(11,17]",treatment
+Stanford University-Mathematics,"(11,17]",treatment
+University of Arizona-Mathematics,"(11,17]",treatment
+"University of California, Los Angeles-Physics","(11,17]",treatment
+University of Colorado Boulder-Mathematics,"(11,17]",control
+University of Washington-Mathematics,"(11,17]",treatment
+Michigan State University-Mathematics,"(11,17]",control
+Rutgers University-New Brunswick-Mathematics,"(11,17]",control
+Stony Brook University-Mathematics,"(11,17]",control
+Stony Brook University-Physics,"(11,17]",treatment
+"University of California, Davis-Mathematics","(11,17]",control
+"University of California, San Diego-Mathematics","(11,17]",treatment
+Texas A&M University-Mathematics,"(11,17]",treatment
+"University of California, Berkeley-Chemistry","(11,17]",treatment
+University of Massachusetts Amherst-Mathematics,"(11,17]",control
+Massachusetts Institute of Technology-Mathematics,"(11,17]",control
+Pennsylvania State University-Mathematics,"(11,17]",control
+"University of California, Irvine-Mathematics","(11,17]",control
+University of Chicago-Mathematics,"(11,17]",control
+"University of Maryland, College Park-Mathematics","(11,17]",control
+University of Wisconsin-Madison-Mathematics,"(11,17]",control
+Columbia University-Mathematics,"(11,17]",treatment
+Ohio State University-Mathematics,"(11,17]",treatment
+Rutgers University-New Brunswick-Physics,"(17,28]",control
+University of Michigan-Mathematics,"(17,28]",treatment
+Princeton University-Mathematics,"(17,28]",control
+"University of California, Los Angeles-Mathematics","(17,28]",control
+"Graduate Center, CUNY-Mathematics","(17,28]",treatment
+"University of California, Berkeley-Mathematics","(17,28]",treatment

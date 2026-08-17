@@ -1,0 +1,1587 @@
+department,contact_type,is_female,is_black,is_hispanic,is_urm
+Baylor University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Colorado School of Mines-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Houston-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Utah-Mathematics,faculty,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Dartmouth College-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kent State University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Rice University-Physics,department_chair,0.0,0.0,0.0,0.0
+Columbia University-Physics,faculty,0.0,0.0,0.0,0.0
+Baylor University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+University of South Florida-Mechanical Engineering,department_chair,1.0,0.0,1.0,1.0
+University of Virginia-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Iowa-Computer Science,seminar_contact,,,,
+University of Pittsburgh-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Kent State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Washington-Physics,seminar_contact,,,,
+New York University-Mathematics,faculty,1.0,0.0,1.0,1.0
+Carnegie Mellon University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Michigan-Physics,faculty,0.0,0.0,0.0,0.0
+Baylor University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University at Albany, SUNY-Mathematics",department_chair,0.0,0.0,0.0,0.0
+Auburn University-Computer Science,seminar_contact,1.0,1.0,0.0,1.0
+North Carolina State University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Rensselaer Polytechnic Institute-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Cincinnati-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Utah-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Michigan State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Pennsylvania-Mathematics,seminar_contact,1.0,1.0,0.0,1.0
+Arizona State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Georgia Institute of Technology-Computer Science,department_chair,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Missouri-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Virginia Tech-Physics,faculty,1.0,0.0,0.0,0.0
+University of Hawaii at Manoa-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Michigan-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Minnesota-Mathematics,faculty,0.0,0.0,0.0,0.0
+Princeton University-Mathematics,seminar_contact,,,,
+Drexel University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Davis-Physics",department_chair,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+Wayne State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+Colorado School of Mines-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Physics,department_chair,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mechanical Engineering",department_chair,0.0,0.0,0.0,0.0
+"University of California, Riverside-Chemistry",faculty,0.0,0.0,0.0,0.0
+Harvard University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Virginia-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Southern California-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Connecticut-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Clemson University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Case Western Reserve University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+North Carolina State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Texas Tech University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Ohio University-Chemistry,seminar_contact,,,,
+Massachusetts Institute of Technology-Mathematics,faculty,1.0,0.0,0.0,0.0
+Temple University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Houston-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Florida State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Stony Brook University-Physics,faculty,0.0,0.0,0.0,0.0
+University of Notre Dame-Mathematics,faculty,0.0,0.0,0.0,0.0
+Brown University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University at Buffalo-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Johns Hopkins University-Physics,department_chair,0.0,0.0,0.0,0.0
+Texas Tech University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Mississippi State University-Chemistry,seminar_contact,1.0,1.0,0.0,1.0
+Michigan State University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Utah-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Virginia-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Missouri-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Florida State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+University of Texas at Austin-Physics,faculty,1.0,0.0,1.0,1.0
+University of Chicago-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Iowa State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Wayne State University-Chemistry,faculty,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kansas State University-Physics,faculty,0.0,0.0,0.0,0.0
+Brown University-Computer Science,department_chair,0.0,0.0,1.0,1.0
+University of Tennessee-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Cincinnati-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Purdue University-Physics,department_chair,0.0,0.0,0.0,0.0
+Case Western Reserve University-Physics,department_chair,0.0,0.0,0.0,0.0
+New York University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Connecticut-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Southern Mississippi-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Notre Dame-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Colorado School of Mines-Physics,department_chair,0.0,0.0,0.0,0.0
+Stony Brook University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Oregon State University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Florida-Mathematics,faculty,1.0,0.0,0.0,0.0
+New York University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,faculty,1.0,0.0,0.0,0.0
+Wayne State University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Michigan-Computer Science,faculty,1.0,0.0,0.0,0.0
+Colorado State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Chicago-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Cornell University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University of Texas at Arlington-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Ohio University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Denver-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Memphis-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Colorado Denver-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Duke University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Utah-Mathematics,faculty,0.0,0.0,0.0,0.0
+Stony Brook University-Physics,seminar_contact,0.0,0.0,1.0,1.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Kent State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Texas A&M University-Mechanical Engineering,department_chair,0.0,0.0,1.0,1.0
+California Institute of Technology-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Colorado State University-Computer Science,faculty,0.0,0.0,0.0,0.0
+North Carolina State University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Texas at El Paso-Mathematics,faculty,0.0,0.0,0.0,0.0
+Cornell University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Florida State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Florida-Mathematics,faculty,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Boston University-Mathematics,faculty,0.0,0.0,0.0,0.0
+California Institute of Technology-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+New York University-Physics,department_chair,0.0,0.0,0.0,0.0
+Cornell University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Colorado State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Miami-Physics,department_chair,0.0,0.0,0.0,0.0
+Boston University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Oregon-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+George Mason University-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+Utah State University-Physics,department_chair,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,seminar_contact,1.0,1.0,0.0,1.0
+University of Texas at Arlington-Mathematics,seminar_contact,1.0,1.0,0.0,1.0
+"University of California, Irvine-Computer Science",seminar_contact,1.0,0.0,0.0,0.0
+University of Memphis-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Harvard University-Chemistry,seminar_contact,1.0,0.0,1.0,1.0
+Carnegie Mellon University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Arizona-Physics,department_chair,1.0,0.0,0.0,0.0
+Northeastern University-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Mechanical Engineering",department_chair,0.0,0.0,0.0,0.0
+Auburn University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Temple University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,1.0,0.0,1.0
+Rutgers University-New Brunswick-Physics,seminar_contact,0.0,0.0,0.0,0.0
+Tulane University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Tennessee-Computer Science,seminar_contact,,,,
+University at Buffalo-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Physics,department_chair,0.0,0.0,0.0,0.0
+Brandeis University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+University of North Texas-Chemistry,department_chair,0.0,1.0,0.0,1.0
+University of Rochester-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Rice University-Computer Science,seminar_contact,1.0,1.0,0.0,1.0
+University of Michigan-Mathematics,faculty,1.0,0.0,0.0,0.0
+Virginia Tech-Physics,faculty,0.0,0.0,0.0,0.0
+University of Denver-Mathematics,faculty,1.0,0.0,0.0,0.0
+Wayne State University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Montana State University-Chemistry,seminar_contact,1.0,1.0,0.0,1.0
+Florida International University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Boston University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Texas A&M University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Florida-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Arizona-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Mississippi State University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Louisville-Mathematics,faculty,0.0,0.0,0.0,0.0
+Iowa State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of South Carolina-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mechanical Engineering,faculty,0.0,0.0,0.0,0.0
+University of Hawaii at Manoa-Physics,faculty,1.0,0.0,0.0,0.0
+Ohio University-Physics,seminar_contact,,,,
+University of Memphis-Physics,faculty,0.0,0.0,1.0,1.0
+University of Virginia-Mathematics,faculty,0.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,0.0,0.0,1.0,1.0
+Louisiana State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Michigan-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Ohio University-Physics,faculty,0.0,0.0,0.0,0.0
+University of Central Florida-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Chicago-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Michigan-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Stanford University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Cornell University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Massachusetts Amherst-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+"University of Nevada, Las Vegas-Physics",department_chair,0.0,0.0,0.0,0.0
+University of Denver-Mathematics,faculty,1.0,0.0,0.0,0.0
+Columbia University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Michigan-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Florida-Physics,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Brown University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Michigan-Computer Science,faculty,0.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Mississippi State University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Ohio State University-Chemistry,department_chair,1.0,0.0,1.0,1.0
+Boston University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Irvine-Mechanical Engineering",department_chair,0.0,0.0,1.0,1.0
+University of Virginia-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Michigan-Computer Science,faculty,0.0,0.0,0.0,0.0
+University of Chicago-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Stony Brook University-Chemistry,seminar_contact,1.0,0.0,1.0,1.0
+Emory University-Chemistry,seminar_contact,1.0,1.0,0.0,1.0
+University of Tennessee-Mathematics,faculty,1.0,0.0,0.0,0.0
+Georgia Institute of Technology-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Chicago-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Louisville-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Louisville-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+California Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+Mississippi State University-Physics,faculty,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Physics",department_chair,0.0,0.0,0.0,0.0
+New York University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Oklahoma-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Mathematics,faculty,0.0,0.0,0.0,0.0
+Columbia University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,1.0,0.0,0.0,0.0
+Harvard University-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Chemistry,seminar_contact,,,,
+Princeton University-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+University of Texas at Arlington-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Brown University-Physics,department_chair,1.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Michigan-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Virginia-Physics,department_chair,1.0,0.0,0.0,0.0
+Rensselaer Polytechnic Institute-Chemistry,department_chair,0.0,0.0,1.0,1.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Physics,faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Chemistry",seminar_contact,1.0,0.0,0.0,0.0
+Mississippi State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of South Carolina-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Cincinnati-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+Auburn University-Mathematics,department_chair,0.0,1.0,0.0,1.0
+University of Washington-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Cornell University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Pennsylvania State University-Physics,department_chair,0.0,0.0,1.0,1.0
+Florida State University-Physics,seminar_contact,0.0,0.0,1.0,1.0
+University of South Florida-Computer Science,faculty,0.0,0.0,0.0,0.0
+Rice University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Pennsylvania State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Massachusetts Amherst-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of New Hampshire-Physics,faculty,1.0,0.0,0.0,0.0
+"University of California, Berkeley-Chemistry",department_chair,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,faculty,0.0,0.0,0.0,0.0
+Cornell University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Duke University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+Cornell University-Mechanical Engineering,seminar_contact,1.0,1.0,0.0,1.0
+Johns Hopkins University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Wayne State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Computer Science",seminar_contact,0.0,0.0,0.0,0.0
+University of Nebraska-Lincoln-Physics,department_chair,0.0,0.0,0.0,0.0
+Northeastern University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Vanderbilt University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+West Virginia University-Physics,department_chair,1.0,0.0,0.0,0.0
+Mississippi State University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Alabama-Mechanical Engineering,seminar_contact,1.0,1.0,0.0,1.0
+"University of California, Davis-Mathematics",department_chair,0.0,0.0,0.0,0.0
+University of Alabama-Physics,faculty,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+Binghamton University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Illinois Chicago-Physics,department_chair,0.0,0.0,0.0,0.0
+Tulane University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Arizona State University-Physics,faculty,1.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Emory University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Washington State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Emory University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Connecticut-Mathematics,faculty,0.0,0.0,0.0,0.0
+Baylor University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Memphis-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Chicago-Chemistry,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Pennsylvania-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Arizona State University-Physics,faculty,0.0,0.0,0.0,0.0
+Florida International University-Physics,seminar_contact,1.0,0.0,1.0,1.0
+University of Utah-Mathematics,faculty,0.0,0.0,0.0,0.0
+Georgia State University-Physics,faculty,0.0,0.0,0.0,0.0
+Tulane University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+North Carolina State University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Louisville-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Chicago-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+North Dakota State University-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Chemistry",seminar_contact,0.0,0.0,0.0,0.0
+Louisiana State University-Physics,department_chair,0.0,1.0,0.0,1.0
+University of Florida-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+North Carolina State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Houston-Mathematics,faculty,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kansas State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+New York University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Rochester-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Montana State University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,1.0,0.0,1.0,1.0
+University of Wisconsin-Madison-Physics,faculty,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Texas at San Antonio-Chemistry,seminar_contact,,,,
+Rutgers University-New Brunswick-Physics,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Irvine-Mathematics",department_chair,1.0,0.0,0.0,0.0
+Harvard University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University of Oklahoma-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston University-Computer Science,faculty,1.0,0.0,0.0,0.0
+University of Connecticut-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Michigan State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Davis-Physics",seminar_contact,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Physics,faculty,0.0,0.0,0.0,0.0
+University of New Mexico-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Physics",department_chair,0.0,0.0,0.0,0.0
+University of Minnesota-Physics,department_chair,0.0,0.0,0.0,0.0
+Emory University-Physics,faculty,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Utah State University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Cornell University-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Florida State University-Physics,department_chair,0.0,0.0,1.0,1.0
+Indiana University Bloomington-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Alabama-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,1.0,0.0,0.0,0.0
+Binghamton University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kansas State University-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Physics",department_chair,0.0,0.0,0.0,0.0
+Cornell University-Computer Science,seminar_contact,1.0,0.0,1.0,1.0
+Rutgers University-New Brunswick-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,0.0,0.0,0.0,0.0
+University of Denver-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Houston-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Tennessee-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mechanical Engineering",department_chair,0.0,0.0,0.0,0.0
+Boston University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Cincinnati-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,0.0,0.0,0.0,0.0
+Kansas State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Illinois Urbana-Champaign-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Southern California-Mathematics,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Delaware-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Michigan-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of South Carolina-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Virginia Commonwealth University-Physics,department_chair,0.0,0.0,0.0,0.0
+Texas Tech University-Computer Science,faculty,0.0,0.0,0.0,0.0
+University of Denver-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Delaware-Physics,department_chair,0.0,0.0,0.0,0.0
+George Washington University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",seminar_contact,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Cornell University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Texas at San Antonio-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Texas at San Antonio-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Utah State University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Virginia-Chemistry,seminar_contact,,,,
+Purdue University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Arizona State University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Brown University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of South Florida-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Boston College-Mathematics,faculty,0.0,0.0,0.0,0.0
+New York University-Computer Science,faculty,0.0,0.0,0.0,0.0
+University of Central Florida-Physics,seminar_contact,1.0,1.0,0.0,1.0
+Florida State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Computer Science",faculty,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Ohio State University-Physics,seminar_contact,,,,
+University of Pittsburgh-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Virginia Commonwealth University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Kentucky-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Arkansas-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Florida State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,1.0,0.0,0.0,0.0
+Syracuse University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Alabama-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University at Buffalo-Physics,department_chair,0.0,0.0,0.0,0.0
+Georgia State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Syracuse University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Texas A&M University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Kansas State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+"University of California, San Diego-Physics",department_chair,0.0,0.0,0.0,0.0
+University of Oregon-Mathematics,department_chair,0.0,0.0,0.0,0.0
+North Carolina State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Kansas-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Colorado School of Mines-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Houston-Mathematics,faculty,0.0,0.0,0.0,0.0
+Virginia Commonwealth University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Iowa State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Clemson University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Rice University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Virginia Tech-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Dartmouth College-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mechanical Engineering",seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Physics",seminar_contact,1.0,0.0,0.0,0.0
+Carnegie Mellon University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Oregon-Computer Science,department_chair,0.0,0.0,0.0,0.0
+California Institute of Technology-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Minnesota-Chemistry,department_chair,1.0,0.0,0.0,0.0
+"University of California, Berkeley-Mathematics",seminar_contact,0.0,0.0,0.0,0.0
+Tufts University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+"University of California, San Diego-Chemistry",seminar_contact,1.0,0.0,1.0,1.0
+"University of California, Santa Cruz-Mathematics",faculty,1.0,0.0,0.0,0.0
+University of Nebraska-Lincoln-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Texas A&M University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Tennessee-Computer Science,department_chair,0.0,1.0,0.0,1.0
+University of Arizona-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Arizona State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Computer Science,faculty,1.0,0.0,0.0,0.0
+Vanderbilt University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Rochester-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Princeton University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Colorado State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kent State University-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of Nevada, Reno-Mathematics",department_chair,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,department_chair,0.0,0.0,1.0,1.0
+Cornell University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Florida-Physics,faculty,1.0,0.0,0.0,0.0
+University of Rochester-Physics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Dartmouth College-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Tufts University-Physics,department_chair,0.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of Maryland, Baltimore County-Physics",department_chair,0.0,0.0,0.0,0.0
+Columbia University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Northwestern University-Mathematics,seminar_contact,,,,
+Louisiana State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Georgia-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,0.0,0.0,0.0,0.0
+Auburn University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Montana State University-Physics,department_chair,0.0,0.0,0.0,0.0
+Virginia Commonwealth University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Physics,faculty,0.0,0.0,0.0,0.0
+Dartmouth College-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Houston-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Mechanical Engineering",department_chair,0.0,0.0,0.0,0.0
+University of Texas at Arlington-Physics,department_chair,0.0,0.0,0.0,0.0
+Colorado State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Dartmouth College-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Physics,faculty,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+Tufts University-Physics,seminar_contact,1.0,0.0,1.0,1.0
+Purdue University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Columbia University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of South Florida-Chemistry,faculty,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",department_chair,0.0,0.0,0.0,0.0
+Indiana University Bloomington-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Mississippi State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Brown University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+"University at Albany, SUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Austin-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+Georgia Institute of Technology-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Drexel University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Baylor University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Louisville-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Boston College-Physics,department_chair,0.0,0.0,0.0,0.0
+Auburn University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Dartmouth College-Mathematics,department_chair,0.0,0.0,1.0,1.0
+"University of California, Riverside-Computer Science",department_chair,0.0,0.0,0.0,0.0
+Washington University in St. Louis-Physics,seminar_contact,,,,
+"University of California, Los Angeles-Physics",seminar_contact,0.0,0.0,0.0,0.0
+Virginia Tech-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Irvine-Physics",seminar_contact,0.0,0.0,0.0,0.0
+University at Buffalo-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+Case Western Reserve University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+University of Kansas-Physics,department_chair,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Arizona State University-Physics,department_chair,1.0,0.0,0.0,0.0
+Iowa State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,1.0,0.0,0.0,0.0
+Iowa State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,0.0,0.0,0.0,0.0
+Michigan State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+California Institute of Technology-Physics,department_chair,0.0,0.0,0.0,0.0
+Wayne State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Milwaukee-Physics,department_chair,0.0,0.0,0.0,0.0
+New York University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Washington University in St. Louis-Physics,department_chair,0.0,0.0,0.0,0.0
+Washington University in St. Louis-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of South Carolina-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Montana-Chemistry,faculty,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Mathematics,faculty,0.0,0.0,0.0,0.0
+Duke University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Washington State University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+"University of California, Irvine-Chemistry",department_chair,0.0,0.0,0.0,0.0
+University of Connecticut-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Georgetown University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Virginia Tech-Mathematics,department_chair,1.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Louisville-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kent State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rice University-Chemistry,department_chair,0.0,0.0,1.0,1.0
+Louisiana State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Southern Mississippi-Chemistry,faculty,0.0,0.0,0.0,0.0
+Michigan State University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Pittsburgh-Chemistry,department_chair,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,0.0,0.0,0.0,0.0
+University of South Carolina-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Duke University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+"University of California, Irvine-Physics",department_chair,0.0,0.0,0.0,0.0
+Georgetown University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Georgetown University-Chemistry,seminar_contact,1.0,1.0,0.0,1.0
+University of Delaware-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Mathematics",faculty,1.0,0.0,0.0,0.0
+Indiana University Bloomington-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Virginia-Mathematics,faculty,1.0,0.0,0.0,0.0
+California Institute of Technology-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Physics,faculty,0.0,0.0,1.0,1.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Missouri-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Houston-Mathematics,faculty,0.0,0.0,0.0,0.0
+Tufts University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Tufts University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Delaware-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Wisconsin-Milwaukee-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Tufts University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Memphis-Chemistry,faculty,0.0,0.0,1.0,1.0
+University of Minnesota-Mathematics,faculty,0.0,0.0,1.0,1.0
+"University of California, Santa Barbara-Mathematics",seminar_contact,0.0,0.0,0.0,0.0
+Dartmouth College-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Mathematics,faculty,0.0,0.0,1.0,1.0
+University of Arizona-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Chicago-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Columbia University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Florida-Mathematics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+George Mason University-Chemistry,department_chair,0.0,1.0,0.0,1.0
+Kent State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Georgia State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Michigan State University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Texas A&M University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Hawaii at Manoa-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Stony Brook University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Mathematics",department_chair,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Purdue University-Mathematics,faculty,0.0,0.0,1.0,1.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+Cornell University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+New York University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Mathematics",seminar_contact,1.0,0.0,0.0,0.0
+California Institute of Technology-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Physics",department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Computer Science,faculty,1.0,0.0,0.0,0.0
+Harvard University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Case Western Reserve University-Mathematics,seminar_contact,1.0,1.0,0.0,1.0
+Duke University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Tennessee-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Washington-Chemistry,department_chair,1.0,0.0,0.0,0.0
+North Carolina State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Davis-Chemistry",seminar_contact,1.0,0.0,0.0,0.0
+Stony Brook University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Montana State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+New York University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Wayne State University-Physics,faculty,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+Boston University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+Brown University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Washington-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Wayne State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+Georgia Institute of Technology-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Kentucky-Mathematics,faculty,1.0,0.0,0.0,0.0
+Stony Brook University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Irvine-Chemistry",seminar_contact,1.0,0.0,0.0,0.0
+Harvard University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of South Carolina-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Florida-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Emory University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University at Buffalo-Physics,faculty,0.0,0.0,0.0,0.0
+Pennsylvania State University-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+Texas Tech University-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",seminar_contact,0.0,0.0,0.0,0.0
+University of Utah-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Florida-Physics,faculty,0.0,0.0,0.0,0.0
+University of Pennsylvania-Computer Science,seminar_contact,1.0,0.0,1.0,1.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Michigan-Physics,department_chair,0.0,0.0,0.0,0.0
+Temple University-Mathematics,faculty,1.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Physics",faculty,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Computer Science",faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Chemistry",department_chair,0.0,0.0,0.0,0.0
+University of North Texas-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Brown University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Case Western Reserve University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+University at Buffalo-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Stanford University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Boston College-Physics,seminar_contact,0.0,0.0,0.0,0.0
+Purdue University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mechanical Engineering,faculty,0.0,0.0,0.0,0.0
+University of South Florida-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Boston University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Texas A&M University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,0.0,1.0,0.0,1.0
+University of Hawaii at Manoa-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Houston-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,1.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Chemistry",seminar_contact,0.0,0.0,1.0,1.0
+Wayne State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Arizona State University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Yale University-Physics,department_chair,0.0,0.0,0.0,0.0
+Arizona State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Duke University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Cornell University-Computer Science,faculty,0.0,0.0,0.0,0.0
+University of New Mexico-Physics,faculty,0.0,0.0,1.0,1.0
+Rutgers University-New Brunswick-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Texas at Austin-Mathematics,department_chair,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Computer Science",department_chair,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Chemistry",department_chair,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Utah State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Oklahoma-Physics,faculty,0.0,0.0,1.0,1.0
+Northeastern University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+University of Connecticut-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Princeton University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+George Washington University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Montana State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Physics",faculty,0.0,0.0,0.0,0.0
+Colorado School of Mines-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Illinois Chicago-Chemistry,department_chair,1.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Tennessee-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mechanical Engineering,faculty,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,1.0,0.0,1.0,1.0
+New York University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+Tufts University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,1.0,1.0
+University of Colorado Boulder-Mathematics,faculty,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Georgetown University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Brown University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Mechanical Engineering",department_chair,0.0,0.0,0.0,0.0
+University of South Carolina-Mathematics,faculty,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Florida-Mechanical Engineering,seminar_contact,,,,
+Ohio State University-Physics,faculty,0.0,0.0,0.0,0.0
+University of Texas at San Antonio-Physics,seminar_contact,,,,
+University of Virginia-Physics,faculty,0.0,0.0,0.0,0.0
+University at Buffalo-Physics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Austin-Physics,department_chair,0.0,0.0,1.0,1.0
+Massachusetts Institute of Technology-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Central Florida-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Florida International University-Chemistry,seminar_contact,1.0,0.0,1.0,1.0
+Florida State University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Minnesota-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Physics",seminar_contact,0.0,0.0,0.0,0.0
+University of Maine-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Vanderbilt University-Mathematics,faculty,0.0,0.0,0.0,0.0
+New York University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Emory University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Colorado Denver-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Arizona State University-Physics,faculty,0.0,0.0,0.0,0.0
+University of Chicago-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University at Albany, SUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Physics,seminar_contact,,,,
+University of Minnesota-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Southern California-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+California Institute of Technology-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Arkansas-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Louisville-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Arizona-Computer Science,seminar_contact,1.0,0.0,1.0,1.0
+Purdue University-Computer Science,seminar_contact,,,,
+Florida State University-Mathematics,department_chair,0.0,1.0,0.0,1.0
+"University of Maryland, College Park-Computer Science",seminar_contact,1.0,0.0,0.0,0.0
+University of North Texas-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,faculty,0.0,0.0,0.0,0.0
+Johns Hopkins University-Chemistry,department_chair,0.0,0.0,1.0,1.0
+Washington University in St. Louis-Chemistry,department_chair,1.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of South Florida-Mathematics,faculty,0.0,0.0,0.0,0.0
+Texas Tech University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Mathematics,faculty,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+North Dakota State University-Mathematics,faculty,1.0,0.0,1.0,1.0
+Stony Brook University-Physics,faculty,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Chemistry",seminar_contact,1.0,0.0,0.0,0.0
+Colorado State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Chicago-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Notre Dame-Physics,department_chair,0.0,0.0,0.0,0.0
+Tulane University-Physics,department_chair,0.0,0.0,0.0,0.0
+Auburn University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Chicago-Physics,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,faculty,0.0,0.0,0.0,0.0
+Clemson University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+Washington University in St. Louis-Computer Science,faculty,0.0,0.0,0.0,0.0
+Binghamton University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Arkansas-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Tulane University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Binghamton University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Yale University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Delaware-Mathematics,faculty,0.0,0.0,0.0,0.0
+George Washington University-Mathematics,seminar_contact,1.0,0.0,1.0,1.0
+University of Louisiana at Lafayette-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Louisville-Mathematics,faculty,0.0,0.0,0.0,0.0
+Brown University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Kansas-Mathematics,department_chair,0.0,1.0,0.0,1.0
+University of Chicago-Mathematics,faculty,0.0,0.0,0.0,0.0
+Binghamton University-Mathematics,faculty,0.0,0.0,1.0,1.0
+Colorado State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Auburn University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Arkansas-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Vanderbilt University-Physics,department_chair,1.0,0.0,0.0,0.0
+"University of California, Riverside-Physics",seminar_contact,0.0,0.0,1.0,1.0
+University of Notre Dame-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,1.0,0.0,0.0,0.0
+Duke University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Kansas State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Missouri-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Utah-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University at Buffalo-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Chemistry,department_chair,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Michigan-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Tulane University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Virginia Tech-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+University of Nebraska-Lincoln-Mathematics,faculty,0.0,0.0,1.0,1.0
+University of Cincinnati-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Columbia University-Physics,faculty,0.0,0.0,1.0,1.0
+University of Delaware-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Pittsburgh-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Alabama-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,0.0,0.0,0.0,0.0
+Texas Tech University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Michigan-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+Temple University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Delaware-Physics,seminar_contact,1.0,1.0,0.0,1.0
+University of Virginia-Mathematics,faculty,0.0,0.0,0.0,0.0
+Wayne State University-Mathematics,faculty,0.0,0.0,1.0,1.0
+Virginia Tech-Mathematics,seminar_contact,,,,
+University of Southern Mississippi-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Mathematics",seminar_contact,1.0,1.0,0.0,1.0
+California Institute of Technology-Physics,seminar_contact,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,1.0,0.0,0.0,0.0
+North Dakota State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Minnesota-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Southern Mississippi-Mechanical Engineering,seminar_contact,,,,
+Arizona State University-Physics,faculty,0.0,0.0,0.0,0.0
+Louisiana State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Rochester-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+Brown University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Oklahoma-Mathematics,faculty,0.0,0.0,0.0,0.0
+Colorado State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Stony Brook University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+University of Utah-Mathematics,faculty,0.0,0.0,0.0,0.0
+Tufts University-Physics,faculty,0.0,0.0,0.0,0.0
+North Dakota State University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University of Tennessee-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Michigan-Physics,faculty,1.0,0.0,0.0,0.0
+Boston College-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Davis-Chemistry",department_chair,0.0,0.0,0.0,0.0
+University of Washington-Mathematics,faculty,0.0,1.0,0.0,1.0
+University of Pittsburgh-Physics,department_chair,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Arizona State University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Southern Mississippi-Physics,department_chair,0.0,0.0,0.0,0.0
+Brown University-Mechanical Engineering,seminar_contact,1.0,0.0,1.0,1.0
+University of New Mexico-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Northeastern University-Mathematics,faculty,0.0,0.0,0.0,0.0
+George Washington University-Physics,department_chair,0.0,0.0,0.0,0.0
+Michigan State University-Physics,faculty,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",seminar_contact,0.0,0.0,1.0,1.0
+University of Texas at El Paso-Mathematics,department_chair,1.0,0.0,1.0,1.0
+Massachusetts Institute of Technology-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Michigan State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+California Institute of Technology-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,1.0,0.0,0.0,0.0
+Indiana University Bloomington-Physics,seminar_contact,1.0,0.0,0.0,0.0
+California Institute of Technology-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Montana State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Denver-Mathematics,department_chair,0.0,0.0,1.0,1.0
+"University of California, Berkeley-Mathematics",faculty,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Illinois Urbana-Champaign-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Kentucky-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Miami-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Binghamton University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Central Florida-Physics,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Mathematics,faculty,0.0,1.0,0.0,1.0
+University of Minnesota-Mathematics,department_chair,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Mathematics",department_chair,1.0,0.0,0.0,0.0
+University of Denver-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Delaware-Mathematics,faculty,0.0,0.0,0.0,0.0
+Binghamton University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+West Virginia University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Carnegie Mellon University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Georgia-Chemistry,seminar_contact,,,,
+Harvard University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Minnesota-Mathematics,faculty,0.0,0.0,0.0,0.0
+Wayne State University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Florida State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Michigan State University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Michigan-Computer Science,faculty,0.0,0.0,0.0,0.0
+University of Delaware-Computer Science,seminar_contact,1.0,0.0,1.0,1.0
+Dartmouth College-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Missouri-Chemistry,faculty,0.0,0.0,0.0,0.0
+Tufts University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kent State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,faculty,0.0,0.0,0.0,0.0
+University of Central Florida-Mathematics,faculty,0.0,0.0,1.0,1.0
+University of Mississippi-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Arizona-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+University of Tennessee-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of New Mexico-Physics,department_chair,0.0,0.0,0.0,0.0
+Emory University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Tufts University-Mathematics,seminar_contact,1.0,0.0,1.0,1.0
+Ohio State University-Physics,faculty,0.0,0.0,0.0,0.0
+University of Minnesota-Mathematics,faculty,1.0,0.0,0.0,0.0
+Brown University-Mathematics,faculty,0.0,0.0,1.0,1.0
+University of Alabama-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Physics",seminar_contact,0.0,0.0,0.0,0.0
+Purdue University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Harvard University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Rice University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Washington State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Oklahoma-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Notre Dame-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Colorado Denver-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Oregon State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Clemson University-Physics,faculty,0.0,0.0,0.0,0.0
+Temple University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, San Diego-Chemistry",department_chair,0.0,0.0,0.0,0.0
+University of Chicago-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of New Mexico-Computer Science,department_chair,1.0,0.0,1.0,1.0
+University of Florida-Physics,faculty,0.0,0.0,0.0,0.0
+University of Kansas-Chemistry,department_chair,0.0,1.0,0.0,1.0
+Massachusetts Institute of Technology-Physics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Irvine-Computer Science",department_chair,0.0,0.0,0.0,0.0
+Utah State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Dartmouth College-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Physics,faculty,0.0,0.0,1.0,1.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Southern California-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Oklahoma-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Chemistry,faculty,0.0,0.0,0.0,0.0
+University of Pennsylvania-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Missouri-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Kentucky-Chemistry,department_chair,0.0,0.0,0.0,0.0
+"University at Albany, SUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Physics,faculty,0.0,0.0,0.0,0.0
+Rice University-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+Boston College-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Yale University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Washington University in St. Louis-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Boston University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Kentucky-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Rice University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Brown University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at El Paso-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Syracuse University-Physics,seminar_contact,1.0,0.0,1.0,1.0
+Harvard University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University of Southern California-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Purdue University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Illinois Urbana-Champaign-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Chemistry,department_chair,0.0,0.0,0.0,0.0
+"University at Albany, SUNY-Physics",seminar_contact,0.0,0.0,0.0,0.0
+University of Alabama at Birmingham-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Tufts University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of New Hampshire-Physics,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+Colorado State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Washington-Mechanical Engineering,department_chair,0.0,0.0,1.0,1.0
+University of Texas at Arlington-Physics,seminar_contact,1.0,1.0,0.0,1.0
+Brandeis University-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Alabama-Physics,department_chair,0.0,0.0,0.0,0.0
+Cornell University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+North Carolina State University-Physics,department_chair,0.0,0.0,0.0,0.0
+Temple University-Mathematics,seminar_contact,1.0,1.0,0.0,1.0
+University of Louisiana at Lafayette-Mathematics,faculty,0.0,0.0,1.0,1.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Washington University in St. Louis-Chemistry,seminar_contact,,,,
+George Washington University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Boston University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Arlington-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Ohio State University-Physics,seminar_contact,,,,
+University of Illinois Chicago-Mathematics,department_chair,0.0,1.0,0.0,1.0
+"University of California, Los Angeles-Physics",faculty,1.0,0.0,0.0,0.0
+Indiana University Bloomington-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Chicago-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,0.0,0.0,0.0,0.0
+Brandeis University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Washington State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Virginia-Mathematics,faculty,1.0,0.0,0.0,0.0
+Cornell University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Oregon State University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,1.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,1.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Computer Science,department_chair,0.0,0.0,1.0,1.0
+Oklahoma State University-Stillwater-Physics,seminar_contact,,,,
+University of Connecticut-Mathematics,faculty,0.0,0.0,0.0,0.0
+Tulane University-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Emory University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Riverside-Chemistry",department_chair,0.0,0.0,0.0,0.0
+University of Illinois Chicago-Physics,seminar_contact,,,,
+"University at Albany, SUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+Texas Tech University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Brown University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Binghamton University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Computer Science,faculty,1.0,0.0,0.0,0.0
+Northwestern University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Stony Brook University-Physics,faculty,0.0,0.0,0.0,0.0
+University of Nebraska-Lincoln-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Colorado State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Oregon State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Physics",seminar_contact,1.0,0.0,0.0,0.0
+Wayne State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+West Virginia University-Chemistry,seminar_contact,,,,
+University of South Carolina-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Washington-Chemistry,seminar_contact,,,,
+Cornell University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Illinois Chicago-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Houston-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Computer Science",faculty,0.0,0.0,0.0,0.0
+Rensselaer Polytechnic Institute-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+Carnegie Mellon University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Florida-Chemistry,seminar_contact,,,,
+Johns Hopkins University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Northeastern University-Computer Science,department_chair,1.0,0.0,0.0,0.0
+University of Louisville-Physics,department_chair,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Michigan-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+Dartmouth College-Mathematics,faculty,1.0,0.0,0.0,0.0
+Colorado State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Physics,department_chair,0.0,0.0,1.0,1.0
+"University of California, Santa Barbara-Physics",seminar_contact,1.0,0.0,0.0,0.0
+Ohio University-Mathematics,seminar_contact,,,,
+Johns Hopkins University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Chemistry,seminar_contact,1.0,1.0,0.0,1.0
+Vanderbilt University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Michigan State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Virginia-Physics,faculty,0.0,0.0,0.0,0.0
+Tufts University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Mathematics",department_chair,0.0,0.0,0.0,0.0
+Virginia Commonwealth University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Southern California-Mathematics,faculty,1.0,0.0,0.0,0.0
+California Institute of Technology-Mechanical Engineering,seminar_contact,1.0,0.0,1.0,1.0
+Northeastern University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Case Western Reserve University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+New York University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+North Dakota State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Mathematics",department_chair,0.0,0.0,0.0,0.0
+University of Arizona-Physics,faculty,0.0,0.0,0.0,0.0
+New York University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",department_chair,0.0,0.0,0.0,0.0
+Virginia Commonwealth University-Chemistry,seminar_contact,,,,
+Tufts University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+Colorado School of Mines-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Oklahoma-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Northeastern University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+University of Colorado Denver-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Louisville-Mathematics,faculty,1.0,0.0,0.0,0.0
+Michigan State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Pennsylvania-Chemistry,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Chemistry,department_chair,0.0,1.0,0.0,1.0
+University of Illinois Chicago-Mechanical Engineering,seminar_contact,,,,
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kansas State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Computer Science",faculty,0.0,0.0,0.0,0.0
+University of Maine-Mathematics,seminar_contact,,,,
+University of Illinois Urbana-Champaign-Computer Science,seminar_contact,,,,
+University of Oklahoma-Mathematics,faculty,0.0,0.0,1.0,1.0
+Texas A&M University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Brandeis University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Arizona-Mathematics,seminar_contact,1.0,0.0,1.0,1.0
+Louisiana State University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Montana State University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Cornell University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Alabama in Huntsville-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Mississippi-Physics,department_chair,0.0,0.0,0.0,0.0
+University of South Florida-Mathematics,faculty,0.0,0.0,0.0,0.0
+Virginia Commonwealth University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rice University-Computer Science,department_chair,0.0,1.0,0.0,1.0
+University of North Texas-Mathematics,department_chair,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+Florida International University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Emory University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Mathematics,faculty,0.0,0.0,1.0,1.0
+University of Iowa-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Duke University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Colorado State University-Physics,department_chair,0.0,0.0,0.0,0.0
+University at Buffalo-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Dartmouth College-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Indiana University Bloomington-Physics,seminar_contact,0.0,0.0,0.0,0.0
+Arizona State University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Mechanical Engineering",seminar_contact,1.0,0.0,1.0,1.0
+University of Illinois Chicago-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Montana-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of New Mexico-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kansas State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Florida State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Yale University-Chemistry,seminar_contact,,,,
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+Duke University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Massachusetts Amherst-Mathematics,faculty,0.0,0.0,0.0,0.0
+Kent State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Brandeis University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Connecticut-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Missouri-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Washington State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+Temple University-Chemistry,seminar_contact,1.0,0.0,1.0,1.0
+University of Illinois Chicago-Computer Science,seminar_contact,,,,
+University of Utah-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Mathematics",faculty,0.0,0.0,0.0,0.0
+Stony Brook University-Physics,department_chair,0.0,0.0,0.0,0.0
+Ohio State University-Chemistry,seminar_contact,,,,
+"University of California, Los Angeles-Computer Science",department_chair,0.0,0.0,0.0,0.0
+Kent State University-Physics,faculty,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Computer Science,seminar_contact,0.0,0.0,1.0,1.0
+Texas Tech University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Purdue University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Stony Brook University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Georgetown University-Physics,department_chair,1.0,0.0,1.0,1.0
+Columbia University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+University of New Hampshire-Mathematics,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Georgia-Mathematics,seminar_contact,,,,
+Tulane University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rice University-Physics,faculty,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Michigan-Mathematics,faculty,0.0,0.0,0.0,0.0
+West Virginia University-Physics,seminar_contact,,,,
+Tulane University-Computer Science,seminar_contact,1.0,0.0,1.0,1.0
+Brandeis University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Arlington-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Minnesota-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Utah State University-Chemistry,seminar_contact,,,,
+University of Colorado Boulder-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Chicago-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Missouri-Physics,faculty,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Louisiana State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Delaware-Mathematics,faculty,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,1.0,1.0
+University of Delaware-Mathematics,faculty,0.0,0.0,0.0,0.0
+Georgia Institute of Technology-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Alabama at Birmingham-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Alabama at Birmingham-Mathematics,department_chair,1.0,0.0,0.0,0.0
+University of Oklahoma-Mathematics,faculty,0.0,1.0,0.0,1.0
+Washington University in St. Louis-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Yale University-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Binghamton University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Florida State University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Georgia Institute of Technology-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Stanford University-Physics,department_chair,0.0,0.0,0.0,0.0
+North Carolina State University-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+Florida International University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+University at Buffalo-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+University of Chicago-Chemistry,faculty,1.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,0.0,0.0,0.0,0.0
+Johns Hopkins University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Mathematics",faculty,0.0,1.0,0.0,1.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Florida International University-Mathematics,seminar_contact,0.0,0.0,1.0,1.0
+North Carolina State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+University of Connecticut-Physics,department_chair,0.0,0.0,0.0,0.0
+North Dakota State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Louisiana State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Colorado School of Mines-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Physics,department_chair,0.0,0.0,1.0,1.0
+Tufts University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+University of Oklahoma-Physics,department_chair,0.0,0.0,1.0,1.0
+University of Louisville-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Brown University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,1.0,1.0,0.0,1.0
+University of Illinois Urbana-Champaign-Computer Science,department_chair,1.0,0.0,0.0,0.0
+University of Pennsylvania-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+Columbia University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+Pennsylvania State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+West Virginia University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Dartmouth College-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Houston-Chemistry,faculty,0.0,0.0,0.0,0.0
+Boston University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Pittsburgh-Physics,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Riverside-Physics",department_chair,1.0,0.0,0.0,0.0
+Oklahoma State University-Stillwater-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Pennsylvania-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,1.0,0.0,0.0,0.0
+Boston University-Physics,department_chair,0.0,0.0,0.0,0.0
+California Institute of Technology-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Georgia-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Florida State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Florida-Computer Science,department_chair,0.0,0.0,1.0,1.0
+Syracuse University-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Chicago-Mathematics,seminar_contact,1.0,0.0,1.0,1.0
+Texas A&M University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Massachusetts Amherst-Chemistry,department_chair,0.0,0.0,1.0,1.0
+Wayne State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Kentucky-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Arizona-Chemistry,department_chair,0.0,0.0,0.0,0.0
+California Institute of Technology-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Mathematics,seminar_contact,,,,
+Duke University-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+University of Pennsylvania-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Boston University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, San Diego-Physics",seminar_contact,0.0,0.0,0.0,0.0
+Virginia Tech-Physics,faculty,0.0,0.0,0.0,0.0
+Harvard University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Wayne State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Wayne State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+Cornell University-Computer Science,faculty,0.0,0.0,0.0,0.0
+University of Michigan-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+George Mason University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Auburn University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+North Carolina State University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Physics",seminar_contact,1.0,0.0,1.0,1.0
+Ohio State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of South Florida-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Colorado State University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Stony Brook University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Florida-Physics,faculty,0.0,0.0,0.0,0.0
+Texas A&M University-Physics,seminar_contact,1.0,1.0,0.0,1.0
+University of Iowa-Chemistry,department_chair,1.0,0.0,0.0,0.0
+University of Maine-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Pennsylvania-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Princeton University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Montana State University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Columbia University-Physics,department_chair,0.0,0.0,0.0,0.0
+Clemson University-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,1.0,0.0,0.0,0.0
+Iowa State University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Princeton University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Virginia-Physics,faculty,0.0,0.0,0.0,0.0
+Ohio University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Northwestern University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Washington-Mathematics,faculty,0.0,0.0,0.0,0.0
+Brown University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Chicago-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of Virginia-Physics,faculty,0.0,0.0,0.0,0.0
+University of Pennsylvania-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Massachusetts Amherst-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Missouri-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Mississippi-Physics,faculty,0.0,0.0,0.0,0.0
+Mississippi State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Alabama-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Arkansas-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Washington-Physics,department_chair,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mechanical Engineering",seminar_contact,1.0,0.0,1.0,1.0
+University of Iowa-Computer Science,department_chair,0.0,0.0,1.0,1.0
+University of Oregon-Physics,department_chair,0.0,0.0,0.0,0.0
+Brandeis University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Louisville-Physics,faculty,0.0,0.0,0.0,0.0
+Arizona State University-Mathematics,faculty,1.0,0.0,1.0,1.0
+University of New Mexico-Mathematics,faculty,0.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Tennessee-Mathematics,faculty,0.0,0.0,1.0,1.0
+"University of Maryland, College Park-Physics",department_chair,0.0,0.0,0.0,0.0
+Stony Brook University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Old Dominion University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Florida International University-Physics,department_chair,0.0,0.0,0.0,0.0
+Johns Hopkins University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Rochester-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+Virginia Commonwealth University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Virginia Tech-Physics,faculty,0.0,0.0,0.0,0.0
+New York University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Indiana University Bloomington-Mathematics,seminar_contact,0.0,0.0,1.0,1.0
+Iowa State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Princeton University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Central Florida-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Georgia-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Utah-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Colorado State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Oregon State University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Colorado School of Mines-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Old Dominion University-Physics,department_chair,0.0,0.0,0.0,0.0
+West Virginia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Illinois Urbana-Champaign-Physics,seminar_contact,,,,
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of North Texas-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Michigan-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Binghamton University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Alabama in Huntsville-Physics,faculty,0.0,0.0,0.0,0.0
+University of Minnesota-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Virginia-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Brown University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Maine-Physics,seminar_contact,,,,
+Rutgers University-New Brunswick-Mathematics,faculty,1.0,0.0,0.0,0.0
+Stanford University-Mathematics,department_chair,0.0,0.0,1.0,1.0
+Vanderbilt University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Notre Dame-Mathematics,faculty,0.0,0.0,0.0,0.0
+Virginia Tech-Chemistry,department_chair,1.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+Binghamton University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Nebraska-Lincoln-Chemistry,department_chair,0.0,0.0,0.0,0.0
+"University of Maryland, Baltimore County-Physics",seminar_contact,,,,
+Old Dominion University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Austin-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Vanderbilt University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,1.0,1.0
+University of Pennsylvania-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Irvine-Mathematics",seminar_contact,1.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,faculty,1.0,0.0,0.0,0.0
+George Mason University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Texas Tech University-Chemistry,seminar_contact,1.0,1.0,0.0,1.0
+Clemson University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Chicago-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Old Dominion University-Physics,faculty,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,1.0,0.0,0.0,0.0
+George Washington University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+Temple University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Kansas State University-Physics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Rochester-Chemistry,department_chair,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Tennessee-Physics,faculty,0.0,0.0,0.0,0.0
+Georgia Institute of Technology-Physics,department_chair,1.0,0.0,0.0,0.0
+University of Connecticut-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Arizona-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Washington-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Houston-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Physics,faculty,0.0,0.0,0.0,0.0
+Wayne State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Northeastern University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Miami-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Ohio University-Physics,department_chair,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,1.0,0.0,0.0,0.0
+"University at Albany, SUNY-Physics",department_chair,0.0,0.0,0.0,0.0
+University of Florida-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of South Florida-Chemistry,faculty,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Mechanical Engineering",faculty,0.0,0.0,0.0,0.0
+University of Connecticut-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+Emory University-Physics,department_chair,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,0.0,0.0,0.0,0.0
+California Institute of Technology-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Cincinnati-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+New York University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Delaware-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mechanical Engineering,seminar_contact,0.0,0.0,0.0,0.0
+Tulane University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Baylor University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Ohio State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+Kansas State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+North Carolina State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Mathematics",faculty,0.0,0.0,0.0,0.0
+Washington State University-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Colorado Boulder-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Delaware-Mathematics,faculty,1.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Physics,seminar_contact,1.0,1.0,0.0,1.0
+Iowa State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Northeastern University-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of New Mexico-Mathematics,faculty,0.0,0.0,0.0,0.0
+California Institute of Technology-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Chemistry",department_chair,0.0,0.0,0.0,0.0
+Johns Hopkins University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Tufts University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Tulane University-Physics,seminar_contact,1.0,0.0,1.0,1.0
+Harvard University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Stanford University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Cornell University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Northeastern University-Computer Science,faculty,0.0,0.0,0.0,0.0
+Brandeis University-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University of Michigan-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+New York University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Irvine-Mechanical Engineering",seminar_contact,0.0,0.0,0.0,0.0
+University of Michigan-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Physics,department_chair,0.0,0.0,0.0,0.0
+Stony Brook University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of South Florida-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of South Florida-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Virginia Tech-Physics,faculty,0.0,0.0,0.0,0.0
+Virginia Commonwealth University-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Vanderbilt University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Riverside-Computer Science",seminar_contact,1.0,0.0,0.0,0.0
+University of Utah-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,faculty,0.0,0.0,0.0,0.0
+Colorado School of Mines-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Virginia-Chemistry,department_chair,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Physics",seminar_contact,,,,
+Indiana University Bloomington-Chemistry,department_chair,0.0,0.0,0.0,0.0
+George Mason University-Mathematics,faculty,0.0,0.0,0.0,0.0
+California Institute of Technology-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Virginia-Physics,faculty,0.0,0.0,0.0,0.0
+University of Washington-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Denver-Chemistry,seminar_contact,,,,
+University of Montana-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Kansas-Mathematics,seminar_contact,,,,
+Texas A&M University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, Baltimore County-Mathematics",department_chair,0.0,0.0,0.0,0.0
+Duke University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of South Carolina-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Michigan-Mechanical Engineering,department_chair,1.0,0.0,1.0,1.0
+Boston University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Ohio State University-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of California, Irvine-Computer Science",faculty,0.0,0.0,0.0,0.0
+Tulane University-Mathematics,seminar_contact,1.0,1.0,0.0,1.0
+University of Oklahoma-Mathematics,faculty,1.0,0.0,0.0,0.0
+Brandeis University-Mathematics,faculty,1.0,0.0,0.0,0.0
+Wayne State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Austin-Computer Science,department_chair,0.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Computer Science,seminar_contact,1.0,1.0,0.0,1.0
+Ohio State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Notre Dame-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University of North Texas-Chemistry,faculty,0.0,0.0,0.0,0.0
+Brown University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Delaware-Mathematics,faculty,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+"University of California, Davis-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Kentucky-Mathematics,faculty,0.0,0.0,1.0,1.0
+New York University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Chemistry,department_chair,1.0,0.0,0.0,0.0
+University of Alabama in Huntsville-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Alabama at Birmingham-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Georgetown University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+North Carolina State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+University of Connecticut-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Kansas-Physics,seminar_contact,,,,
+University of Oklahoma-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+University of Tennessee-Physics,department_chair,0.0,0.0,1.0,1.0
+Virginia Commonwealth University-Mathematics,faculty,0.0,0.0,1.0,1.0
+University of North Texas-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Alabama in Huntsville-Mathematics,department_chair,0.0,1.0,0.0,1.0
+North Carolina State University-Chemistry,faculty,0.0,0.0,0.0,0.0
+Boston University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+"University of California, Berkeley-Computer Science",department_chair,1.0,0.0,0.0,0.0
+University of Iowa-Physics,seminar_contact,,,,
+University of Michigan-Mathematics,department_chair,1.0,0.0,0.0,0.0
+New York University-Chemistry,seminar_contact,1.0,0.0,0.0,0.0
+Florida International University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of South Florida-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Delaware-Mathematics,faculty,1.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,0.0,0.0,0.0,0.0
+University of Iowa-Physics,department_chair,1.0,0.0,0.0,0.0
+George Mason University-Mechanical Engineering,department_chair,1.0,0.0,0.0,0.0
+University of Alabama-Mathematics,department_chair,1.0,0.0,0.0,0.0
+Northwestern University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Wayne State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Southern California-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+"University of California, Los Angeles-Physics",seminar_contact,0.0,0.0,0.0,0.0
+University of Massachusetts Amherst-Computer Science,faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Cruz-Physics",faculty,0.0,0.0,0.0,0.0
+University of Florida-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Columbia University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Oregon-Mathematics,faculty,0.0,0.0,0.0,0.0
+North Dakota State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Oklahoma State University-Stillwater-Chemistry,department_chair,0.0,0.0,0.0,0.0
+"University of California, San Diego-Mathematics",faculty,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Auburn University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Arkansas-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of New Mexico-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Temple University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Carnegie Mellon University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+University of South Carolina-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+University of Chicago-Mathematics,seminar_contact,0.0,0.0,1.0,1.0
+University of Houston-Mathematics,faculty,0.0,0.0,0.0,0.0
+Brandeis University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+Rensselaer Polytechnic Institute-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Georgia State University-Physics,department_chair,0.0,0.0,0.0,0.0
+Binghamton University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Missouri-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Tennessee-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Pennsylvania-Chemistry,faculty,0.0,0.0,0.0,0.0
+Vanderbilt University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,1.0,1.0
+University of Southern California-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+New Jersey Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+Florida State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Chicago-Mathematics,faculty,0.0,0.0,1.0,1.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+"Graduate Center, CUNY-Mathematics",faculty,1.0,0.0,0.0,0.0
+Oklahoma State University-Stillwater-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Vanderbilt University-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Michigan-Mathematics,seminar_contact,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Computer Science",department_chair,0.0,0.0,0.0,0.0
+University of Alabama-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+Colorado School of Mines-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Ohio State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Carnegie Mellon University-Computer Science,seminar_contact,0.0,0.0,0.0,0.0
+Old Dominion University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Binghamton University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of New Hampshire-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Iowa State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Tulane University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Boston College-Mathematics,faculty,0.0,0.0,0.0,0.0
+Stanford University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Texas at Austin-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Illinois Urbana-Champaign-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Mathematics,faculty,0.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Mechanical Engineering",seminar_contact,1.0,0.0,1.0,1.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Missouri-Mathematics,faculty,1.0,0.0,0.0,0.0
+University of Michigan-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of North Carolina at Chapel Hill-Physics,seminar_contact,0.0,0.0,0.0,0.0
+University at Buffalo-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Physics,faculty,0.0,0.0,0.0,0.0
+University of Rochester-Physics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Physics,seminar_contact,0.0,1.0,0.0,1.0
+University of Notre Dame-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Boston University-Chemistry,department_chair,1.0,0.0,0.0,0.0
+Washington State University-Chemistry,seminar_contact,,,,
+Indiana University Bloomington-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+Purdue University-Mathematics,faculty,1.0,0.0,0.0,0.0
+"University of California, Santa Barbara-Computer Science",seminar_contact,1.0,0.0,1.0,1.0
+Harvard University-Physics,department_chair,0.0,0.0,0.0,0.0
+Harvard University-Physics,seminar_contact,1.0,0.0,1.0,1.0
+Georgia Institute of Technology-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Massachusetts Amherst-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rutgers University-New Brunswick-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Cornell University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Oregon State University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+University of Wisconsin-Madison-Physics,department_chair,0.0,0.0,0.0,0.0
+North Carolina State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Brown University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Tufts University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Oregon-Physics,faculty,1.0,0.0,0.0,0.0
+Florida State University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Auburn University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Washington State University-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Rochester-Physics,department_chair,0.0,0.0,0.0,0.0
+Northeastern University-Mathematics,faculty,0.0,0.0,0.0,0.0
+University of Virginia-Mathematics,faculty,0.0,0.0,0.0,0.0
+Washington State University-Mathematics,faculty,1.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mathematics",faculty,0.0,0.0,0.0,0.0
+Auburn University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Stony Brook University-Mathematics,seminar_contact,1.0,0.0,0.0,0.0
+Texas Tech University-Physics,department_chair,0.0,0.0,0.0,0.0
+Massachusetts Institute of Technology-Mathematics,faculty,0.0,0.0,0.0,0.0
+Johns Hopkins University-Mathematics,faculty,0.0,0.0,0.0,0.0
+Rensselaer Polytechnic Institute-Physics,department_chair,0.0,0.0,0.0,0.0
+"University of Maryland, College Park-Mechanical Engineering",department_chair,0.0,0.0,0.0,0.0
+Old Dominion University-Mathematics,department_chair,0.0,0.0,0.0,0.0
+Case Western Reserve University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+Baylor University-Physics,department_chair,0.0,0.0,0.0,0.0
+Temple University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+University of Texas at Dallas-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+"University of California, Riverside-Mechanical Engineering",seminar_contact,0.0,0.0,1.0,1.0
+Clemson University-Mechanical Engineering,faculty,0.0,0.0,0.0,0.0
+University of Texas at San Antonio-Mathematics,department_chair,0.0,0.0,1.0,1.0
+"University at Albany, SUNY-Chemistry",department_chair,0.0,0.0,0.0,0.0
+Clemson University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+West Virginia University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Temple University-Physics,department_chair,1.0,0.0,0.0,0.0
+Clemson University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+North Dakota State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Wisconsin-Milwaukee-Computer Science,department_chair,1.0,0.0,0.0,0.0
+Baylor University-Physics,seminar_contact,1.0,0.0,0.0,0.0
+Columbia University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Hawaii at Manoa-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Clemson University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Mississippi-Chemistry,faculty,0.0,0.0,0.0,0.0
+University of Louisville-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Dallas-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+"University of California, Riverside-Mechanical Engineering",department_chair,0.0,0.0,0.0,0.0
+University of Miami-Computer Science,seminar_contact,0.0,1.0,0.0,1.0
+University of Texas at Arlington-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Maine-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Drexel University-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Clemson University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Wisconsin-Milwaukee-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Miami-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Texas at Arlington-Mechanical Engineering,faculty,0.0,0.0,0.0,0.0
+"University of Nevada, Reno-Computer Science",department_chair,0.0,0.0,0.0,0.0
+University of Maine-Mechanical Engineering,seminar_contact,,,,
+Arizona State University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+"University at Albany, SUNY-Chemistry",seminar_contact,0.0,0.0,0.0,0.0
+Arizona State University-Computer Science,seminar_contact,1.0,0.0,0.0,0.0
+University of Mississippi-Chemistry,department_chair,0.0,0.0,0.0,0.0
+Drexel University-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+University of Georgia-Computer Science,department_chair,0.0,0.0,0.0,0.0
+Columbia University-Computer Science,faculty,0.0,0.0,0.0,0.0
+North Dakota State University-Computer Science,department_chair,1.0,0.0,0.0,0.0
+West Virginia University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Memphis-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Texas at El Paso-Chemistry,department_chair,0.0,0.0,1.0,1.0
+Virginia Commonwealth University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Tennessee-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Arkansas-Physics,department_chair,0.0,0.0,0.0,0.0
+University of Arkansas-Physics,seminar_contact,0.0,0.0,0.0,0.0
+Columbia University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Tennessee-Mechanical Engineering,seminar_contact,1.0,0.0,0.0,0.0
+Old Dominion University-Mathematics,seminar_contact,1.0,1.0,0.0,1.0
+University of Central Florida-Chemistry,department_chair,0.0,0.0,0.0,0.0
+University of Louisiana at Lafayette-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+University of Missouri-Mechanical Engineering,department_chair,0.0,0.0,0.0,0.0
+Case Western Reserve University-Computer Science,department_chair,0.0,0.0,0.0,0.0
+University of Central Florida-Chemistry,seminar_contact,0.0,0.0,0.0,0.0
+University of Louisville-Mechanical Engineering,faculty,0.0,0.0,0.0,0.0
+University of Hawaii at Manoa-Chemistry,seminar_contact,,,,
+University of Texas at San Antonio-Mathematics,faculty,0.0,0.0,0.0,0.0
