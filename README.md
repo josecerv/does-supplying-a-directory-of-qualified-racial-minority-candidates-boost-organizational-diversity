@@ -1,6 +1,6 @@
 # Does Supplying a Directory of Qualified Racial Minority Candidates Boost Organizational Diversity? A Field Experiment
 
-Jose A. Cervantez, Katherine L. Milkman, and McKenzie Preston
+[Author names withheld for double-blind review]
 
 Replication package for a field experiment testing whether reducing the search costs of finding
 qualified racial minority candidates increases their representation as invited speakers in
