@@ -29,6 +29,9 @@ all data, code, figures, the Online Appendix, and the pre-registration.
 - `Online Appendix.docx` / `Online Appendix.pdf`: the paper's Online Appendix.
 - `Preregistration.pdf`: the study's pre-registration (AsPredicted template, registered
   June 23, 2024, before any data collection).
+- `extended_tables/`: the paper's Extended Tables (E1-E16) as a standalone PDF and Excel
+  workbook. These are extracted from the full supplemental output (`code/tables/`), where the
+  same tables appear alongside the Online Appendix tables.
 
 ## How to run the replication
 
