@@ -1,0 +1,16 @@
+model,condition,n,mean,sd
+belief_main,Pure Control,187,13.470588235294118,10.95410470404463
+belief_main,Directory Control,176,14.744318181818182,12.7345411759136
+belief_main,URM Directory Treatment,191,26.57591623036649,23.125134334137243
+salience_main,Pure Control,187,2.6827094474153297,1.788147430589649
+salience_main,Directory Control,176,4.683712121212121,1.8626725589993165
+salience_main,URM Directory Treatment,191,4.366492146596858,1.8987699846907633
+consideration_main,Pure Control,187,2.8663101604278074,1.8515581261956529
+consideration_main,Directory Control,176,4.806818181818182,1.9470590543275674
+consideration_main,URM Directory Treatment,191,4.439790575916231,2.017107871789963
+salience_sensitivity,Pure Control,199,2.708542713567839,1.784686590688201
+salience_sensitivity,Directory Control,191,4.643979057591623,1.8809782174522565
+salience_sensitivity,URM Directory Treatment,209,4.411483253588517,1.8990989712570363
+consideration_sensitivity,Pure Control,199,2.879396984924623,1.8492498173750271
+consideration_sensitivity,Directory Control,191,4.7539267015706805,1.9727546263161304
+consideration_sensitivity,URM Directory Treatment,209,4.4688995215311005,2.016813755762406

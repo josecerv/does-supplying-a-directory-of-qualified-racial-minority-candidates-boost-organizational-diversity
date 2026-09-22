@@ -6,10 +6,12 @@ Replication package for a field experiment testing whether reducing the search c
 qualified racial minority candidates increases their representation as invited speakers in
 academic seminars. The study randomized 1,881 seminars across five departments (Chemistry,
 Physics, Mathematics, Computer Science, and Mechanical Engineering) during the 2024-25 academic
-year at the department level, and analyzed outcomes at the seminar level.
+year at the department level, and analyzed outcomes at the seminar level. A supplemental
+online experiment examines belief updating and diversity salience following a STEM faculty
+nomination task. Its final analyses and sensitivity results appear in Tables S13 and S14.
 
-This repository is the permanent, self-contained archive of the study's replication package:
-all data, code, figures, the Online Appendix, and the pre-registration.
+This repository archives the replication files: field-study data and code, aggregate
+online-study data and code, figures, the Online Appendix, and preregistration links.
 
 ## Repository structure
 
@@ -21,10 +23,18 @@ all data, code, figures, the Online Appendix, and the pre-registration.
     associated results, reading `data/final_data.csv`.
   - `03_supplemental_analysis.Rmd`: produces the Online Appendix tables (S1-S12) and Extended
     Tables (E1-E16), reading `data/supplemental_data.csv`.
+  - `04_online_study_analysis.R`: reproduces the supplemental online study's belief model
+    (Table S13) and two salience measures in the main and sensitivity samples (Table S14)
+    from aggregate condition moments, using only base R.
   - `code/tables/`: rendered PDF and Excel output from the two Rmd files above.
+  - `code/tables/online_study/`: Tables S13 and S14 as CSVs, plus full-precision coefficients,
+    contrasts, model summaries, and condition descriptives.
   - `code/figures/`: the paper's figures, and the Python scripts that build them.
 - `data/`: analysis datasets (`final_data.csv`, `supplemental_data.csv`) and the raw inputs used
   to build them (`data/raw/`).
+  - `data/online_study/`: aggregate input and documentation for the online experiment.
+    No participant-level online responses or identifiers are included. The aggregate data
+    reproduce the reported condition-only OLS models, with the limitations described there.
 - `codebook.md`: full variable documentation for `final_data.csv` and `supplemental_data.csv`.
 - `Online Appendix.docx` / `Online Appendix.pdf`: the paper's Online Appendix.
 - `Preregistration.pdf`: the study's pre-registration (AsPredicted template, registered
@@ -54,6 +64,17 @@ Run the scripts in this order, from the `code/` directory:
    minutes.
 3. `03_supplemental_analysis.Rmd`: knit this to produce the Online Appendix tables. Takes about
    12 minutes.
+
+To reproduce the supplemental online results, run `Rscript code/04_online_study_analysis.R`
+from the repository root. This script is independent of the field-study pipeline and requires
+only base R. It writes Tables S13 and S14 and the supporting numerical CSVs.
+
+The online experiment was fielded September 21, 2026, with 600 recruited participants,
+599 recorded randomized respondents, and 554 valid belief responses. Its main analyses use
+the valid-belief sample. Salience sensitivity analyses use all 599 recorded respondents.
+The online preregistration is [AsPredicted #312433](https://aspredicted.org/hc3jy8.pdf), distinct from the field preregistration
+at the repository root. See `data/online_study/README.md` for sample accounting, methods,
+provenance, the preregistration, and the limits of aggregate reproduction.
 
 The figure scripts in `code/figures/scripts/` build PowerPoint files, and the PNG and PDF figures
 in `code/figures/` were exported from those PowerPoint files by hand rather than rendered
