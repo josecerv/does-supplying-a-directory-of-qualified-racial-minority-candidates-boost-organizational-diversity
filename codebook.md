@@ -33,6 +33,13 @@ data/
 
 ## Variable Documentation
 
+The supplemental online experiment is documented separately in
+`data/online_study/README.md`. Its `condition_moments.csv` contains condition sample sizes,
+means, and standard deviations sufficient to reproduce the five ordinary OLS models in
+Tables S13 and S14. No individual online-study responses are released. The documentation
+below describes the field-study datasets. The online experiment was preregistered as
+[AsPredicted #312433](https://aspredicted.org/hc3jy8.pdf), “STEM Faculty Belief Updating and Salience.”
+
 This codebook documents all variables in `data/final_data.csv` (manuscript analysis) and `data/supplemental_data.csv` (supplemental analysis). Variables marked with **(S)** appear only in `supplemental_data.csv`; all others appear in both files.
 
 Both files contain **1,686 rows** (one per seminar with speaker data).

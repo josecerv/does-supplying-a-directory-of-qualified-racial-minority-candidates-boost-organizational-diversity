@@ -1,0 +1,16 @@
+"model","condition","n","mean","sd"
+"belief_main","Pure Control",187,13.4705882352941,10.9541047040446
+"belief_main","Directory Control",176,14.7443181818182,12.7345411759136
+"belief_main","URM Directory Treatment",191,26.5759162303665,23.1251343341372
+"salience_main","Pure Control",187,2.68270944741533,1.78814743058965
+"salience_main","Directory Control",176,4.68371212121212,1.86267255899932
+"salience_main","URM Directory Treatment",191,4.36649214659686,1.89876998469076
+"consideration_main","Pure Control",187,2.86631016042781,1.85155812619565
+"consideration_main","Directory Control",176,4.80681818181818,1.94705905432757
+"consideration_main","URM Directory Treatment",191,4.43979057591623,2.01710787178996
+"salience_sensitivity","Pure Control",199,2.70854271356784,1.7846865906882
+"salience_sensitivity","Directory Control",191,4.64397905759162,1.88097821745226
+"salience_sensitivity","URM Directory Treatment",209,4.41148325358852,1.89909897125704
+"consideration_sensitivity","Pure Control",199,2.87939698492462,1.84924981737503
+"consideration_sensitivity","Directory Control",191,4.75392670157068,1.97275462631613
+"consideration_sensitivity","URM Directory Treatment",209,4.4688995215311,2.01681375576241
