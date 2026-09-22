@@ -4,7 +4,7 @@ The final experiment was fielded September 21, 2026. The recruitment report was 
 
 ## Conditions and outcomes
 
-The URM Directory Treatment condition supplied a directory of 20 Black STEM professors. The Directory Control condition supplied faculty-directory links for the same 20 departments. Both resource conditions included the same encouragement to diversify. Pure Control supplied neither encouragement nor a search resource. Participants nominated six professors before reporting beliefs and salience. Nominations are not an outcome in these tables.
+The URM Directory Treatment condition supplied a directory of 20 Black STEM professors. The Directory Control condition supplied faculty-directory links for the same 20 departments. Both directory conditions included the same encouragement to diversify. Pure Control supplied neither encouragement nor a search resource. Participants nominated six professors before reporting beliefs and salience. Nominations are not an outcome in these tables.
 
 - Belief: post-treatment estimate of the percentage of U.S. STEM professors who are Black, on a 0–100 scale. The study did not elicit a baseline belief, so these are between-condition differences in posterior beliefs rather than measured within-person changes.
 - Three-item attention measure: mean of three responses adapted from the cognitive-engagement items in Rich et al. (2010), each on a 1–7 scale. All three items must be observed for the mean.
